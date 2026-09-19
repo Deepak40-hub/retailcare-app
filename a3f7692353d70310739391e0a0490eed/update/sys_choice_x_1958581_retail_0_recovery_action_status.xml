@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+  <sys_choice_set action="INSERT_OR_UPDATE" apply_defaults="true" field="status" table="x_1958581_retail_0_recovery_action" version="3">
+    <sys_choice_set action="INSERT_OR_UPDATE" apply_defaults="true">
+      <sys_id>552b4b26a7e3425eab7ea929d97e307d</sys_id>
+      <element>status</element>
+      <sys_update_name>sys_choice_x_1958581_retail_0_recovery_action_status</sys_update_name>
+      <name>x_1958581_retail_0_recovery_action</name>
+      <sys_class_name>sys_choice_set</sys_class_name>
+      <sys_scope display_value="x_1958581_retail_0">a3f7692353d70310739391e0a0490eed</sys_scope>
+      <sys_package display_value="x_1958581_retail_0" source="a3f7692353d70310739391e0a0490eed">a3f7692353d70310739391e0a0490eed</sys_package>
+      <sys_name>status</sys_name>
+    </sys_choice_set>
+    <sys_choice action="INSERT_OR_UPDATE" apply_defaults="true">
+      <sys_id>72bec582362d4984bb5f2fa888abe647</sys_id>
+      <name>x_1958581_retail_0_recovery_action</name>
+      <element>status</element>
+      <label>Issued</label>
+      <value>issued</value>
+      <sequence>1</sequence>
+      <language>en</language>
+    </sys_choice>
+    <sys_choice action="INSERT_OR_UPDATE" apply_defaults="true">
+      <sys_id>47a03477e5cd4add960008e27c2e62a6</sys_id>
+      <name>x_1958581_retail_0_recovery_action</name>
+      <element>status</element>
+      <label>Redeemed</label>
+      <value>redeemed</value>
+      <sequence>2</sequence>
+      <language>en</language>
+    </sys_choice>
+    <sys_choice action="INSERT_OR_UPDATE" apply_defaults="true">
+      <sys_id>cb5ff8d5d5e444a39752de200d9fafb1</sys_id>
+      <name>x_1958581_retail_0_recovery_action</name>
+      <element>status</element>
+      <label>Declined</label>
+      <value>declined</value>
+      <sequence>3</sequence>
+      <language>en</language>
+    </sys_choice>
+  </sys_choice_set>
+</record_update>
