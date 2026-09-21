@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
+  <catalog_ui_policy_action action="INSERT_OR_UPDATE" apply_defaults="true">
+    <sys_id>d9125b71f876457aac34ba69ca71cdf3</sys_id>
+    <sys_scope display_value="x_1958581_retail_0">a3f7692353d70310739391e0a0490eed</sys_scope>
+    <sys_update_name>catalog_ui_policy_action_d9125b71f876457aac34ba69ca71cdf3</sys_update_name>
+    <catalog_item>6ef020fc0a7f4271a3a91a1f5d72506a</catalog_item>
+    <catalog_variable>IO:a79818e1bc06455d944fdde378a59c95</catalog_variable>
+    <cleared>false</cleared>
+    <disabled>ignore</disabled>
+    <field_message/>
+    <field_message_type>none</field_message_type>
+    <mandatory>true</mandatory>
+    <order>100</order>
+    <ui_policy>128184c4760a413486bae7138106c194</ui_policy>
+    <value/>
+    <value_action>ignore</value_action>
+    <variable>disputed_amount</variable>
+    <variable_set/>
+    <visible>true</visible>
+  </catalog_ui_policy_action>
+</record_update>

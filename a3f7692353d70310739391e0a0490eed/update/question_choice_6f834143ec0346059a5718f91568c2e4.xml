@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice">
+  <question_choice action="INSERT_OR_UPDATE" apply_defaults="true">
+    <sys_id>6f834143ec0346059a5718f91568c2e4</sys_id>
+    <sys_scope display_value="x_1958581_retail_0">a3f7692353d70310739391e0a0490eed</sys_scope>
+    <sys_update_name>question_choice_6f834143ec0346059a5718f91568c2e4</sys_update_name>
+    <inactive>false</inactive>
+    <order>2</order>
+    <question cat_item="6ef020fc0a7f4271a3a91a1f5d72506a" name="complaint_category" variable_set="NULL">8482337ecbf948f4b64a8f55b9cab1dd</question>
+    <text>Product Quality</text>
+    <value>product_quality</value>
+  </question_choice>
+</record_update>

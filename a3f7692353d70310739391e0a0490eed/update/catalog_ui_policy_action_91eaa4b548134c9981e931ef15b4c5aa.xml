@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
+  <catalog_ui_policy_action action="INSERT_OR_UPDATE" apply_defaults="true">
+    <sys_id>91eaa4b548134c9981e931ef15b4c5aa</sys_id>
+    <sys_scope display_value="x_1958581_retail_0">a3f7692353d70310739391e0a0490eed</sys_scope>
+    <sys_update_name>catalog_ui_policy_action_91eaa4b548134c9981e931ef15b4c5aa</sys_update_name>
+    <catalog_item>6ef020fc0a7f4271a3a91a1f5d72506a</catalog_item>
+    <catalog_variable>IO:7232aa78323a43639b8b4e30540715b3</catalog_variable>
+    <cleared>false</cleared>
+    <disabled>ignore</disabled>
+    <field_message/>
+    <field_message_type>none</field_message_type>
+    <mandatory>true</mandatory>
+    <order>100</order>
+    <ui_policy>6ccca760d3db48ef9065558bffbaa532</ui_policy>
+    <value/>
+    <value_action>ignore</value_action>
+    <variable>batch_number</variable>
+    <variable_set/>
+    <visible>true</visible>
+  </catalog_ui_policy_action>
+</record_update>

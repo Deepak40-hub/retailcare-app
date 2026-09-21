@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice">
+  <question_choice action="INSERT_OR_UPDATE" apply_defaults="true">
+    <sys_id>cb8c21132c3a4d5494be27cb0c289af6</sys_id>
+    <sys_scope display_value="x_1958581_retail_0">a3f7692353d70310739391e0a0490eed</sys_scope>
+    <sys_update_name>question_choice_cb8c21132c3a4d5494be27cb0c289af6</sys_update_name>
+    <inactive>false</inactive>
+    <order>0</order>
+    <question cat_item="6ef020fc0a7f4271a3a91a1f5d72506a" name="channel" variable_set="NULL">8d437c9be3014ce09a91b1a86707e60b</question>
+    <text>Portal</text>
+    <value>portal</value>
+  </question_choice>
+</record_update>
