@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_app_route">
+  <sys_ux_app_route action="INSERT_OR_UPDATE" apply_defaults="true">
+    <sys_id>1c1cb19d176a4c3fbe8bf21a9975fd4e</sys_id>
+    <sys_scope display_value="x_1958581_retail_0">a3f7692353d70310739391e0a0490eed</sys_scope>
+    <sys_update_name>sys_ux_app_route_1c1cb19d176a4c3fbe8bf21a9975fd4e</sys_update_name>
+    <app_config>a65a7ed05ad84ad5ac91cc03ed1741fd</app_config>
+    <description/>
+    <extension_point/>
+    <fields/>
+    <icon/>
+    <interoperable>false</interoperable>
+    <name>List Page</name>
+    <optional_parameters>listId</optional_parameters>
+    <order>0</order>
+    <parent_macroponent>c276387cc331101080d6d3658940ddd2</parent_macroponent>
+    <parent_macroponent_composition_element_id/>
+    <route_type>list</route_type>
+    <screen_type>c606fa03236342ecae10f661edcb4dd6</screen_type>
+  </sys_ux_app_route>
+</record_update>

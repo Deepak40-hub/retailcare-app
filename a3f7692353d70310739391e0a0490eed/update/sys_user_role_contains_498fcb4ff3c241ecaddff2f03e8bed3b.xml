@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role_contains">
+  <sys_user_role_contains action="INSERT_OR_UPDATE" apply_defaults="true">
+    <sys_id>498fcb4ff3c241ecaddff2f03e8bed3b</sys_id>
+    <sys_scope display_value="x_1958581_retail_0">a3f7692353d70310739391e0a0490eed</sys_scope>
+    <sys_update_name>sys_user_role_contains_498fcb4ff3c241ecaddff2f03e8bed3b</sys_update_name>
+    <contains name="canvas_user">5cd0540ed6054b9e82695fb340f3321c</contains>
+    <role name="x_1958581_retail_0.escalation_agent">2109c5cf64284ed4880c78a76d4c85ce</role>
+  </sys_user_role_contains>
+</record_update>

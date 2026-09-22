@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_page_registry">
+  <sys_ux_page_registry action="INSERT_OR_UPDATE" apply_defaults="true">
+    <sys_id>0a94be081d8a410190c04fe7d742c073</sys_id>
+    <sys_scope display_value="x_1958581_retail_0">a3f7692353d70310739391e0a0490eed</sys_scope>
+    <sys_update_name>sys_ux_page_registry_0a94be081d8a410190c04fe7d742c073</sys_update_name>
+    <active>true</active>
+    <admin_panel>a65a7ed05ad84ad5ac91cc03ed1741fd</admin_panel>
+    <admin_panel_table>sys_ux_app_config</admin_panel_table>
+    <auth_routes/>
+    <page/>
+    <parent_app>c86a62e2c7022010099a308dc7c26022</parent_app>
+    <path>retailcare-ops</path>
+    <root_macroponent>c276387cc331101080d6d3658940ddd2</root_macroponent>
+    <title>RetailCare Operations Workspace</title>
+  </sys_ux_page_registry>
+</record_update>

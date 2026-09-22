@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_applicability_m2m_list">
+  <sys_ux_applicability_m2m_list action="INSERT_OR_UPDATE" apply_defaults="true">
+    <sys_id>7d23efc720f64c5e86e2318a272a25b6</sys_id>
+    <sys_scope display_value="x_1958581_retail_0">a3f7692353d70310739391e0a0490eed</sys_scope>
+    <sys_update_name>sys_ux_applicability_m2m_list_7d23efc720f64c5e86e2318a272a25b6</sys_update_name>
+    <active>true</active>
+    <applicability>b2345dded5294610a955d9d83d17d81b</applicability>
+    <list>7b251f24920c45d99e7f0d68332e0c4c</list>
+    <order>0</order>
+  </sys_ux_applicability_m2m_list>
+</record_update>

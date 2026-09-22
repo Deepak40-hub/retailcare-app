@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_page_property">
+  <sys_ux_page_property action="INSERT_OR_UPDATE" apply_defaults="true">
+    <sys_id>dcf44c0a769f4f0cb1b8ba41d0667d2f</sys_id>
+    <sys_scope display_value="x_1958581_retail_0">a3f7692353d70310739391e0a0490eed</sys_scope>
+    <sys_update_name>sys_ux_page_property_dcf44c0a769f4f0cb1b8ba41d0667d2f</sys_update_name>
+    <description/>
+    <name>chrome_toolbar</name>
+    <page>0a94be081d8a410190c04fe7d742c073</page>
+    <route/>
+    <suffix>chrome_toolbar</suffix>
+    <type>json</type>
+    <value>[{"id":"home","label":{"translatable":true,"message":"Home"},"icon":"home-fill","routeInfo":{"route":"home"},"group":"top","order":100,"badge":{},"presence":{},"availability":{},"viewportInfo":{}},{"id":"list","label":{"translatable":true,"message":"List"},"icon":"list-fill","routeInfo":{"route":"list"},"group":"top","order":200,"badge":{},"presence":{},"availability":{},"viewportInfo":{}}]</value>
+  </sys_ux_page_property>
+</record_update>

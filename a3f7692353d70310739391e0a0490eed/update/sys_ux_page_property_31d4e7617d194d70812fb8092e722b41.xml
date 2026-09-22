@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_page_property">
+  <sys_ux_page_property action="INSERT_OR_UPDATE" apply_defaults="true">
+    <sys_id>31d4e7617d194d70812fb8092e722b41</sys_id>
+    <sys_scope display_value="x_1958581_retail_0">a3f7692353d70310739391e0a0490eed</sys_scope>
+    <sys_update_name>sys_ux_page_property_31d4e7617d194d70812fb8092e722b41</sys_update_name>
+    <description/>
+    <name>listConfigId</name>
+    <page>0a94be081d8a410190c04fe7d742c073</page>
+    <route/>
+    <suffix>listConfigId</suffix>
+    <type>string</type>
+    <value>16d3c993ba8b4c5686c05aeb35294048</value>
+  </sys_ux_page_property>
+</record_update>
