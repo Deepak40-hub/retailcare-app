@@ -1,11 +1,31 @@
-<?xml version="1.0" encoding="UTF-8"?><record_update table="par_dashboard">
-  <par_dashboard action="INSERT_OR_UPDATE" apply_defaults="true">
-    <sys_id>331b8c4fe88e4ee79aa954cb4ad04ee6</sys_id>
-    <sys_scope display_value="x_1958581_retail_0">a3f7692353d70310739391e0a0490eed</sys_scope>
-    <sys_update_name>par_dashboard_331b8c4fe88e4ee79aa954cb4ad04ee6</sys_update_name>
-    <active>true</active>
-    <certified>false</certified>
-    <description/>
-    <name>RetailCare Operations Dashboard</name>
-  </par_dashboard>
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard">
+    <par_dashboard action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <base_dashboard/>
+        <certified>false</certified>
+        <description/>
+        <experience/>
+        <grid/>
+        <name>RetailCare Operations Dashboard</name>
+        <sys_class_name>par_dashboard</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-22 08:22:18</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>331b8c4fe88e4ee79aa954cb4ad04ee6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>RetailCare Operations Dashboard</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="RetailCare" source="x_1958581_retail_0">a3f7692353d70310739391e0a0490eed</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="RetailCare">a3f7692353d70310739391e0a0490eed</sys_scope>
+        <sys_update_name>par_dashboard_331b8c4fe88e4ee79aa954cb4ad04ee6</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-22 08:22:18</sys_updated_on>
+        <sys_ux_app_config/>
+        <sys_ux_app_route/>
+        <sys_ux_macroponent/>
+        <sys_ux_screen/>
+        <sys_ux_screen_type/>
+    </par_dashboard>
 </record_update>

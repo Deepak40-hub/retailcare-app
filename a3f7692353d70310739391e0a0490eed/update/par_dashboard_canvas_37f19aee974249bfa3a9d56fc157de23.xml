@@ -1,9 +1,22 @@
-<?xml version="1.0" encoding="UTF-8"?><record_update table="par_dashboard_canvas">
-  <par_dashboard_canvas action="INSERT_OR_UPDATE" apply_defaults="true">
-    <sys_id>37f19aee974249bfa3a9d56fc157de23</sys_id>
-    <sys_scope display_value="x_1958581_retail_0">a3f7692353d70310739391e0a0490eed</sys_scope>
-    <sys_update_name>par_dashboard_canvas_37f19aee974249bfa3a9d56fc157de23</sys_update_name>
-    <dashboard>331b8c4fe88e4ee79aa954cb4ad04ee6</dashboard>
-    <dashboard_tab>63f756b241054ee2a4db4c35b36ae41a</dashboard_tab>
-  </par_dashboard_canvas>
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_canvas">
+    <par_dashboard_canvas action="INSERT_OR_UPDATE">
+        <dashboard display_value="RetailCare Operations Dashboard">331b8c4fe88e4ee79aa954cb4ad04ee6</dashboard>
+        <dashboard_tab display_value="Overview">63f756b241054ee2a4db4c35b36ae41a</dashboard_tab>
+        <layout/>
+        <sys_class_name>par_dashboard_canvas</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-22 08:22:19</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>37f19aee974249bfa3a9d56fc157de23</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package display_value="RetailCare" source="x_1958581_retail_0">a3f7692353d70310739391e0a0490eed</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="RetailCare">a3f7692353d70310739391e0a0490eed</sys_scope>
+        <sys_update_name>par_dashboard_canvas_37f19aee974249bfa3a9d56fc157de23</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-22 08:22:19</sys_updated_on>
+    </par_dashboard_canvas>
 </record_update>

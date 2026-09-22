@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="a1d8eb8ef4034154b82336ed409f385b" extends="task" label="Store Escalation Task" name="x_1958581_retail_0_store_esc_task" type="collection">
+        <element label="Store" name="store" reference="cmn_location" type="reference"/>
+        <element label="Closure Reason" name="closure_reason" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="False Claim" sequence="4" value="false_claim"/>
+                <element inactive_on_update="false" label="Staff Coached" sequence="2" value="staff_coached"/>
+                <element inactive_on_update="false" label="Batch Quarantined" sequence="1" value="batch_quarantined"/>
+                <element inactive_on_update="false" label="Reimbursement Approved" sequence="3" value="reimbursement_approved"/>
+            </choice>
+        </element>
+        <element label="Parent Complaint" name="parent_complaint" reference="x_1958581_retail_0_retail_complaint" type="reference"/>
+        <element label="Investigation Notes" max_length="4000" name="investigation_notes" type="string"/>
+    </element>
+</database>

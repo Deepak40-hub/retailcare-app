@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="b378bda3535b0310739391e0a0490ed0" extends="task" label="Retail Complaint" max_length="40" name="x_1958581_retail_0_retail_complaint" type="collection">
+        <element label="Order Number" max_length="40" name="order_number" type="string"/>
+        <element choice="3" label="Business Risk" max_length="40" name="business_risk" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Low" sequence="0" value="low"/>
+                <element inactive_on_update="false" label="Critical" sequence="3" value="critical"/>
+                <element inactive_on_update="false" label="Medium" sequence="1" value="medium"/>
+                <element inactive_on_update="false" label="High" sequence="2" value="high"/>
+            </choice>
+        </element>
+        <element label="Repeat Customer" max_length="40" name="repeat_customer" type="boolean"/>
+        <element label="Batch Number" max_length="40" name="batch_number" type="string"/>
+        <element label="Root Cause KB" max_length="32" name="root_cause_kb" reference="kb_knowledge" type="reference"/>
+        <element choice="3" label="Sentiment" max_length="40" name="sentiment" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Highly Dissatisfied" sequence="3" value="highly_dissatisfied"/>
+                <element inactive_on_update="false" label="Dissatisfied" sequence="2" value="dissatisfied"/>
+                <element inactive_on_update="false" label="Positive" sequence="0" value="positive"/>
+                <element inactive_on_update="false" label="Neutral" sequence="1" value="neutral"/>
+            </choice>
+        </element>
+        <element label="Disputed Amount" max_length="40" name="disputed_amount" type="currency"/>
+        <element choice="3" label="Channel" max_length="40" name="channel" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Virtual Agent" sequence="1" value="virtual_agent"/>
+                <element inactive_on_update="false" label="Portal" sequence="0" value="portal"/>
+                <element inactive_on_update="false" label="In-Store Assisted" sequence="2" value="in_store_assisted"/>
+            </choice>
+        </element>
+        <element choice="3" label="Complaint Category" max_length="40" name="complaint_category" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Staff / Service" sequence="3" value="staff_service"/>
+                <element inactive_on_update="false" label="Billing / Overcharge" sequence="1" value="billing_overcharge"/>
+                <element inactive_on_update="false" label="Product Quality" sequence="2" value="product_quality"/>
+                <element inactive_on_update="false" label="Food Safety" sequence="0" value="food_safety"/>
+            </choice>
+        </element>
+        <element label="Store Location" max_length="32" name="store_location" reference="cmn_location" type="reference"/>
+    </element>
+</database>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="bbec48f80ec1441c9d91aaba8a54d755" label="Recovery Action" name="x_1958581_retail_0_recovery_action" type="collection">
+        <element label="Voucher Code" max_length="40" name="voucher_code" type="string"/>
+        <element label="Complaint" name="complaint" reference="x_1958581_retail_0_retail_complaint" type="reference"/>
+        <element label="Status" name="status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Redeemed" sequence="2" value="redeemed"/>
+                <element inactive_on_update="false" label="Issued" sequence="1" value="issued"/>
+                <element inactive_on_update="false" label="Declined" sequence="3" value="declined"/>
+            </choice>
+        </element>
+        <element label="Voucher Amount" name="voucher_amount" type="currency"/>
+        <element label="Issued On" name="issued_on" type="glide_date_time"/>
+        <element display="true" label="Number" max_length="40" name="number" read_only="true" type="string"/>
+        <element label="Action Type" name="action_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Digital Voucher" sequence="1" value="digital_voucher"/>
+                <element inactive_on_update="false" label="Store Credit" sequence="3" value="store_credit"/>
+                <element inactive_on_update="false" label="Full Refund" sequence="2" value="full_refund"/>
+            </choice>
+        </element>
+        <index name="index">
+            <element name="complaint"/>
+        </index>
+    </element>
+</database>

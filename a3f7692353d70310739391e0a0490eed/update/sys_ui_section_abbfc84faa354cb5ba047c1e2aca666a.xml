@@ -1,80 +1,127 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-  <sys_ui_section caption="Store Escalation Details" section_id="abbfc84faa354cb5ba047c1e2aca666a" sys_domain="global" table="x_1958581_retail_0_store_esc_task" view="">
-    <sys_ui_element action="INSERT_OR_UPDATE" apply_defaults="true">
-      <element>.begin_split</element>
-      <position>0</position>
-      <sys_id>590fc4b14a304e90a9c9b328554869ac</sys_id>
-      <sys_ui_formatter/>
-      <sys_ui_section caption="Store Escalation Details" display_value="Store Escalation Details" name="x_1958581_retail_0_store_esc_task" sys_domain="global" view="Default view">abbfc84faa354cb5ba047c1e2aca666a</sys_ui_section>
-      <sys_user/>
-      <type>.begin_split</type>
-    </sys_ui_element>
-    <sys_ui_element action="INSERT_OR_UPDATE" apply_defaults="true">
-      <element>parent_complaint</element>
-      <position>1</position>
-      <sys_id>e2133310bb43468dba9767cabff5d6a1</sys_id>
-      <sys_ui_formatter/>
-      <sys_ui_section caption="Store Escalation Details" display_value="Store Escalation Details" name="x_1958581_retail_0_store_esc_task" sys_domain="global" view="Default view">abbfc84faa354cb5ba047c1e2aca666a</sys_ui_section>
-      <sys_user/>
-      <type/>
-    </sys_ui_element>
-    <sys_ui_element action="INSERT_OR_UPDATE" apply_defaults="true">
-      <element>store</element>
-      <position>2</position>
-      <sys_id>d1a317a2babc46459d47a21ccdda729b</sys_id>
-      <sys_ui_formatter/>
-      <sys_ui_section caption="Store Escalation Details" display_value="Store Escalation Details" name="x_1958581_retail_0_store_esc_task" sys_domain="global" view="Default view">abbfc84faa354cb5ba047c1e2aca666a</sys_ui_section>
-      <sys_user/>
-      <type/>
-    </sys_ui_element>
-    <sys_ui_element action="INSERT_OR_UPDATE" apply_defaults="true">
-      <element>.split</element>
-      <position>3</position>
-      <sys_id>7c05b15cc477455084220d205beec32d</sys_id>
-      <sys_ui_formatter/>
-      <sys_ui_section caption="Store Escalation Details" display_value="Store Escalation Details" name="x_1958581_retail_0_store_esc_task" sys_domain="global" view="Default view">abbfc84faa354cb5ba047c1e2aca666a</sys_ui_section>
-      <sys_user/>
-      <type>.split</type>
-    </sys_ui_element>
-    <sys_ui_element action="INSERT_OR_UPDATE" apply_defaults="true">
-      <element>closure_reason</element>
-      <position>4</position>
-      <sys_id>0ddf64e7fee149a092f51a57a085a13b</sys_id>
-      <sys_ui_formatter/>
-      <sys_ui_section caption="Store Escalation Details" display_value="Store Escalation Details" name="x_1958581_retail_0_store_esc_task" sys_domain="global" view="Default view">abbfc84faa354cb5ba047c1e2aca666a</sys_ui_section>
-      <sys_user/>
-      <type/>
-    </sys_ui_element>
-    <sys_ui_element action="INSERT_OR_UPDATE" apply_defaults="true">
-      <element>.end_split</element>
-      <position>5</position>
-      <sys_id>16dfd5d533d641189280e83fc9cda554</sys_id>
-      <sys_ui_formatter/>
-      <sys_ui_section caption="Store Escalation Details" display_value="Store Escalation Details" name="x_1958581_retail_0_store_esc_task" sys_domain="global" view="Default view">abbfc84faa354cb5ba047c1e2aca666a</sys_ui_section>
-      <sys_user/>
-      <type>.end_split</type>
-    </sys_ui_element>
-    <sys_ui_element action="INSERT_OR_UPDATE" apply_defaults="true">
-      <element>investigation_notes</element>
-      <position>6</position>
-      <sys_id>75f64ae44cf9407c8da925f4278c1a93</sys_id>
-      <sys_ui_formatter/>
-      <sys_ui_section caption="Store Escalation Details" display_value="Store Escalation Details" name="x_1958581_retail_0_store_esc_task" sys_domain="global" view="Default view">abbfc84faa354cb5ba047c1e2aca666a</sys_ui_section>
-      <sys_user/>
-      <type/>
-    </sys_ui_element>
-    <sys_ui_section action="INSERT_OR_UPDATE" apply_defaults="true">
-      <caption>Store Escalation Details</caption>
-      <header>false</header>
-      <name>x_1958581_retail_0_store_esc_task</name>
-      <roles/>
-      <sys_domain>global</sys_domain>
-      <sys_id>abbfc84faa354cb5ba047c1e2aca666a</sys_id>
-      <sys_scope display_value="x_1958581_retail_0">a3f7692353d70310739391e0a0490eed</sys_scope>
-      <sys_user/>
-      <title>false</title>
-      <view_name/>
-      <view display_value="Default view" name="NULL">Default view</view>
+    <sys_ui_section caption="Store Escalation Details" section_id="abbfc84faa354cb5ba047c1e2aca666a" sys_domain="global" table="x_1958581_retail_0_store_esc_task" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-09-22 08:37:32</sys_created_on>
+            <sys_id>590fc4b14a304e90a9c9b328554869ac</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Store Escalation Details" display_value="Store Escalation Details" name="x_1958581_retail_0_store_esc_task" sys_domain="global" view="Default view">abbfc84faa354cb5ba047c1e2aca666a</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-09-22 08:37:32</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>parent_complaint</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-09-22 08:37:32</sys_created_on>
+            <sys_id>e2133310bb43468dba9767cabff5d6a1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Store Escalation Details" display_value="Store Escalation Details" name="x_1958581_retail_0_store_esc_task" sys_domain="global" view="Default view">abbfc84faa354cb5ba047c1e2aca666a</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-09-22 08:37:32</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>store</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-09-22 08:37:32</sys_created_on>
+            <sys_id>d1a317a2babc46459d47a21ccdda729b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Store Escalation Details" display_value="Store Escalation Details" name="x_1958581_retail_0_store_esc_task" sys_domain="global" view="Default view">abbfc84faa354cb5ba047c1e2aca666a</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-09-22 08:37:32</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-09-22 08:37:32</sys_created_on>
+            <sys_id>7c05b15cc477455084220d205beec32d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Store Escalation Details" display_value="Store Escalation Details" name="x_1958581_retail_0_store_esc_task" sys_domain="global" view="Default view">abbfc84faa354cb5ba047c1e2aca666a</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-09-22 08:37:32</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>closure_reason</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-09-22 08:37:32</sys_created_on>
+            <sys_id>0ddf64e7fee149a092f51a57a085a13b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Store Escalation Details" display_value="Store Escalation Details" name="x_1958581_retail_0_store_esc_task" sys_domain="global" view="Default view">abbfc84faa354cb5ba047c1e2aca666a</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-09-22 08:37:32</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-09-22 08:37:32</sys_created_on>
+            <sys_id>16dfd5d533d641189280e83fc9cda554</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Store Escalation Details" display_value="Store Escalation Details" name="x_1958581_retail_0_store_esc_task" sys_domain="global" view="Default view">abbfc84faa354cb5ba047c1e2aca666a</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-09-22 08:37:32</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>investigation_notes</element>
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-09-22 08:37:32</sys_created_on>
+            <sys_id>75f64ae44cf9407c8da925f4278c1a93</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Store Escalation Details" display_value="Store Escalation Details" name="x_1958581_retail_0_store_esc_task" sys_domain="global" view="Default view">abbfc84faa354cb5ba047c1e2aca666a</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-09-22 08:37:32</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Store Escalation Details</caption>
+            <header>false</header>
+            <name>x_1958581_retail_0_store_esc_task</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-09-19 09:10:46</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>abbfc84faa354cb5ba047c1e2aca666a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1958581_retail_0_store_esc_task</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="RetailCare" source="x_1958581_retail_0">a3f7692353d70310739391e0a0490eed</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="RetailCare">a3f7692353d70310739391e0a0490eed</sys_scope>
+            <sys_update_name>sys_ui_section_abbfc84faa354cb5ba047c1e2aca666a</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-09-19 09:10:46</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
     </sys_ui_section>
-  </sys_ui_section>
 </record_update>

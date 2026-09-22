@@ -1,9 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category">
-  <sc_cat_item_category action="INSERT_OR_UPDATE" apply_defaults="true">
-    <sys_id>cc0f945b4f244e75b1ab745a5428c8da</sys_id>
-    <sys_scope display_value="x_1958581_retail_0">a3f7692353d70310739391e0a0490eed</sys_scope>
-    <sys_update_name>sc_cat_item_category_cc0f945b4f244e75b1ab745a5428c8da</sys_update_name>
-    <sc_cat_item>6ef020fc0a7f4271a3a91a1f5d72506a</sc_cat_item>
-    <sc_category>e15706fc0a0a0aa7007fc21e1ab70c2f</sc_category>
-  </sc_cat_item_category>
+    <sc_cat_item_category action="INSERT_OR_UPDATE">
+        <sc_cat_item display_value="Submit a Retail Complaint">6ef020fc0a7f4271a3a91a1f5d72506a</sc_cat_item>
+        <sc_category display_value="Can We Help You?">e15706fc0a0a0aa7007fc21e1ab70c2f</sc_category>
+        <sys_class_name>sc_cat_item_category</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-21 09:01:28</sys_created_on>
+        <sys_id>cc0f945b4f244e75b1ab745a5428c8da</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Can We Help You?.</sys_name>
+        <sys_package display_value="RetailCare" source="x_1958581_retail_0">a3f7692353d70310739391e0a0490eed</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="RetailCare">a3f7692353d70310739391e0a0490eed</sys_scope>
+        <sys_update_name>sc_cat_item_category_cc0f945b4f244e75b1ab745a5428c8da</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-21 09:01:28</sys_updated_on>
+    </sc_cat_item_category>
 </record_update>
