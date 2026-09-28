@@ -5,7 +5,7 @@
         <certified>false</certified>
         <description/>
         <experience/>
-        <grid/>
+        <grid>48</grid>
         <name>RetailCare Operations Dashboard</name>
         <sys_class_name>par_dashboard</sys_class_name>
         <sys_created_by>admin</sys_created_by>
@@ -13,7 +13,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>331b8c4fe88e4ee79aa954cb4ad04ee6</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name>RetailCare Operations Dashboard</sys_name>
         <sys_overrides/>
         <sys_package display_value="RetailCare" source="x_1958581_retail_0">a3f7692353d70310739391e0a0490eed</sys_package>
@@ -21,7 +21,7 @@
         <sys_scope display_value="RetailCare">a3f7692353d70310739391e0a0490eed</sys_scope>
         <sys_update_name>par_dashboard_331b8c4fe88e4ee79aa954cb4ad04ee6</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-09-22 08:22:18</sys_updated_on>
+        <sys_updated_on>2026-09-28 05:59:43</sys_updated_on>
         <sys_ux_app_config/>
         <sys_ux_app_route/>
         <sys_ux_macroponent/>

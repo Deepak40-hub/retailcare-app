@@ -2,7 +2,7 @@
     <sys_user_role action="INSERT_OR_UPDATE">
         <assignable_by/>
         <can_delegate>true</can_delegate>
-        <description>Store associate handling customer inquiries and incidents</description>
+        <description>RetailCare store associate — can create and view complaint records</description>
         <elevated_privilege>false</elevated_privilege>
         <federated_id>VF2J9Np3MfcG119S0huE5jw1/R5zGFcJ8c+rsjTj2kE=</federated_id>
         <grantable>true</grantable>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="INSERT_OR_UPDATE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>true</action_insert>
+        <action_query>false</action_query>
+        <action_update>false</action_update>
+        <active>true</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_1958581_retail_0_retail_complaint</collection>
+        <condition>current.business_risk.nil()</condition>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition/>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>Evaluate Risk and Sentiment</name>
+        <order>50</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
+    var desc = (current.description || '').toLowerCase();
+    var cat = (current.category || current.complaint_category || '').toLowerCase();
+    
+    // Check for critical keywords or food safety
+    var criticalWords = ['sick', 'poison', 'hospital', 'expired', 'hazard', 'sue', 'lawyer', 'foreign object'];
+    var hasCritical = criticalWords.some(function(w) { return desc.indexOf(w) !== -1; });
+
+    // Repeat incident check (>= 2 complaints in last 30 days from same opener)
+    var isRepeat = false;
+    if (current.opened_by) {
+        var hist = new GlideRecord('x_1958581_retail_0_retail_complaint');
+        hist.addQuery('opened_by', current.opened_by);
+        hist.addQuery('sys_created_on', '>=', gs.daysAgo(30));
+        hist.query();
+        if (hist.getRowCount() >= 2) {
+            isRepeat = true;
+        }
+    }
+
+    // Set the boolean field on the record
+    if (current.isValidField('repeat_customer')) {
+        current.repeat_customer = isRepeat;
+    } else if (current.isValidField('u_repeat_customer')) {
+        current.u_repeat_customer = isRepeat;
+    } else if (current.isValidField('is_repeat_customer')) {
+        current.is_repeat_customer = isRepeat;
+    }
+
+    if (cat === 'food_safety' || hasCritical) {
+        current.business_risk = 'critical';
+        current.customer_sentiment = 'highly_dissatisfied';
+        current.priority = 1;
+    } else if (isRepeat) {
+        current.business_risk = 'high';
+        current.customer_sentiment = 'dissatisfied';
+        current.priority = 2;
+    } else {
+        current.business_risk = 'low';
+        current.customer_sentiment = 'neutral';
+        current.priority = 4;
+    }
+})(current, previous);
+]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-28 05:09:50</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>e8e2f2abdcbb40879d17064949bab86b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Evaluate Risk and Sentiment</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="RetailCare" source="x_1958581_retail_0">a3f7692353d70310739391e0a0490eed</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="RetailCare">a3f7692353d70310739391e0a0490eed</sys_scope>
+        <sys_update_name>sys_script_e8e2f2abdcbb40879d17064949bab86b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-28 05:09:50</sys_updated_on>
+        <template/>
+        <when>before</when>
+    </sys_script>
+    <sys_translated_text action="delete_multiple" query="documentkey=e8e2f2abdcbb40879d17064949bab86b"/>
+</record_update>

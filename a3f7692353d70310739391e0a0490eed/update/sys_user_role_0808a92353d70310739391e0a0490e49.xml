@@ -2,7 +2,7 @@
     <sys_user_role action="INSERT_OR_UPDATE">
         <assignable_by/>
         <can_delegate>true</can_delegate>
-        <description>End-customer accessing the retail care platform</description>
+        <description>RetailCare customer role — can submit complaints and view own records</description>
         <elevated_privilege>false</elevated_privilege>
         <federated_id>oqxB7QJNCgZ0+UYrrQwqfq6aXMIKMOKNyUt1dlnQiyk=</federated_id>
         <grantable>true</grantable>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="INSERT_OR_UPDATE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>true</action_insert>
+        <action_query>false</action_query>
+        <action_update>false</action_update>
+        <active>true</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_1958581_retail_0_retail_complaint</collection>
+        <condition>current.business_risk == 'critical' || current.priority == 1 || current.category == 'food_safety' || current.complaint_category == 'food_safety'</condition>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition/>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>Create Store Task and Assign Agent for C</name>
+        <order>200</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
+    // 1. Resolve agent: Find Priya, Marcus, or Elena
+    var agentSysId = null;
+    var u = new GlideRecord('sys_user');
+    u.addQuery('user_name', 'IN', 'retail_agent_marcus,retail_agent_priya,retail_agent_elena');
+    u.query();
+    if (u.next()) {
+        agentSysId = u.getUniqueValue();
+    } else {
+        agentSysId = gs.getUserID();
+    }
+
+    // 2. Resolve Escalation Desk Group
+    var grpSysId = null;
+    var g = new GlideRecord('sys_user_group');
+    if (g.get('name', 'Retail Escalation Desk')) {
+        grpSysId = g.getUniqueValue();
+    }
+
+    // 3. Update the complaint with the assigned agent
+    var comp = new GlideRecord('x_1958581_retail_0_retail_complaint');
+    if (comp.get(current.sys_id)) {
+        if (grpSysId) comp.assignment_group = grpSysId;
+        if (agentSysId) comp.assigned_to = agentSysId;
+        comp.state = 2; // Work in Progress
+        comp.update();
+    }
+
+    // 4. Create child Store Escalation Task linked to this complaint and agent
+    var task = new GlideRecord('x_1958581_retail_0_store_esc_task');
+    task.initialize();
+    if (task.isValidField('parent')) {
+        task.parent = current.sys_id;
+    }
+    if (task.isValidField('parent_complaint')) {
+        task.parent_complaint = current.sys_id;
+    }
+    task.short_description = "Quarantine batch & store investigation for: " + (current.short_description || current.description || "Food Safety Issue");
+    task.priority = 1;
+    task.state = 1; // Open
+    if (grpSysId) task.assignment_group = grpSysId;
+    if (agentSysId) task.assigned_to = agentSysId;
+    task.insert();
+})(current, previous);
+]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-28 07:22:01</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>ab88083f2d144100883db9dac6499f7f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Create Store Task and Assign Agent for C</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="RetailCare" source="x_1958581_retail_0">a3f7692353d70310739391e0a0490eed</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="RetailCare">a3f7692353d70310739391e0a0490eed</sys_scope>
+        <sys_update_name>sys_script_ab88083f2d144100883db9dac6499f7f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-28 07:22:01</sys_updated_on>
+        <template/>
+        <when>after</when>
+    </sys_script>
+    <sys_translated_text action="delete_multiple" query="documentkey=ab88083f2d144100883db9dac6499f7f"/>
+</record_update>

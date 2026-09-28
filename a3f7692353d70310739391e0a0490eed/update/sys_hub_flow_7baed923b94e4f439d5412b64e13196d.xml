@@ -4,7 +4,7 @@
         <acls/>
         <active>true</active>
         <annotation/>
-        <attributes>timeFromCreateToActivate=87526000</attributes>
+        <attributes>timeFromCreateToActivate=624041000</attributes>
         <authored_on_release_version/>
         <callable_by_client_api>false</callable_by_client_api>
         <category/>
@@ -15,14 +15,14 @@
         <flow_priority>MEDIUM</flow_priority>
         <generation_source>fluent</generation_source>
         <internal_name>retailcare_autonomous_recovery_flow</internal_name>
-        <label_cache>[{"name":"Created or Updated_1.current.complaint_category","label":"Trigger - Record Created or Updated➛x_1958581_retail_0_retail_complaint Record➛Complaint Category","type":"string","base_type":"string","usedInstances":{"e9f54f00-5ec2-4f7a-b274-ff448704bbb8":["condition"],"1c535093-b049-4f79-b339-0abbf21a9612":["condition"]},"attributes":{}},{"name":"Created or Updated_1.current.description","label":"Trigger - Record Created or Updated➛x_1958581_retail_0_retail_complaint Record➛Description","type":"string","base_type":"string","usedInstances":{"e9f54f00-5ec2-4f7a-b274-ff448704bbb8":["condition"]},"attributes":{}},{"name":"Created or Updated_1.current","label":"Trigger - Record Created or Updated➛x_1958581_retail_0_retail_complaint Record","type":"reference","base_type":"reference","usedInstances":{"e7a72cca-2611-4c60-806c-d5bc3f44c25b":["record"],"6e9e4a8f-09a2-4c6f-9fa5-b21431d539b9":["values"],"ca23e50e-7493-4f32-840b-686bb131b577":["record"],"fc4fe73c-1b15-4e50-9613-0242e14fa14b":["values"],"19984dcd-715b-48ef-878c-f92bf03d296c":["record"],"7bcd0c2a-a0dc-47c6-85ba-f9d0bb7faa3c":["values"],"deb96939-9327-45e4-8f6a-1e623cad126d":["record"]},"attributes":{}},{"name":"b2fe68e4-e3be-4d53-af2a-5214bea80eec.Record","label":"b2fe68e4-e3be-4d53-af2a-5214bea80eec➛Record","type":"reference","base_type":"reference","usedInstances":{"e7a72cca-2611-4c60-806c-d5bc3f44c25b":["values"],"ca23e50e-7493-4f32-840b-686bb131b577":["values"]},"attributes":{}},{"name":"Created or Updated_1.current.store_location","label":"Trigger - Record Created or Updated➛x_1958581_retail_0_retail_complaint Record➛Store Location","type":"reference","base_type":"reference","usedInstances":{"6e9e4a8f-09a2-4c6f-9fa5-b21431d539b9":["values"],"fc4fe73c-1b15-4e50-9613-0242e14fa14b":["values"]},"attributes":{}}]</label_cache>
+        <label_cache>[{"name":"Created_1.current.business_risk","label":"Trigger - Record Created➛x_1958581_retail_0_retail_complaint Record➛Business Risk","type":"string","base_type":"string","usedInstances":{"7a292596-8f3e-4c33-876e-5a13c4f02cd1":["condition"],"d64ea87c-4b46-4d4d-84af-e107ef9b4436":["condition"]},"attributes":{}},{"name":"Created_1.current.priority","label":"Trigger - Record Created➛x_1958581_retail_0_retail_complaint Record➛Priority","type":"string","base_type":"string","usedInstances":{"7a292596-8f3e-4c33-876e-5a13c4f02cd1":["condition"],"d64ea87c-4b46-4d4d-84af-e107ef9b4436":["condition"]},"attributes":{}},{"name":"Created_1.current","label":"Trigger - Record Created➛x_1958581_retail_0_retail_complaint Record","type":"reference","base_type":"reference","usedInstances":{"173f2b43-9b4e-4f4f-a841-35bcd3423ae0":["values"],"0a485890-50dc-47b8-b51f-1d9e7beabb49":["record"],"7bcd0c2a-a0dc-47c6-85ba-f9d0bb7faa3c":["values"],"deb96939-9327-45e4-8f6a-1e623cad126d":["record"]},"attributes":{}},{"name":"Created_1.current.description","label":"Trigger - Record Created➛x_1958581_retail_0_retail_complaint Record➛Description","type":"string","base_type":"string","usedInstances":{"173f2b43-9b4e-4f4f-a841-35bcd3423ae0":["values"]},"attributes":{}},{"name":"Created_1.current.assignment_group","label":"Trigger - Record Created➛x_1958581_retail_0_retail_complaint Record➛Assignment Group","type":"reference","base_type":"reference","usedInstances":{"173f2b43-9b4e-4f4f-a841-35bcd3423ae0":["values"]},"attributes":{}}]</label_cache>
         <master_snapshot>5c2b401053eb4710739391e0a0490e69</master_snapshot>
         <master_snapshot_digest/>
         <name>RetailCare Autonomous Recovery Flow</name>
         <natlang/>
         <outputs/>
         <pre_compiled>false</pre_compiled>
-        <remote_trigger_id>bef85d2853270b10739391e0a0490e87</remote_trigger_id>
+        <remote_trigger_id>4ca7556253e30b50739391e0a0490e60</remote_trigger_id>
         <run_as>system</run_as>
         <run_with_roles/>
         <sc_callable>false</sc_callable>
@@ -36,7 +36,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>7baed923b94e4f439d5412b64e13196d</sys_id>
-        <sys_mod_count>9</sys_mod_count>
+        <sys_mod_count>35</sys_mod_count>
         <sys_name>RetailCare Autonomous Recovery Flow</sys_name>
         <sys_overrides/>
         <sys_package display_value="RetailCare" source="x_1958581_retail_0">a3f7692353d70310739391e0a0490eed</sys_package>
@@ -44,7 +44,7 @@
         <sys_scope display_value="RetailCare">a3f7692353d70310739391e0a0490eed</sys_scope>
         <sys_update_name>sys_hub_flow_7baed923b94e4f439d5412b64e13196d</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-09-22 08:37:47</sys_updated_on>
+        <sys_updated_on>2026-09-28 13:39:42</sys_updated_on>
         <type>flow</type>
         <updation_source/>
         <version>2</version>
@@ -54,12 +54,11 @@
     <sys_variable_value action="delete_multiple" query="document_key=7baed923b94e4f439d5412b64e13196d"/>
     <sys_flow_record_trigger action="INSERT_OR_UPDATE">
         <active>true</active>
-        <condition table="x_1958581_retail_0_retail_complaint">state=1<item display_value="Open" endquery="false" field="state" goto="false" newquery="false" operator="=" or="false" value="1"/>
-        </condition>
+        <condition/>
         <name/>
         <on_delete>false</on_delete>
         <on_insert>true</on_insert>
-        <on_update>true</on_update>
+        <on_update>false</on_update>
         <published_version/>
         <run_flow_in>background</run_flow_in>
         <run_on_extended>false</run_on_extended>
@@ -68,15 +67,15 @@
         <run_when_user_setting>any</run_when_user_setting>
         <sys_class_name>sys_flow_record_trigger</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2026-09-22 08:37:47</sys_created_on>
+        <sys_created_on>2026-09-28 13:39:42</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>bef85d2853270b10739391e0a0490e87</sys_id>
+        <sys_id>4ca7556253e30b50739391e0a0490e60</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_overrides/>
         <sys_scope display_value="RetailCare">a3f7692353d70310739391e0a0490eed</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-09-22 08:37:47</sys_updated_on>
+        <sys_updated_on>2026-09-28 13:39:42</sys_updated_on>
         <table>x_1958581_retail_0_retail_complaint</table>
         <trigger_definition/>
     </sys_flow_record_trigger>
@@ -87,17 +86,17 @@
         <identifier_type>flow</identifier_type>
         <runner>FDTriggerRunner</runner>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2026-09-22 08:37:47</sys_created_on>
-        <sys_id>baf85d2853270b10739391e0a0490e88</sys_id>
+        <sys_created_on>2026-09-28 13:39:42</sys_created_on>
+        <sys_id>80a7556253e30b50739391e0a0490e62</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-09-22 08:37:47</sys_updated_on>
-        <trigger display_value="">bef85d2853270b10739391e0a0490e87</trigger>
+        <sys_updated_on>2026-09-28 13:39:42</sys_updated_on>
+        <trigger display_value="">4ca7556253e30b50739391e0a0490e60</trigger>
     </sys_trigger_runner_mapping>
-    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=7baed923b94e4f439d5412b64e13196d^sys_idNOT INbaf85d2853270b10739391e0a0490e88"/>
+    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=7baed923b94e4f439d5412b64e13196d^sys_idNOT IN80a7556253e30b50739391e0a0490e62"/>
     <sys_hub_flow_stage action="delete_multiple" query="flow=7baed923b94e4f439d5412b64e13196d"/>
     <sys_flow_cat_variable_model action="delete_multiple" query="id=7baed923b94e4f439d5412b64e13196d"/>
-    <sys_hub_flow_input action="delete_multiple" query="model=7baed923b94e4f439d5412b64e13196d^sys_idNOT IN6f1b001053eb4710739391e0a0490e77,bf1b001053eb4710739391e0a0490eb5,fb1b001053eb4710739391e0a0490ed8"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=7baed923b94e4f439d5412b64e13196d^sys_idNOT IN6f1b001053eb4710739391e0a0490e77,bf1b001053eb4710739391e0a0490eb5"/>
     <sys_hub_flow_input action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
@@ -266,259 +265,31 @@
         <xml_view>false</xml_view>
     </sys_hub_flow_input>
     <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=bf1b001053eb4710739391e0a0490eb5"/>
-    <sys_hub_flow_input action="INSERT_OR_UPDATE">
-        <active>true</active>
-        <array>false</array>
-        <array_denormalized>false</array_denormalized>
-        <attributes>child_label=FDChangeDetails,child_name=FDChangeDetails,child_type=object,child_type_label=Object,co_type_name=FDCollection,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=array.object,uiTypeLabel=Array.Object</attributes>
-        <audit>false</audit>
-        <calculation><![CDATA[(function calculatedFieldValue(current) {
-
-	// Add your code here
-	return '';  // return the calculated value
-
-})(current);]]></calculation>
-        <choice/>
-        <choice_field/>
-        <choice_table/>
-        <column_label/>
-        <comments/>
-        <create_roles/>
-        <default_value/>
-        <defaultsort/>
-        <delete_roles/>
-        <dependent/>
-        <dependent_on_field/>
-        <display>false</display>
-        <dynamic_creation>false</dynamic_creation>
-        <dynamic_creation_script/>
-        <dynamic_default_value/>
-        <dynamic_ref_qual/>
-        <element>changed_fields</element>
-        <element_reference>false</element_reference>
-        <foreign_database/>
-        <formula/>
-        <function_definition/>
-        <function_field>false</function_field>
-        <help/>
-        <hint/>
-        <internal_type display_value="String">string</internal_type>
-        <label>Changed Fields</label>
-        <mandatory>false</mandatory>
-        <max_length>4000</max_length>
-        <model display_value="RetailCare Autonomous Recovery Flow">7baed923b94e4f439d5412b64e13196d</model>
-        <model_id>7baed923b94e4f439d5412b64e13196d</model_id>
-        <model_table>sys_hub_flow</model_table>
-        <name>var__m_sys_hub_flow_input_7baed923b94e4f439d5412b64e13196d</name>
-        <next_element/>
-        <order>100</order>
-        <primary>false</primary>
-        <read_only>false</read_only>
-        <read_roles/>
-        <reference/>
-        <reference_cascade_rule/>
-        <reference_floats>false</reference_floats>
-        <reference_key/>
-        <reference_qual/>
-        <reference_qual_condition/>
-        <reference_type/>
-        <sizeclass/>
-        <spell_check>false</spell_check>
-        <staged>false</staged>
-        <sys_class_name>sys_hub_flow_input</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2026-09-21 08:19:08</sys_created_on>
-        <sys_id>fb1b001053eb4710739391e0a0490ed8</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
-        <sys_scope display_value="RetailCare">a3f7692353d70310739391e0a0490eed</sys_scope>
-        <sys_update_name/>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-09-21 08:19:08</sys_updated_on>
-        <table_reference>false</table_reference>
-        <text_index>false</text_index>
-        <unique>false</unique>
-        <use_dependent_field>false</use_dependent_field>
-        <use_dynamic_default>false</use_dynamic_default>
-        <use_reference_qualifier>simple</use_reference_qualifier>
-        <virtual>false</virtual>
-        <virtual_type>script</virtual_type>
-        <widget/>
-        <write_roles/>
-        <xml_view>false</xml_view>
-    </sys_hub_flow_input>
-    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=fb1b001053eb4710739391e0a0490ed8"/>
     <sys_hub_flow_output action="delete_multiple" query="model=7baed923b94e4f439d5412b64e13196d"/>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=7baed923b94e4f439d5412b64e13196d"/>
-    <sys_hub_trigger_instance_v2 action="delete_multiple" query="flow=7baed923b94e4f439d5412b64e13196d^sys_idNOT IN73fdc4a69abd415c95d890c6506e964a"/>
+    <sys_hub_trigger_instance_v2 action="delete_multiple" query="flow=7baed923b94e4f439d5412b64e13196d^sys_idNOT INb84ef2445423499fb89df29d727d4bff"/>
     <sys_hub_trigger_instance_v2 action="INSERT_OR_UPDATE">
         <comment/>
         <display_text/>
         <flow display_value="RetailCare Autonomous Recovery Flow">7baed923b94e4f439d5412b64e13196d</flow>
         <generation_source/>
-        <name>Created or Updated</name>
+        <name>Created</name>
         <published_version/>
         <remote_sys_id/>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2026-09-21 08:18:59</sys_created_on>
-        <sys_id>73fdc4a69abd415c95d890c6506e964a</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_created_on>2026-09-28 13:22:05</sys_created_on>
+        <sys_id>b84ef2445423499fb89df29d727d4bff</sys_id>
+        <sys_mod_count>3</sys_mod_count>
         <sys_scope display_value="RetailCare">a3f7692353d70310739391e0a0490eed</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-09-22 08:37:44</sys_updated_on>
-        <trigger_definition display_value="Created or Updated">a45d9180c32222002841b63b12d3aea7</trigger_definition>
-        <trigger_inputs>H4sIAAAAAAAA/+1YbW/bNhD+K4Q+rYAHOCgKdPm2rQsQoC9Ak20fukCgyZNNlCZd8mRHC/Lfd9SbaUnu5FlZNyCfLB4p3nN3z3Ok/OkhQaeWS3DXxiM3Am4Kfy2TyySZJZovQNPjLV9ooLEyCM5wfVtsgMwYzKnh6zAnYQNGgsHqVbGySsBb5Wn86W6WrLmRHK0rkkt0OcySzNn1Law3miPtlXHtyWidBJdcXszns6Tct3ZCG265zsP4Pr344dXrV68vUgfIlU7nzYOwYTfCGNAoT8/Fbye9JFZKSwemQrzhjhBgwPPQy0QHHA4kpI6FIoF7DKmRbZhRMmqLAy4/GF1ES+69+hPK93MPaZTeekV2s7K7j5ABIRZwpUzprp7UVnDdjjhSjRc5gqdYHh/b9Fwp0HWpvXBqgz8KVNumHI+zMdz4mBv2wbBf6hhZmSHfJ0tFiL8hykOSNSULLKHp7G3kxxomckfxIqMMsiavDBuf2fWaL6HaOLsBDQKjtGe/+nj0TnmvzDKKtnVeWvredRFDaIp/jtO7ITKMlYbLTWpN2tJrL5IGf0cGjXkE0Y+W9ahv7NT5v8r/hMtt4LJsSPYEgsi03bFrc74KuCm6NCz3VoYUUDBhaft7nJD5Cy4+L53NjTzmd7+CfSch47nGF1NKzzr4OoDDFd9SfAFRqkwkvIP0ddR3MDdSgnsiDbp91lyVqp+tkQqVHVJcM+VPuqScyAYRAWi4QGgR/sjn85fyos+GzuwIPsRBDrjFgXifjA/1He6f0mHHDfoUbcqlTCPE7bG/thL0m6haNQeI9pscffIY1ZLOofYqNn0r/30Fht0ANQ4bfhFDAzm7r5ev8wpR1OZC+lmpe+sY9S5H2m8XNigmbLaGjvAxUN5b8/3TIllYXPUaPnn+iewHSQgXvyNwzr0Bnn0e7IgrqW85sj2MrXscVNaRB8ERGh53/nw0dJJXyqlUYk+9S60kpLqam/6MKHkQQesWjRLqGu8NZ/p8OZErcbhfc4gDKXjmSkjeZM1+6BJPrS1c4EMlJuyi1kBqs8E2rjJWJ4C+5hYFwxUQCk1XSdqrxDHlB7Sx4VjugnljGU0w96/Amaabl1Lpt/SqpB2FVsaTRXq8m3ecP7f0ffpuq1Xni9Ma0bn3iHP/1ImFwPWOF76nSKJ/UEL9VxIZqOamqvJUnmEL7qDvXFHPKY0s38jA/+l85UZ9ySEVK26W4HtOuVixagmrlnxLaTdfEh4drVwWkaprLnRkXVtH6npPzOP+/i9CHq/bu78AAqh0oEgYAAA=</trigger_inputs>
+        <sys_updated_on>2026-09-28 13:39:39</sys_updated_on>
+        <trigger_definition display_value="Created">798916a0c31322002841b63b12d3ae7c</trigger_definition>
+        <trigger_inputs>H4sIAAAAAAAA/+1X32/TMBD+V6w8gVSk7WHS2BswJlUaTFoHPKApcuNLa+HalX1pG6b975zzq16abi3NAKE9NTmnd5/v+z7n8v0uQisnE7BD7ZDrBEa5G4roLIoGkeJjUHR5w8cK6F5qBKu5usnnQGH04VjzmV8TMActQGP512RqZAKX0tH999tBNONacDQ2j87QZjCIUmtmNzCbK46UK+XKUdBYATY6Oz46GkRF3qoIJVxwlfn7VXz89uT05PQ4toBcqviovkiMz0YYPRrp6Dr/utefkqlUwoIuEc+5JQTo8dxtdKIFDjsaUu2FdgIr9K0RzTaDZlQRC1xcaZUHj6yc/AnF/zMHcdDe6ol0NDXLa0iBECdwIXVRrlpUJuGqueNIHI8zBEd7ub9v2nMhQVVUu8TKOb5LUC5qOu4Hu2jjOtPsSrOP1R5Z0SG3KZZSEE8I5S5Ka8q8Smg5vQzqGM2SzNJ+kVEHWd1XhnXNdDjjEygTpyNQkGDQ9vSLC+8+SeekngS7bYoXkc3qKg8h1OQfUvS2Swy7WsNmOjY6buS1NkmNv2WDOryD0LfSurU2tnj+V/UfcbHwWha1yJ7BEN+moNkIiGrjfxE95QdbYmxw2hZlaix7T3E29Ll5Abcwx2ej34SxCk2fLtEkALkuEULzXLIa3xYoPSLZBQUls6x/GAc7eElaiV2jkcVDslsOrqI7GniLDLcXf/Fw4CxllqSXw23Ldb7hWp9bajJqzhJD6VfYoxvGPPkxsSbTYlvd9RPslYCUZwpf9/n6NBYeB/Dwib9pP4+ITrHQeWH72v4L13Z04VpInWVfPFe26oPRQmJ5ILcdVy+5vT409lRDEgCotbCpgN14DzfTkR479vVsvFffW79L+5JrdDGamAsRB4ibEX1mBKjzgJWKa5L3PEMX3Qec0czYfDY909hVvOd7m7m6Dm8aJvzBTW22PR6aRkNs0s7xRaasagBN4uOc4RQIhaIjhHIVOPod6zxNbTDnhtECs38ETj9DlUfSMVmVlLZsXQb3mataOnui+Msp39W+wm8bHp0oKSBW5Vr/x32hgwBaJ3NV9UPfA53bfawgdrTgP9TK7S9PSsI+eBQAAA==</trigger_inputs>
         <trigger_outputs/>
-        <trigger_type>record_create_or_update</trigger_type>
+        <trigger_type>record_create</trigger_type>
         <updation_source/>
     </sys_hub_trigger_instance_v2>
-    <sys_hub_action_instance_v2 action="delete_multiple" query="flow=7baed923b94e4f439d5412b64e13196d^sys_idNOT IN19984dcd715b48ef878cf92bf03d296c,6e9e4a8f09a24c6f9fa5b21431d539b9,7bcd0c2aa0dc47c685baf9d0bb7faa3c,b2fe68e4e3be4d53af2a5214bea80eec,ca23e50e74934f32840b686bb131b577,deb96939932745e48f6a1e623cad126d,e7a72cca26114c60806cd5bc3f44c25b,fc4fe73c1b154e5096130242e14fa14b"/>
-    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
-        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
-        <action_type_parent display_value="">f9d01dd2c31332002841b63b12d3aea1</action_type_parent>
-        <attributes>timeFromCreateToActivate=11000</attributes>
-        <comment/>
-        <compiled_snapshot/>
-        <display_text/>
-        <flow display_value="RetailCare Autonomous Recovery Flow">7baed923b94e4f439d5412b64e13196d</flow>
-        <generation_source/>
-        <order>9</order>
-        <parent_ui_id>b16a0c62-869d-4989-9e1b-82c6eb75709b</parent_ui_id>
-        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2026-09-22 08:37:31</sys_created_on>
-        <sys_id>19984dcd715b48ef878cf92bf03d296c</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_scope display_value="RetailCare">a3f7692353d70310739391e0a0490eed</sys_scope>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-09-22 08:37:44</sys_updated_on>
-        <ui_id>19984dcd-715b-48ef-878c-f92bf03d296c</ui_id>
-        <updation_source/>
-        <values>H4sIAAAAAAAA/+1VXW/aMBT9K8jPUZQQQMDbBEOatLVau/WlayPHvoA1x8n8QWGI/77rJISIVu029WGVlif7fvmc63Od2z1RNAcyJZZmEtJqE5ANlc4bt2k8GY6H4zjVYKmQaXRcsCIvJRXKYjQXBte7mz9KKqnGsyxoMt0TthaSa1BkensXEMGxSjbkUTyJRyyJk6QfRf3xIM5GSRb3eUKBTbCEpBlIDP3ioeP+KSZ2Vz5p+9jN7V3UjkJzj2cYBQS2FhQHRLKk0kBAcqo4tYXekanVDg0aKL9UctdGrD2xKSE+dmvETzx3HPm4JSA1BrWv3aZN22rzck4tvcbKzDrdhLJ1IRiYuikcltRJO+va6oDL0opC1SkVzya7kC5XF3VPSFvgeEtocQZBQOl5euQNjeX1uni4OqJcCFX1pHHKglHZ7qi1WmTOejx7AhJyLJTmtCyFWqWlLjaiSkYsebiSuAmXsnjAQ41YqZAyDzzEttJwgfZ5Zb6hWngWn7AMJh8CYnZmJqkxJy7YxPSH80hqZg2HtG6DT2FalPYdHrCBBu4haLWugeFVd3S+38/wOi3wXqF7X0vul2kcMqexCfZweCzy31DwAJ5TMMQdBV8dAZ0DbOTLC+aq3gp+pt954+l9mJ8EHL+agAdvScA1rTev385b9aKSKwGbjpIzZ4QCY1ItzPdvLooSjsjuDVYXnl1tUuCspvL+/efHyv6LCi9NQtR/dhKgMwkLAZKb0yS0BI8POfhfiIW0Jnz2mDfO3k3jbOfh1QYiHkXV938s/r2xuPsF/LEIoM4IAAA=</values>
-    </sys_hub_action_instance_v2>
-    <sys_hub_alias_mapping action="delete_multiple" query="source_id=19984dcd715b48ef878cf92bf03d296c"/>
-    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
-        <action_type display_value="Create Record">2de05916c31332002841b63b12d3aee1</action_type>
-        <action_type_parent display_value="">2de05916c31332002841b63b12d3aee1</action_type_parent>
-        <attributes>timeFromCreateToActivate=11000</attributes>
-        <comment/>
-        <compiled_snapshot/>
-        <display_text/>
-        <flow display_value="RetailCare Autonomous Recovery Flow">7baed923b94e4f439d5412b64e13196d</flow>
-        <generation_source/>
-        <order>4</order>
-        <parent_ui_id>e9f54f00-5ec2-4f7a-b274-ff448704bbb8</parent_ui_id>
-        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2026-09-22 08:37:31</sys_created_on>
-        <sys_id>6e9e4a8f09a24c6f9fa5b21431d539b9</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_scope display_value="RetailCare">a3f7692353d70310739391e0a0490eed</sys_scope>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-09-22 08:37:44</sys_updated_on>
-        <ui_id>6e9e4a8f-09a2-4c6f-9fa5-b21431d539b9</ui_id>
-        <updation_source/>
-        <values>H4sIAAAAAAAA/91VUW/aMBD+K5GfUZZAQcBbRYdUqWu10vHStdYRX8CaiTPboVDEf985DinaWm2T9tLxhO/uO3/f+fi437MC1sjGzMFCIa8PHbYBVfnglqej/rA/TLlBB1LxhFunDXK0GXdgv1GtkLZUsJv/BaQEQ/c4NGy8Z9lKKmGwYOP7hw6TgnoMUkz6o3SQ9dJer5sk3eFZuhj0FmlX9ADxjFooWKCi0jtPm86vqXC78tXY1Sk2ug4JbYTnk3QYbh0WAolIDspih62hEEAadmzsTEUBgyBuCrVrK1aycNSQ+dqtlc907TDxdTmSsgxDrj3yZmYhnF+Agxl1zlxlmtJspWWGNsxEYA6VcpPTWCi4KZ3URYDUMhu0VtW6uA4jYW2D4xNRpLJEAkuv0zNvZOSzlX66PbKcyqIeSZNUOgPVnsA5IxeV83z2DBWuqRFfQ1nKYslLozeyBhOXdbxUdIhzpZ/oUiuXRQyZJx7TWCGeUvyiDs/BSK/iE7Uh8KHD7M5OFFj7ooWGyL9XnklQ1mjgYQwekhlZunO6YIMN3UOnXfN6s+3JitMuejjRpBehZ/xaJUlP7PcTemSHItIm+lIK/5WncVYZX304PNY7/Se1cdh+Pz0v2UNX2jg/iJooxUKbye3l3eXk/GoczTwiojyoGhPl1DjXWkQWcnS76EO0gmcwImpZP378/OtP8X+S9lvLEJiM3rSMdHFiGVOJStgXz2hX4ugX6G92yMOK/OQZTTKaN8nGN9J/5RvpIKk/78g9grh3bx4n/xNv2MjDDwEddLgvBwAA</values>
-    </sys_hub_action_instance_v2>
-    <sys_hub_alias_mapping action="delete_multiple" query="source_id=6e9e4a8f09a24c6f9fa5b21431d539b9"/>
-    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
-        <action_type display_value="Create Record">2de05916c31332002841b63b12d3aee1</action_type>
-        <action_type_parent display_value="">2de05916c31332002841b63b12d3aee1</action_type_parent>
-        <attributes>timeFromCreateToActivate=11000</attributes>
-        <comment/>
-        <compiled_snapshot/>
-        <display_text/>
-        <flow display_value="RetailCare Autonomous Recovery Flow">7baed923b94e4f439d5412b64e13196d</flow>
-        <generation_source/>
-        <order>10</order>
-        <parent_ui_id>b16a0c62-869d-4989-9e1b-82c6eb75709b</parent_ui_id>
-        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2026-09-21 08:18:59</sys_created_on>
-        <sys_id>7bcd0c2aa0dc47c685baf9d0bb7faa3c</sys_id>
-        <sys_mod_count>4</sys_mod_count>
-        <sys_scope display_value="RetailCare">a3f7692353d70310739391e0a0490eed</sys_scope>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-09-22 08:37:44</sys_updated_on>
-        <ui_id>7bcd0c2a-a0dc-47c6-85ba-f9d0bb7faa3c</ui_id>
-        <updation_source/>
-        <values>H4sIAAAAAAAA/9VUTW/aQBD9K2jPyLLjgIBbRcqpTdSm5ZKG1eAdw0prr7sfBIr47531Gge1iapKlar4Ys/nvjezzw9HVkOFbMYcrBXy1hiyHSgfnHueTUeT0STjBh1IxVP6KPQOzYFD4aSuKVlI2yg4LP+mpgFDJzk0bHZkxVYqYbBms4fHIZOCmowzTEfTbFzkWZ5fpenV5Dpbj/N1diVyQLymFgrWqCj1SwBO9ks83KF50ffhsnZwGwPaiIAnHTLcO6wFEpASlMUhq6AW4LQ5sJkznhwGQdzV6tBnbGXtqCELuXsrf9CxkzTklUjMCoyx3uTd0KK7vAEH99S5cN50qcVWywJtnInAErxy80tfTLhr2om2JS3NrlorX9W3cSSsb3DeEXm8JRDYBJ4BeUejvN/qp89nlAtZtyPpgkoXoHoLnDNy7V3Ac2SosKJGvIKmkfWGN0bvZFtMWKpko8hISqWf6FArN3USr0JCY4VkQf6b1r0EIwOLj9SGik9DZg92rsDaZy40RP7dBySRWceBxzGEksLIxr2jA3bYwT0N+4ve3m17cckJH62C9vfNp2kujsc5bdehGGgz+NqI8MmzpPCGZuJOp1VEzsM9ihVCbqQDxXfaF1s0q+7NodL+3DUbrawD5200pbUexer9p9/187/h/FGaAtPpq9LM1hfSXEhUwj5rsx/9WZcYqDrkcRW/aLMLDpZdsNNn9q/0mY3T9nlDKo3k3rxIL/7Hr8j18SfMqZ8xmQYAAA==</values>
-    </sys_hub_action_instance_v2>
-    <sys_hub_alias_mapping action="delete_multiple" query="source_id=7bcd0c2aa0dc47c685baf9d0bb7faa3c"/>
-    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
-        <action_type display_value="Look Up Record">9d09f99587003300663ca1bb36cb0ba3</action_type>
-        <action_type_parent display_value="">9d09f99587003300663ca1bb36cb0ba3</action_type_parent>
-        <attributes>timeFromCreateToActivate=11000</attributes>
-        <comment/>
-        <compiled_snapshot/>
-        <display_text/>
-        <flow display_value="RetailCare Autonomous Recovery Flow">7baed923b94e4f439d5412b64e13196d</flow>
-        <generation_source/>
-        <order>1</order>
-        <parent_ui_id/>
-        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2026-09-21 08:18:59</sys_created_on>
-        <sys_id>b2fe68e4e3be4d53af2a5214bea80eec</sys_id>
-        <sys_mod_count>4</sys_mod_count>
-        <sys_scope display_value="RetailCare">a3f7692353d70310739391e0a0490eed</sys_scope>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-09-22 08:37:44</sys_updated_on>
-        <ui_id>b2fe68e4-e3be-4d53-af2a-5214bea80eec</ui_id>
-        <updation_source/>
-        <values>H4sIAAAAAAAA/+VYTW/bOBD9K4LOjlfyl+zcFkkNFGgboMnm0i0ISiRtojSpklRSJ8h/36FEyYKt2vHGBlr0ZIgz5AzfvDck/eU5lHhFw8vQKG2RXec07IUPWBTNGDYZDBFucoHX996CA6uCJxjPsYb5lurw8jnMllwQTWV4+eVrL+QEHMckmrHZbDxNomg4jKLJZJjhOE2HkyyN0jSGJQROqQDXW4gW3FUZdCRV/lxCDMWz+vuDn3pVDypNXCrDXkh/WCoJhRwYFob2whWWBFul182IppjcSLEZWHJpYbXQOf8w/AniDQfOj1HYVUYrW/OJPCjVMLvGFt9aXWS20N61StYAHs/NNhvoOlD26UcvvY3/k/PH2/6EtifEL4A3oQwXwl79v5jxsTEHLma1wZvccgVVD4euLjgV9faVKFbyU1XLsMnwvoNeleX6JywrDIBNc1dQVyFfLna7VI+f62rMuSzz8kahMiyaL2yt5mlhHS7PISOIcSoI4lJw6SJB2Rx9qKAriIBWOM+5XKBcqwdergp7WfUXAj76TKhHhwVfyD7O3M77QCzcn8P4dTl8jzV3KHyEZWByzwVcwlQfD5lM89yiR04W1G6i115E2UcsvnXZPeNQXahye+FLLzRrcyWwMRuwgaboe+EwqKD36KGyUOWUMou/YQcP1APlOOCllylJuNucadHA2f4tQMnkM7WYi+CdAZSxcwtg6992G8UrZhxqIWS8r4XgWauFXLWT7tpI3US2xz50LVAr42TNZBRF0WnaSZfcd+V4lBp3ZeZo9waVnUdMx3O9guAg4REyMgPtwTQGRIW5iGqtdIv+0S6/KwEeJnFGcToa4EkyjOMoiiOSRNMkiaeTlE1wMmItEl8r6RQzSGzgEglAKXUih1P1BE+VEhTLLXbfQUH/mvuMPbvHJ2T3b8Tttx4hBb/bRroa6sT6XOdKwf+R/HtB3zuKTWk0mMYku5gmcXIxYmRyMSN4fIFn6TgZEpqN2HmOiqoOrcvC2iCAW6OFVkW+q5kd+8ETYLb3BBi1xHPnc9lKzcui/ESlbUsZzhB8qgz1Lexkypj+Sco42x2KC2AIqkpoVKFLKB9QJgpTGjSWplrrLCznDK0AOJ5DeE0zIIlBWFPEVCEJ8oE3InCoMq6N9c67MoALUaEltHexDuySBqV30HgfEkW8VxRp+1r0ngV16n59E0DqQZl60KR+3EaPeY+NfrlDZvPWmbsz1uEPLMpbBaxP1K432YHS7eHAKx9sr0wqPmlSb3/RdZG+82V3INffoiWdo8mUT+IK5N2G8ZqmsPfvFkxaTeHGFT1I11v/tjTBvb6rh3LHkTl3hq0jc/BnHpm/5EOp97O/OU78gvr6H2Q+r09EFAAA</values>
-    </sys_hub_action_instance_v2>
-    <sys_hub_alias_mapping action="delete_multiple" query="source_id=b2fe68e4e3be4d53af2a5214bea80eec"/>
-    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
-        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
-        <action_type_parent display_value="">f9d01dd2c31332002841b63b12d3aea1</action_type_parent>
-        <attributes>timeFromCreateToActivate=11000</attributes>
-        <comment/>
-        <compiled_snapshot/>
-        <display_text/>
-        <flow display_value="RetailCare Autonomous Recovery Flow">7baed923b94e4f439d5412b64e13196d</flow>
-        <generation_source/>
-        <order>6</order>
-        <parent_ui_id>1c535093-b049-4f79-b339-0abbf21a9612</parent_ui_id>
-        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2026-09-22 08:37:31</sys_created_on>
-        <sys_id>ca23e50e74934f32840b686bb131b577</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_scope display_value="RetailCare">a3f7692353d70310739391e0a0490eed</sys_scope>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-09-22 08:37:44</sys_updated_on>
-        <ui_id>ca23e50e-7493-4f32-840b-686bb131b577</ui_id>
-        <updation_source/>
-        <values>H4sIAAAAAAAA/+1VXU/bMBT9K5Wf2ygfbVX6NtEhTdpAg40XRiPHvmmtOXFmO0AX9b/vOk5DBAg2iQeQ1qf4fvmce8+trxpS0gLIkliaSUjbw5jcUFk7410aHc0Ws0WUarBUyDQ8fDBVVJKK0mI0Fwa/d5f/lFRRjXdZ0GTZELYVkmsoyfLqekwExyrZjIfRUTRnSZQkcRjGi2mUzZMsinlCgR1hCUkzkBj6zUHH81NM7K560vZ5mDs69Q6lucMzC8cE7iyUHBBJTqWBMSloyalVekeWVtdo0ED5WSl3fcTWEVsS4mLvjPiN9y5CF5cDUmPgff0x7drmzfmKWnqBlZmtdRfKtkowML4pHHJaS3s8tPmAs8oKVfqUlmeXrWRdlKe+J6QvcJgSWmqDIKByPB3yjkZ+sVW35weUJ6Jse9I5pWJU9idqrRZZbR2ehoCEAgulBa0qUW7SSqsb0SYjliLYSDwEuVS3eKkRmzKgzAEPsK00OEH7qjVfUi0ciy9YBpP3Y2J25lhSY+65YBPTX7VD4pl1HFLfBpfCtKjsB7zgBjq4+3GvdQ0MRz3QedMc4zgt8JHSo+8Vd59pFLBaYxPsfv9Y5H+h4Ck8p2CIBgo+PwB6CLCTL1esbnsr+AP9rjrP6NPqXsDRqwl4+p4E7Gm9e/0O/qteVHIrYDNQclYbUYIxqRbm5486DBO+FZvt2mB54eh5G47OUCtMLoCvKy2UFnbnXdEaoSKPthcbrerK25smi3OYL2A6gSSDyZTPkgnNYzqZxdE0A7oIAVjgpbzfrz9+fbw1bwzdSxscxs9uMAw2+ESA5OZ+g/vBHB4gcE+fhdQP6sEj1DlHl52z3+NXW+RoHra//+v89tb5+g/piUH9hgkAAA==</values>
-    </sys_hub_action_instance_v2>
-    <sys_hub_alias_mapping action="delete_multiple" query="source_id=ca23e50e74934f32840b686bb131b577"/>
-    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
-        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
-        <action_type_parent display_value="">f9d01dd2c31332002841b63b12d3aea1</action_type_parent>
-        <attributes>timeFromCreateToActivate=11000</attributes>
-        <comment/>
-        <compiled_snapshot/>
-        <display_text/>
-        <flow display_value="RetailCare Autonomous Recovery Flow">7baed923b94e4f439d5412b64e13196d</flow>
-        <generation_source/>
-        <order>11</order>
-        <parent_ui_id>b16a0c62-869d-4989-9e1b-82c6eb75709b</parent_ui_id>
-        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2026-09-22 08:37:31</sys_created_on>
-        <sys_id>deb96939932745e48f6a1e623cad126d</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_scope display_value="RetailCare">a3f7692353d70310739391e0a0490eed</sys_scope>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-09-22 08:37:44</sys_updated_on>
-        <ui_id>deb96939-9327-45e4-8f6a-1e623cad126d</ui_id>
-        <updation_source/>
-        <values>H4sIAAAAAAAA/+1VXWvbMBT9K0bPqbHzRZK3kiww2FrWbn3ph1Gkm0QgW54+3KQh/31XtuOYtLQbdLDC8iRd3Xt1zvG50e2OZDQFMiGWLiQk5aZDCiqdD26SeDwYDUZxosFSIZPosGAqzSUVmcVsLgyutzd/VJRTjXdZ0GSyI2wtJNeQkcntfYcIjl0WAx7F43jIenGv142i7qgfL4a9RdzlPQpsjC0kXYDE1O8eOu5fYmK3+YuxL+3a4KI6UJp7PIOoQ2BjIeOASJZUGuiQlGacWqW3ZGK1w4AGyi8zuW0y1p7YhBCfuzHiCe8dRT5vCUiNQXXWbJNatiq8nFFLr7Ezs07XqWytBANTicJhSZ2003asSrjMrVBZVVLyrKuVdGl2UWlCmgaHr4QRZxAE5J6nR17TWF6v1ePVAeVcZKUm9aFUjMpmR63VYuGsx7MjICHFRklK81xkqyTXqhBlMWJJw5XETbiU6hEvNWKVhZR54CHKSsM5xmdl+IZq4Vl8xTZYvO8QszVTSY05ckERk5/OI6mY1RySSgZfwrTI7TleUEANd99pvK6B4adu+Xy3m+LntMADpYMfOffLJA6Z0yiC3e+fm/w3HNyH1xwMccvBVwdApwBr+3LFXKmt4Cf+ndUnwefZ0cDxuxm4/5EMXNH68P5t/Ve96eTSwKblZGPRu3cuinp8+MCkQoUyhQSr0Lmz6kyDUbJArxeCBk+g1ZlVjq0DLlbCUhl48xWgt0Hhw6DDh0/fng/A37vorbmKuq/OFbTmai5AcnOcq0auw7MA/kGykFTynTwN9WFwUx820/Vu4xUPo/L3f8j+vSG7/wWVNYI6HAkAAA==</values>
-    </sys_hub_action_instance_v2>
-    <sys_hub_alias_mapping action="delete_multiple" query="source_id=deb96939932745e48f6a1e623cad126d"/>
+    <sys_hub_action_instance_v2 action="delete_multiple" query="flow=7baed923b94e4f439d5412b64e13196d^sys_idNOT IN0a48589050dc47b8b51f1d9e7beabb49,173f2b439b4e4f4fa84135bcd3423ae0,7bcd0c2aa0dc47c685baf9d0bb7faa3c,deb96939932745e48f6a1e623cad126d"/>
     <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
         <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
         <action_type_parent display_value="">f9d01dd2c31332002841b63b12d3aea1</action_type_parent>
@@ -529,20 +300,20 @@
         <flow display_value="RetailCare Autonomous Recovery Flow">7baed923b94e4f439d5412b64e13196d</flow>
         <generation_source/>
         <order>3</order>
-        <parent_ui_id>e9f54f00-5ec2-4f7a-b274-ff448704bbb8</parent_ui_id>
+        <parent_ui_id>7a292596-8f3e-4c33-876e-5a13c4f02cd1</parent_ui_id>
         <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2026-09-22 08:37:31</sys_created_on>
-        <sys_id>e7a72cca26114c60806cd5bc3f44c25b</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_created_on>2026-09-28 13:28:17</sys_created_on>
+        <sys_id>0a48589050dc47b8b51f1d9e7beabb49</sys_id>
+        <sys_mod_count>2</sys_mod_count>
         <sys_scope display_value="RetailCare">a3f7692353d70310739391e0a0490eed</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-09-22 08:37:44</sys_updated_on>
-        <ui_id>e7a72cca-2611-4c60-806c-d5bc3f44c25b</ui_id>
+        <sys_updated_on>2026-09-28 13:39:39</sys_updated_on>
+        <ui_id>0a485890-50dc-47b8-b51f-1d9e7beabb49</ui_id>
         <updation_source/>
-        <values>H4sIAAAAAAAA/+1VXU/bMBT9K5Wf2ygfbVX6NtEhTdpAg40XRiPHvmmtuXFmO0AW9b/vOk5DBAg2iQeQ1qf4fvmce8+trxpS0B2QJbE0k5C2hzG5obJyxrs0OpotZoso1WCpkGl4+GBqV0oqCovRXBj8ri//KamkGu+yoMmyIWwrJNdQkOXV9ZgIjlWyGQ+jo2jOkihJ4jCMF9MomydZFPOEAjvCEpJmIDH0m4OO56eY2Lp80vZ5mDs69Q6lucMzC8cE7iwUHBBJTqWBMdnRglOrdE2WVldo0ED5WSHrPmLriC0JcbF3RvzGexehi8sBqTHwvv6Ydm3z5nxFLb3AysxWugtlWyUYGN8UDjmtpD0e2nzAWWmFKnxKy7PLVrLaFae+J6QvcJgSWiqDIKB0PB3yjkZ+sVW35weUJ6Joe9I5pWJU9idqrRZZZR2ehoCEHRZKd7QsRbFJS61uRJuMWHbBRuIhyKW6xUuN2BQBZQ54gG2lwQnaV635kmrhWHzBMpi8HxNTm2NJjbnngk1Mf1UOiWfWcUh9G1wK06K0H/CCG+jg7se91jUwHPVA501zjOO0wEdKj76X3H2mUcAqjU2w+/1jkf+FgqfwnIIhGij4/ADoIcBOvlyxqu2t4A/0u+o8o0+rewFHrybg6XsSsKf17vU7+K96UcmtgM1AyVllRAHGpFqYnz+qMEw4FrACaa8NXiEcRW/fis1W1m6KhlphcgF8XWqhMLz2EdEaUSOlti0brarS25smi3OYL2A6gSSDyZTPkgnNYzqZxdE0A7oIAVjgVb3frz9+fbxAbxfoS3sdxs/uNQz2+kSA5OZ+r/txHZ4lcA+ihdSP78HT1DlHl52z3+5XW+9oHra//0v+9pb8+g+B9iG8nAkAAA==</values>
+        <values>H4sIAAAAAAAA/+1VXU/bMBT9K5GfqyhpKSp9myhIkzbQKOoLY9GtfUMtHDuzHdqu6n/fdZKGCBBsEg9DWp9yP33O9bnuzY5pKJBNmYelwqw2BuwBVBWcmyw9GU/GkzSz6EGqLDl8cFOUCqT2lC2ko+/t4q+KSrB0lkfLpjvGV1IJi5pNb24HTArqshyLJD1Jj/koHY2GSTKcHKXL49EyHYoRID+hFgqWqCj1OkAn+yUmflu+6PvSr40umoCxIuAZJwOGG49aICHJQTkcsAK0AG/slk29rchhEcSlVtsuYxWITRkLuRsnf9G5kyTk5UjUODaxzszasTXufAYe5tSZ+8q2qXxlJEfXDEVgDpXyp31fk3BZeml0U1LzbKuNqgp90cyEdQ0Ot0SeyhEILAPPgLylkc9XZn11QHkudT2TNqgMB9VZ4L2Vy8oHPDuGCgtqlBVQllLfZaU1D7IuJixFfKfIiHNl1nSok3c6Bh6AxzRWiM/JP6vdC7AysPhKbah4P2Bu604VOPfIhYaY/awCkoZZyyFrxhBKuJWl/0QHPGALdz/otG6R01X3dL7bndJ1ehRZGvPKEnO/3z9X9h/I9ghfky2mPdleHVA8RdVqVhhe1QOV4oloZ20k+jx7VG36bqo9+kiqbWh9eNH2Hqg35Vur1vXkuzb2PtOGKH2vkmQk5nTjGJ05og0BbXQN7j6SWnoZRB7lxkayKFAEMyJMFrSXGuMfZ9+eq/6du7+1Qcnw1Q3C3gadS1TCPW5QN5jDq4/h/8Zj1gzqycvfBqNFG+z26N0WKT1O6t//dfr31un2N5xiA1r7CAAA</values>
     </sys_hub_action_instance_v2>
-    <sys_hub_alias_mapping action="delete_multiple" query="source_id=e7a72cca26114c60806cd5bc3f44c25b"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=0a48589050dc47b8b51f1d9e7beabb49"/>
     <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
         <action_type display_value="Create Record">2de05916c31332002841b63b12d3aee1</action_type>
         <action_type_parent display_value="">2de05916c31332002841b63b12d3aee1</action_type_parent>
@@ -552,81 +323,75 @@
         <display_text/>
         <flow display_value="RetailCare Autonomous Recovery Flow">7baed923b94e4f439d5412b64e13196d</flow>
         <generation_source/>
-        <order>7</order>
-        <parent_ui_id>1c535093-b049-4f79-b339-0abbf21a9612</parent_ui_id>
+        <order>2</order>
+        <parent_ui_id>7a292596-8f3e-4c33-876e-5a13c4f02cd1</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-28 13:28:17</sys_created_on>
+        <sys_id>173f2b439b4e4f4fa84135bcd3423ae0</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="RetailCare">a3f7692353d70310739391e0a0490eed</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-28 13:39:39</sys_updated_on>
+        <ui_id>173f2b43-9b4e-4f4f-a841-35bcd3423ae0</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+VVwW7bMAz9lUJnw7DqJkhyG9LltLXYOuTStYJs0Ykw2fIkOY0X5N9HWY5rdM2GAbsUy43kI/kexdD3B1LxEsiCOJ4pYJ0RkR1XjXfuGZ1PZpMZZQYcl4olzDptgIHNmeP2G2KFtLXi7fovUmpusI8DQxYHkm+lEgYqsrh/iIgUWGNKIZnM6TRPaZpeJsnl7Ipm0zSjlyLlAFdYQvEMFEK/eNpov6bCtfWrvg/j3IubENBGeD5JRGDvoBKARAquLESk5JXgqKElC2cadBjg4rZS7YDYysphQeKxeyt/YNtZ4nEFoLIcQmwwWT+z4C6uueN3WDl3jemh+VbLHGyYiYCCN8otx74AuK2d1FVI6WT22Vo1ZXUTRkKGAqcnQk9jkQTUXqdn3sso7rb66fOJ5UpW3Uj6oNI5V4PFnTMya5zncyCgoMRCrOR1LasNq43eyS4ZuZTxRqERF0o/YVMrN1XMc088xrHyeIX+68695kZ6FR+xDCYfI2Jbu1Tc2mctOET2vfFMgrJeAwtj8Cm5kbV7hw120NM9RsOad5ttRyuOu4jpX5skScXhsMSndSAYjfPG+MDx+BgQDIXgm8nfY+1WG+dFdiRQ4llwPAL5JkZqI10b8PTROoSfDBwATqeb8Mbopj5f9CUSK7//9Ouf9P8Q/cczIyCZnz0zNBudmZUEJezznRnW6HRjwM/JAQtr9eLO9MGLdR/sbw39V7eGTpPu94YuThD35g/O6Nty5vQ8/AQE2ksGYwcAAA==</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=173f2b439b4e4f4fa84135bcd3423ae0"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Create Record">2de05916c31332002841b63b12d3aee1</action_type>
+        <action_type_parent display_value="">2de05916c31332002841b63b12d3aee1</action_type_parent>
+        <attributes>timeFromCreateToActivate=11000</attributes>
+        <comment/>
+        <compiled_snapshot>2de05916c31332002841b63b12d3aee1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="RetailCare Autonomous Recovery Flow">7baed923b94e4f439d5412b64e13196d</flow>
+        <generation_source/>
+        <order>5</order>
+        <parent_ui_id>d64ea87c-4b46-4d4d-84af-e107ef9b4436</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-21 08:18:59</sys_created_on>
+        <sys_id>7bcd0c2aa0dc47c685baf9d0bb7faa3c</sys_id>
+        <sys_mod_count>18</sys_mod_count>
+        <sys_scope display_value="RetailCare">a3f7692353d70310739391e0a0490eed</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-28 13:39:39</sys_updated_on>
+        <ui_id>7bcd0c2a-a0dc-47c6-85ba-f9d0bb7faa3c</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/9VUXW/aMBT9K5WfoyghBQFvEx1PW6utEy9dsW7iG7DkfMwfFIb477uOQ4q6VtOkSVN5gfvpc459eDiyGipkc2YhV8i7IGI7UM4n9zydjafjaco1WpCKJ/SjaHaoDxwKK5uamoU0rYLD6m9mWtB0kkXN5kdWbKUSGms2f3iMmBS0ZJJiMp6lkyJLs2yUJKPpdZpPsjwdiQwQr2mFghwVtX7zwCl+jYc9tK/mPl3OXt2GQqOFx5NEDPcWa4EEpARlMGIV1AJsow9sbrWjhEYQd7U6DB1bWVtayHzv3sifdOw08X0lErMCQ20IeS9aSJc3YOGeNhfW6b612DayQBM0EViCU3ZxmQsNd22naDfS0eynG+Wq+jZIwoYF5zuijDMEAlvP0yPvaZT32+bp6xnlUtadJH1RNQWoIQJrtcyd9XiODBVWtIhX0Lay3vBWNzvZDROWKt4oCuJSNU90qJGbOg5PISZZIV5S/qZLr0BLz+IzraHhU8TMwSwUGPPMhUTkP5xHEpj1HHiQwY8UWrb2Ax2wwx7uKRoeeve2zcUjJ3x0FXR/312SZOJ4XNDtWhQ8jQunSQh7Oq0DXO4fT2gTciMtKL5rXLFFve6/OVSNO69Kx2tjwToTQmmMQ7H++OV30/wXDH80ocBk9qYJ0/zChEuJSphnFw4inx2Inp9FHkR/4cK+eLXqi70T03/lxHSSdJ935MdA7t3b8eKf9w1jPv4CoRLWo4MGAAA=</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=7bcd0c2aa0dc47c685baf9d0bb7faa3c"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="">f9d01dd2c31332002841b63b12d3aea1</action_type_parent>
+        <attributes>timeFromCreateToActivate=11000</attributes>
+        <comment/>
+        <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="RetailCare Autonomous Recovery Flow">7baed923b94e4f439d5412b64e13196d</flow>
+        <generation_source/>
+        <order>6</order>
+        <parent_ui_id>d64ea87c-4b46-4d4d-84af-e107ef9b4436</parent_ui_id>
         <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2026-09-22 08:37:31</sys_created_on>
-        <sys_id>fc4fe73c1b154e5096130242e14fa14b</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_id>deb96939932745e48f6a1e623cad126d</sys_id>
+        <sys_mod_count>15</sys_mod_count>
         <sys_scope display_value="RetailCare">a3f7692353d70310739391e0a0490eed</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-09-22 08:37:44</sys_updated_on>
-        <ui_id>fc4fe73c-1b15-4e50-9613-0242e14fa14b</ui_id>
+        <sys_updated_on>2026-09-28 13:39:39</sys_updated_on>
+        <ui_id>deb96939-9327-45e4-8f6a-1e623cad126d</ui_id>
         <updation_source/>
-        <values>H4sIAAAAAAAA/9VVTY/aMBD9K5HPUZRsFgTcKrac2l21tFy2u9YknoBV56O2w0IR/73jOGTRdldtpV7ghMdvZt4bD4/7A6ugRDZjFjKFvDuEbAuqdcEdT6ajyWiScI0WpOIxN7bWyNHk3IL5TlghTaNgv/qHlAY09bGo2ezA8o1UQmPFZvcPIZOCaowTjEfTZJynSZpexfHV5DrJxmmWXIkUEK+phIIMFUG/ONp0fk2F3Tevxj6c5wa3/qLWwvGJQ4Y7i5VAIlKAMhiyEioBpGHPZla3FNAI4q5S+wGxkZWlgsxhd0b+pLaT2OEKJGU5+rvhyPuZ+XBxAxaWVDm3re6h+aaWORo/E4EFtMrOz2MecNdYWVc+pZPZZ9eqLatbPxI2FDg9EUVaQySwcTod815GsdzUT59PLBey6kbSX6o6BzWcwFots9Y6PgeGCksqxEtoGlmteaPrreySiUsZrRUdokLVT9TUyHUVQe6IRzRWiBYUv+nCK9DSqfhIZSj5GDKzN3MFxjxroSHyH61j4pX1Grgfg0vJtWzsO2qwxZ7uMRzWvNtsc7bitIsunWjSi9AzfmvjOBWHw5we2aIIah18bYT7ypMob7VDH4+P3U7/DTby2++m5yS71E2trRtER5RivszS4QKKguqQQUHlMqkUDTRwC0PDDgaaj+8//f7bu2gtfzQFgfH0TVNIsjNTWEhUwjy7wvDoJ0dA19ki90vwwhX6y2DVX/bOkPwvZ0jGcfe5IH/w4i7eHs7+Cd4wiodfF9Q6/REHAAA=</values>
+        <values>H4sIAAAAAAAA/+1VW2vbMBT+K0bPqbFzI8lbSRYYbC1rR1661ijSSSKQLU8XN2nIf9+R7TgmLe0GHaywPFnn+n1H34nu9iSjKZAJsXQpISkPHVJQ6bxxm8TjwWgwihMNlgqZRMcPptJcUpFZjObC4Pdu8UdJOdXYy4Imkz1hGyG5hoxM7u47RHCsshzwKB7HQ9aLe71uFHVH/Xg57C3jLu9RYGMsIekSJIZ+99Dx/BITu8tftH1p5wZXlUNp7vEMog6BrYWMAyJZUWmgQ1KacWqV3pGJ1Q4NGii/zuSuidh4YhNCfOzWiCfsO4p83AqQGoPK1xyTemyVeTWjlt5iZWadrkPZRgkGphoKhxV10k7btirgOrdCZVVKybPOVtKl2VU1E9IUON4SWpxBEJB7nh55TWN1u1GPN0eUc5GVM6mdUjEqmxO1Voulsx7PnoCEFAslKc1zka2TXKtClMmIJQ3XEg/hSqpHbGrEOgsp88BDHCsN52ifleYF1cKz+IplMPnQIWZnppIac+KCQ0x+Oo+kYlZzSKox+BSmRW4vsUEBNdxDp9G6BoZX3dL5fj/F67TAkzhkTiNzezg8V/ZvyLYPr8kW4pZsb44ozlHVmuWKuXKggp+JdlZ7gs+zk2rjd1Nt/yOptqL14UXb+oN6U76lak1Lvsaidn+4KOrx4QOTCieUKSRYmS6dVRcajJIF8KAQNHgCrS6scmwTcLEWlsrAi68AvQsKbwYdPnz69nwB/l6jt/Yq6r66V9Daq7kAyc1pr5pxHd8C8K+QhaQa39l7UDuDRe1stuvd1iseRuXv/5L9e0t2/wswKAi+EQkAAA==</values>
     </sys_hub_action_instance_v2>
-    <sys_hub_alias_mapping action="delete_multiple" query="source_id=fc4fe73c1b154e5096130242e14fa14b"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=deb96939932745e48f6a1e623cad126d"/>
     <sys_hub_sub_flow_instance_v2 action="delete_multiple" query="flow=7baed923b94e4f439d5412b64e13196d"/>
-    <sys_hub_flow_logic_instance_v2 action="delete_multiple" query="flow=7baed923b94e4f439d5412b64e13196d^sys_idNOT IN1c535093b0494f79b3390abbf21a9612,b16a0c62869d49899e1b82c6eb75709b,e9f54f005ec24f7ab274ff448704bbb8"/>
+    <sys_hub_flow_logic_instance_v2 action="delete_multiple" query="flow=7baed923b94e4f439d5412b64e13196d^sys_idNOT IN7a2925968f3e4c33876e5a13c4f02cd1,d64ea87c4b464d4d84afe107ef9b4436"/>
     <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
         <attributes>timeFromCreateToActivate=11000</attributes>
-        <block display_value="">8af81d2853270b10739391e0a0490e00</block>
-        <comment>Billing/Overcharge category → high / dissatisfied</comment>
-        <connected_to/>
-        <decision_table/>
-        <display_text/>
-        <flow display_value="RetailCare Autonomous Recovery Flow">7baed923b94e4f439d5412b64e13196d</flow>
-        <flow_variables_assigned/>
-        <generation_source/>
-        <logic_definition display_value="Else If">666e5545c3e232002841b63b12d3ae99</logic_definition>
-        <order>5</order>
-        <outputs_assigned/>
-        <parent_ui_id/>
-        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2026-09-22 08:37:31</sys_created_on>
-        <sys_id>1c535093b0494f79b3390abbf21a9612</sys_id>
-        <sys_mod_count>2</sys_mod_count>
-        <sys_scope display_value="RetailCare">a3f7692353d70310739391e0a0490eed</sys_scope>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-09-22 08:37:44</sys_updated_on>
-        <ui_id>1c535093-b049-4f79-b339-0abbf21a9612</ui_id>
-        <updation_source/>
-        <values>H4sIAAAAAAAA/+1Vy27bMBD8lYBnQ9DDdmvfAgcGDKQNUKe5tIGwIimbKEWqfNhRBf97l5JsB62Lpg16640c7i5nhrtSS7R3tXf2Xl9bKzaKzD89johQAcN1SwQjc0JGREHFcUW1YsIJrRDagfQBa9uF4eA4u9Lm6mPNwjJPIuqN4cpFVFe1BKFcTvFko01zOHz2cZyxQkgp1CbXO27oFsyGY1UmLIY3D/+kON0KyTCxl1mDQVWOGzJvfzjqZJcxlMmMJjRLp1kax+nbcVJMsyJJWQYcEiwooeASQxfPfLlglWvqAFlnkNKwvx1S10dQGxaopPGI8CfHFeNIogRp+YhUoFA6yiNzZzwCaAq7U7I5RWzRhP6pKniy4hsPleI4RJYcdVHen562+eB0D5c34ACpeOq8GULpVgvKbe8I4yV46RbPsT7gru5UdikOCnnM1tJX6n1vBjkVOD4sIt4iCV4HpYH7IKRcb/X+w5HlUqjOleFQagrytAOH3hXeBT4t4ZJXWCivoK7Dy9dG70SXjFyqaCNxE5VS7/HS0OsR0EA8QmMhWiJ+08EPYERQ8Q7LYDL2gs0tNaI+ausuJ4cRsY1dSLD2rBHNzb/6wLBXPGjLe3tCSlfoGi/e8UHGYdSSwOpWbwRdKesAZa8buwotmNBJNolnWRGPZ+PyzazIslkMRVGmCcymSUpe1qrphbbMO+A8xj/PHnn1iKSXRuSq7/xfM/qTaUl+My0D8qJxmUz+T8urpyXQLMAKmnd/ESwXPlh/OS6D6UvBJbvYQpfm6TH0dM/q9BpUWEy7D9jq+HMLBw22XJi6M7TX5kuQfcYO3wEsFQzyJgcAAA==</values>
-        <workflow_reference/>
-    </sys_hub_flow_logic_instance_v2>
-    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
-        <attributes>timeFromCreateToActivate=11000</attributes>
-        <block display_value="">86f81d2853270b10739391e0a0490e04</block>
-        <comment>Standard complaint → low / neutral → auto-resolve with voucher</comment>
-        <connected_to/>
-        <decision_table/>
-        <display_text/>
-        <flow display_value="RetailCare Autonomous Recovery Flow">7baed923b94e4f439d5412b64e13196d</flow>
-        <flow_variables_assigned/>
-        <generation_source/>
-        <logic_definition display_value="Else">1f781bf3c32232002841b63b12d3aee6</logic_definition>
-        <order>8</order>
-        <outputs_assigned/>
-        <parent_ui_id/>
-        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2026-09-22 08:37:31</sys_created_on>
-        <sys_id>b16a0c62869d49899e1b82c6eb75709b</sys_id>
-        <sys_mod_count>2</sys_mod_count>
-        <sys_scope display_value="RetailCare">a3f7692353d70310739391e0a0490eed</sys_scope>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-09-22 08:37:44</sys_updated_on>
-        <ui_id>b16a0c62-869d-4989-9e1b-82c6eb75709b</ui_id>
-        <updation_source/>
-        <values>H4sIAAAAAAAA/6tWyi8tKSgtKQ7JdywuzkzPU7KKjtVRyswDiUHYZYlFmYlJOalQbkpqcmZxZn5eCEjME0ldSmVeYm5mMrJQeX5RdlpOfjlCrBYAD1ouqHEAAAA=</values>
-        <workflow_reference/>
-    </sys_hub_flow_logic_instance_v2>
-    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
-        <attributes>timeFromCreateToActivate=11000</attributes>
-        <block display_value="">caf8d92853270b10739391e0a0490eed</block>
-        <comment>Food Safety category or hazard keywords → critical / highly_dissatisfied</comment>
+        <block display_value="">3b93d9e653a30b50739391e0a0490e41</block>
+        <comment>Critical/High: business_risk=critical OR priority=1</comment>
         <connected_to/>
         <decision_table/>
         <display_text/>
@@ -634,20 +399,47 @@
         <flow_variables_assigned/>
         <generation_source/>
         <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
-        <order>2</order>
+        <order>1</order>
         <outputs_assigned/>
         <parent_ui_id/>
         <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2026-09-22 08:37:31</sys_created_on>
-        <sys_id>e9f54f005ec24f7ab274ff448704bbb8</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_created_on>2026-09-28 13:22:05</sys_created_on>
+        <sys_id>7a2925968f3e4c33876e5a13c4f02cd1</sys_id>
+        <sys_mod_count>4</sys_mod_count>
         <sys_scope display_value="RetailCare">a3f7692353d70310739391e0a0490eed</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-09-22 08:37:44</sys_updated_on>
-        <ui_id>e9f54f00-5ec2-4f7a-b274-ff448704bbb8</ui_id>
+        <sys_updated_on>2026-09-28 13:39:39</sys_updated_on>
+        <ui_id>7a292596-8f3e-4c33-876e-5a13c4f02cd1</ui_id>
         <updation_source/>
-        <values>H4sIAAAAAAAA/+1WXU/bMBT9K8jPVZW0KR99Q2VI1diQgO1lY9GNP1pvjp3ZDhCq/Pddx2mLRidYJ+2Jt/jY9/qck3uirIipfVV7d2NOnZMLTaZfbgdE6oDh84pIRqaEDIiGkuMTNZpJL41G6A5UHbDVamY5eM4OjD34VLHwmKdDWlvLtR9SU1YKpPY5xZ2FsU3bfq2TZMyEMSx3ILhvvl1evdCGcUetrMLdbXsxf/9uCY9g2R6F/KGSlu9TKZXS3Ll9KvX32u6jMtqDbjPp0Mbm85vp/9F0upSK4ZkYiwospsBzS6ar37a6mJzAREzSZELHo8PxKElGx1laHI6LdMTGwLNDbKig4AqPzp7kaEe0fFMFyHkr9aJfX/Sl12vQWBaojJIB4Q+ea8aRhADl+ICUoFElvnYy9bZGAPWzS62azYklDkeMdgkPTj7y0ClJwknBURflcXezzPsJjLA4Aw9Ipaa+tv1RujSSchcdYVxArfzsKRYPXHZOxxIPhVpXG1WX+mM0g2warAcekdohCV4FpYF7L0RcL8391ZrludSdK/2mMhTUZgUevStqH/isCFe8xEZ5CVWFjuaVNXeyK0Yu5XChcDEUytzjpeHbOAQaiA/RWBieI37WwZ/ByqDiA7bBYpwFl8d56rV1l5N2QFzjZgqc22pEc/OfdWAYFffa8mhPKOkaneLFd7yX0Q5WJLC6MAtJ59p5QNnXjZuHEeQnYpKJJJlwOsrEERSjo0yILDs+SrKiKI5JP6oiAZGe0HT3qMJ4x1jmHbD97D//JpGXI/KKe59F5CBO/p8Z/U1a0hfS0iOvistk8paWf05LoFmAkzTv/jqwXfhg7RmX3vRzyRXbOUK78nQbZjqy2rwNKh2W3QRsvv4ZChsNjlxI3Ra6N/ZHkL3F2l/tBMcmVgkAAA==</values>
+        <values>H4sIAAAAAAAA/+1VyW7bMBD9lYJnQ9BiObFvgQMDBtIaSIJc2lQYUZRNhCJVLklUwf/eoRY7aFwkbYGeejMfZ3nvccZqiXK2dtbcqgtj+FaSxef7CeHSY/i7JbwgC0ImRELF8BdVsuCWK4nQIwjnsbZdagaWFVkUUKc1kzbIneGSGZNpbh72+y8uDJOCakylIL5urk/l1JorjGjG8Ah7FNzUApq7f9CK7rgo8La3oAaNii3TZNH+dNVZMoe0TKMwpUk8S+IwjM+nUT5L8iguEmDTGRYUkDOBocsXnp2w0Ta1h4zVXG6H89WQejOCSheeShxOCHu2TBYMSZQgDJuQCmQBVumGLKx2CKDcYiNFc4jYcWn7Z6zg2fDvzFcKQx9ZMtRFWX97OGaD7z1cXoIFpOKodXoIpTvFKTO9IwUrwQm7fIn1AZu6U9mlWMjFmK2Eq+Sn3gxyKDA+MyLOIAlWe6We+yCkvNmpp+uR5YrLzpXhUih88MMJLHqXO+v5tIQJVmGhrIK6RkezWqtH3iUjlyrYCjwEpVBP2NTvQQDUEw/QWAhWiF928B1o7lV8xDKYjLNgMoOzVo/auuZkPyGmMUsBxhw1ornZN+cZ9ooHbVlvj0/pCl1g40c2yNhPWuJZXaktp2tpLKDsm8as/QieQTyP0/nsvEzYlCbJ+dmMpRAldFqGMe1muhvVMoQymtPo9KhCcmIssw44rvjrTSRvr8g7+r5akQ/95P+a0e9sS/TGtgzIu9YlTf9vy19vi6eZg+E0674wWM7/Yf3hugymrzgTxckROrVP936me1aH16DcYNqtx9bjh89fNDhyfuuO0JPSD172Edv/AB74joBCBwAA</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes>timeFromCreateToActivate=11000</attributes>
+        <block display_value="">3b93d9e653a30b50739391e0a0490e49</block>
+        <comment>Low risk: business_risk=low AND priority=4</comment>
+        <connected_to/>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="RetailCare Autonomous Recovery Flow">7baed923b94e4f439d5412b64e13196d</flow>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <logic_definition display_value="Else If">666e5545c3e232002841b63b12d3ae99</logic_definition>
+        <order>4</order>
+        <outputs_assigned/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-28 13:22:05</sys_created_on>
+        <sys_id>d64ea87c4b464d4d84afe107ef9b4436</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="RetailCare">a3f7692353d70310739391e0a0490eed</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-28 13:39:39</sys_updated_on>
+        <ui_id>d64ea87c-4b46-4d4d-84af-e107ef9b4436</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+1Vy27bMBD8lYJnQ5BkxUl8CxwYCJA2QB3k0qbCiqRsIhSp8pFEFfzvXephB62Kpg16600c7i5nhrtiS7R3tXf2Vl9YK7aKLD/dz4hQAcPvlghGloTMiIKK4xfVigkntELoEaQPWNuuDAfHWZ5E1BvDlYsKb4Xi1uZG2If9/rOP4zmT+unLVHBthDbCNWNchsWZsLWE5u5fnkF3QjLc7UXXYFCj44Ys2x+2OhPKGMrknCZ0ni7maRynZ1lSLOZFkrI5cEiwoISCSwxdvXBpwjjX1AGyzgi1HdbXQ+pmBLVhgUoazwh/dlwxjiRKkJbPSAWKgdOmIUtnPAIol90o2RwidkK5/uIqeLbiGw+V4jhElhx1Ud7vHpb5YHgPl5fgAKl46rwZQulOC8pt7wjjJXjpVi+xPuCm7lR2KQ4KOWZr6Sv1oTeDHAqM94uIt0iC10Fp4D4IKTc7/fRxZLkWqnNl2JSagjyswKF3hXeBT0u45BUWyiuoa3Q0r41+FF0ycqmircRFVGK74KGh8yOggXiExkK0Rvyyg+/AiKDiPZbBZOwFm1tqRD1q6w4n+xmxjV1JsPaoEc3Nv/rAsFc8aMt7e0JKV+gCD37kg4z9rCWB1bXeCnqlrAOUvWnsVWhBtsg4nJ3SrMgWGcvYWQYlT+JTXp4XWTZfkNe1ajrRlnkHHIf65xEkbx6RdGpE3vWd/2tGfzItyW+mZUBeNS4nJ/+n5c3TEmgWYAXNuzcFy4Uf1l+Oy2D6WnDJJltoap7uQ0/3rA63QYXFtNuAXY1PXdhosOXC1B2hJ20eguwjtv8OTVvNzjQHAAA=</values>
         <workflow_reference/>
     </sys_hub_flow_logic_instance_v2>
     <sys_hub_pill_compound action="delete_multiple" query="attached_to=7baed923b94e4f439d5412b64e13196d"/>
@@ -664,29 +456,6 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2026-09-21 08:19:08</sys_created_on>
         <sys_id>b31b001053eb4710739391e0a0490ebc</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
-        <sys_package display_value="RetailCare" source="x_1958581_retail_0">a3f7692353d70310739391e0a0490eed</sys_package>
-        <sys_policy/>
-        <sys_scope display_value="RetailCare">a3f7692353d70310739391e0a0490eed</sys_scope>
-        <sys_update_name/>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-09-21 08:19:08</sys_updated_on>
-        <url/>
-        <url_target/>
-    </sys_documentation>
-    <sys_documentation action="INSERT_OR_UPDATE">
-        <element>changed_fields</element>
-        <help/>
-        <hint/>
-        <label>Changed Fields</label>
-        <language>en</language>
-        <name>var__m_sys_hub_flow_input_7baed923b94e4f439d5412b64e13196d</name>
-        <plural/>
-        <sys_class_name>sys_documentation</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2026-09-21 08:19:08</sys_created_on>
-        <sys_id>bf1b001053eb4710739391e0a0490edf</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
         <sys_package display_value="RetailCare" source="x_1958581_retail_0">a3f7692353d70310739391e0a0490eed</sys_package>
@@ -737,7 +506,7 @@
         <description/>
         <flow_priority>MEDIUM</flow_priority>
         <internal_name>retailcare_autonomous_recovery_flow</internal_name>
-        <label_cache>[{"name":"Created or Updated_1.current.complaint_category","label":"Trigger - Record Created or Updated➛x_1958581_retail_0_retail_complaint Record➛Complaint Category","type":"string","base_type":"string","usedInstances":{"e9f54f00-5ec2-4f7a-b274-ff448704bbb8":["condition"],"1c535093-b049-4f79-b339-0abbf21a9612":["condition"]},"attributes":{}},{"name":"Created or Updated_1.current.description","label":"Trigger - Record Created or Updated➛x_1958581_retail_0_retail_complaint Record➛Description","type":"string","base_type":"string","usedInstances":{"e9f54f00-5ec2-4f7a-b274-ff448704bbb8":["condition"]},"attributes":{}},{"name":"Created or Updated_1.current","label":"Trigger - Record Created or Updated➛x_1958581_retail_0_retail_complaint Record","type":"reference","base_type":"reference","usedInstances":{"e7a72cca-2611-4c60-806c-d5bc3f44c25b":["record"],"6e9e4a8f-09a2-4c6f-9fa5-b21431d539b9":["values"],"ca23e50e-7493-4f32-840b-686bb131b577":["record"],"fc4fe73c-1b15-4e50-9613-0242e14fa14b":["values"],"19984dcd-715b-48ef-878c-f92bf03d296c":["record"],"7bcd0c2a-a0dc-47c6-85ba-f9d0bb7faa3c":["values"],"deb96939-9327-45e4-8f6a-1e623cad126d":["record"]},"attributes":{}},{"name":"b2fe68e4-e3be-4d53-af2a-5214bea80eec.Record","label":"b2fe68e4-e3be-4d53-af2a-5214bea80eec➛Record","type":"reference","base_type":"reference","usedInstances":{"e7a72cca-2611-4c60-806c-d5bc3f44c25b":["values"],"ca23e50e-7493-4f32-840b-686bb131b577":["values"]},"attributes":{}},{"name":"Created or Updated_1.current.store_location","label":"Trigger - Record Created or Updated➛x_1958581_retail_0_retail_complaint Record➛Store Location","type":"reference","base_type":"reference","usedInstances":{"6e9e4a8f-09a2-4c6f-9fa5-b21431d539b9":["values"],"fc4fe73c-1b15-4e50-9613-0242e14fa14b":["values"]},"attributes":{}}]</label_cache>
+        <label_cache>[{"name":"Created_1.current.business_risk","label":"Trigger - Record Created➛x_1958581_retail_0_retail_complaint Record➛Business Risk","type":"string","base_type":"string","usedInstances":{"7a292596-8f3e-4c33-876e-5a13c4f02cd1":["condition"],"d64ea87c-4b46-4d4d-84af-e107ef9b4436":["condition"]},"attributes":{}},{"name":"Created_1.current.priority","label":"Trigger - Record Created➛x_1958581_retail_0_retail_complaint Record➛Priority","type":"string","base_type":"string","usedInstances":{"7a292596-8f3e-4c33-876e-5a13c4f02cd1":["condition"],"d64ea87c-4b46-4d4d-84af-e107ef9b4436":["condition"]},"attributes":{}},{"name":"Created_1.current","label":"Trigger - Record Created➛x_1958581_retail_0_retail_complaint Record","type":"reference","base_type":"reference","usedInstances":{"173f2b43-9b4e-4f4f-a841-35bcd3423ae0":["values"],"0a485890-50dc-47b8-b51f-1d9e7beabb49":["record"],"7bcd0c2a-a0dc-47c6-85ba-f9d0bb7faa3c":["values"],"deb96939-9327-45e4-8f6a-1e623cad126d":["record"]},"attributes":{}},{"name":"Created_1.current.description","label":"Trigger - Record Created➛x_1958581_retail_0_retail_complaint Record➛Description","type":"string","base_type":"string","usedInstances":{"173f2b43-9b4e-4f4f-a841-35bcd3423ae0":["values"]},"attributes":{}},{"name":"Created_1.current.assignment_group","label":"Trigger - Record Created➛x_1958581_retail_0_retail_complaint Record➛Assignment Group","type":"reference","base_type":"reference","usedInstances":{"173f2b43-9b4e-4f4f-a841-35bcd3423ae0":["values"]},"attributes":{}}]</label_cache>
         <master>true</master>
         <name>RetailCare Autonomous Recovery Flow</name>
         <natlang/>
@@ -754,7 +523,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>5c2b401053eb4710739391e0a0490e69</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>16</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
@@ -762,7 +531,7 @@
         <sys_scope display_value="RetailCare">a3f7692353d70310739391e0a0490eed</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-09-22 08:37:46</sys_updated_on>
+        <sys_updated_on>2026-09-28 13:39:41</sys_updated_on>
         <type>flow</type>
         <version>2</version>
     </sys_hub_flow_snapshot>
@@ -782,91 +551,7 @@
         <sys_updated_on>2026-09-21 08:19:09</sys_updated_on>
     </sys_flow_cat_variable_model>
     <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=142b401053eb4710739391e0a0490e6c"/>
-    <sys_hub_flow_input action="delete_multiple" query="model=5c2b401053eb4710739391e0a0490e69^sys_idNOT IN102b401053eb4710739391e0a0490e7e,582b401053eb4710739391e0a0490e6e,902b401053eb4710739391e0a0490e95"/>
-    <sys_hub_flow_input action="INSERT_OR_UPDATE">
-        <active>true</active>
-        <array>false</array>
-        <array_denormalized>false</array_denormalized>
-        <attributes>child_label=FDChangeDetails,child_name=FDChangeDetails,child_type=object,child_type_label=Object,co_type_name=FDCollection,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=array.object,uiTypeLabel=Array.Object</attributes>
-        <audit>false</audit>
-        <calculation><![CDATA[(function calculatedFieldValue(current) {
-
-	// Add your code here
-	return '';  // return the calculated value
-
-})(current);]]></calculation>
-        <choice/>
-        <choice_field/>
-        <choice_table/>
-        <column_label/>
-        <comments/>
-        <create_roles/>
-        <default_value/>
-        <defaultsort/>
-        <delete_roles/>
-        <dependent/>
-        <dependent_on_field/>
-        <display>false</display>
-        <dynamic_creation>false</dynamic_creation>
-        <dynamic_creation_script/>
-        <dynamic_default_value/>
-        <dynamic_ref_qual/>
-        <element>changed_fields</element>
-        <element_reference>false</element_reference>
-        <foreign_database/>
-        <formula/>
-        <function_definition/>
-        <function_field>false</function_field>
-        <help/>
-        <hint/>
-        <internal_type display_value="String">string</internal_type>
-        <label>Changed Fields</label>
-        <mandatory>false</mandatory>
-        <max_length>4000</max_length>
-        <model display_value="RetailCare Autonomous Recovery Flow">5c2b401053eb4710739391e0a0490e69</model>
-        <model_id>5c2b401053eb4710739391e0a0490e69</model_id>
-        <model_table>sys_hub_flow_snapshot</model_table>
-        <name>var__m_sys_hub_flow_input_5c2b401053eb4710739391e0a0490e69</name>
-        <next_element/>
-        <order>100</order>
-        <primary>false</primary>
-        <read_only>false</read_only>
-        <read_roles/>
-        <reference/>
-        <reference_cascade_rule/>
-        <reference_floats>false</reference_floats>
-        <reference_key/>
-        <reference_qual/>
-        <reference_qual_condition/>
-        <reference_type/>
-        <sizeclass/>
-        <spell_check>false</spell_check>
-        <staged>false</staged>
-        <sys_class_name>sys_hub_flow_input</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2026-09-21 08:19:10</sys_created_on>
-        <sys_id>102b401053eb4710739391e0a0490e7e</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
-        <sys_scope display_value="RetailCare">a3f7692353d70310739391e0a0490eed</sys_scope>
-        <sys_update_name/>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-09-21 09:02:14</sys_updated_on>
-        <table_reference>false</table_reference>
-        <text_index>false</text_index>
-        <unique>false</unique>
-        <use_dependent_field>false</use_dependent_field>
-        <use_dynamic_default>false</use_dynamic_default>
-        <use_reference_qualifier>simple</use_reference_qualifier>
-        <virtual>false</virtual>
-        <virtual_type>script</virtual_type>
-        <widget/>
-        <write_roles/>
-        <xml_view>false</xml_view>
-    </sys_hub_flow_input>
-    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=102b401053eb4710739391e0a0490e7e"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=5c2b401053eb4710739391e0a0490e69^sys_idNOT IN582b401053eb4710739391e0a0490e6e,902b401053eb4710739391e0a0490e95"/>
     <sys_hub_flow_input action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
@@ -1043,23 +728,23 @@
         <display_text/>
         <flow display_value="RetailCare Autonomous Recovery Flow">5c2b401053eb4710739391e0a0490e69</flow>
         <generation_source/>
-        <name>Created or Updated</name>
+        <name>Created</name>
         <published_version/>
         <remote_sys_id/>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2026-09-21 08:19:11</sys_created_on>
         <sys_id>ec2b401053eb4710739391e0a0490ecd</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-09-21 08:19:11</sys_updated_on>
-        <trigger_definition display_value="Created or Updated">a45d9180c32222002841b63b12d3aea7</trigger_definition>
-        <trigger_inputs>H4sIAAAAAAAA/+1YbW/bNhD+K4Q+rYAHOCgKdPm2rQsQoC9Ak20fukCgyZNNlCZd8mRHC/Lfd9SbaUnu5FlZNyCfLB4p3nN3z3Ok/OkhQaeWS3DXxiM3Am4Kfy2TyySZJZovQNPjLV9ooLEyCM5wfVtsgMwYzKnh6zAnYQNGgsHqVbGySsBb5Wn86W6WrLmRHK0rkkt0OcySzNn1Law3miPtlXHtyWidBJdcXszns6Tct3ZCG265zsP4Pr344dXrV68vUgfIlU7nzYOwYTfCGNAoT8/Fbye9JFZKSwemQrzhjhBgwPPQy0QHHA4kpI6FIoF7DKmRbZhRMmqLAy4/GF1ES+69+hPK93MPaZTeekV2s7K7j5ABIRZwpUzprp7UVnDdjjhSjRc5gqdYHh/b9Fwp0HWpvXBqgz8KVNumHI+zMdz4mBv2wbBf6hhZmSHfJ0tFiL8hykOSNSULLKHp7G3kxxomckfxIqMMsiavDBuf2fWaL6HaOLsBDQKjtGe/+nj0TnmvzDKKtnVeWvredRFDaIp/jtO7ITKMlYbLTWpN2tJrL5IGf0cGjXkE0Y+W9ahv7NT5v8r/hMtt4LJsSPYEgsi03bFrc74KuCm6NCz3VoYUUDBhaft7nJD5Cy4+L53NjTzmd7+CfSch47nGF1NKzzr4OoDDFd9SfAFRqkwkvIP0ddR3MDdSgnsiDbp91lyVqp+tkQqVHVJcM+VPuqScyAYRAWi4QGgR/sjn85fyos+GzuwIPsRBDrjFgXifjA/1He6f0mHHDfoUbcqlTCPE7bG/thL0m6haNQeI9pscffIY1ZLOofYqNn0r/30Fht0ANQ4bfhFDAzm7r5ev8wpR1OZC+lmpe+sY9S5H2m8XNigmbLaGjvAxUN5b8/3TIllYXPUaPnn+iewHSQgXvyNwzr0Bnn0e7IgrqW85sj2MrXscVNaRB8ERGh53/nw0dJJXyqlUYk+9S60kpLqam/6MKHkQQesWjRLqGu8NZ/p8OZErcbhfc4gDKXjmSkjeZM1+6BJPrS1c4EMlJuyi1kBqs8E2rjJWJ4C+5hYFwxUQCk1XSdqrxDHlB7Sx4VjugnljGU0w96/Amaabl1Lpt/SqpB2FVsaTRXq8m3ecP7f0ffpuq1Xni9Ma0bn3iHP/1ImFwPWOF76nSKJ/UEL9VxIZqOamqvJUnmEL7qDvXFHPKY0s38jA/+l85UZ9ySEVK26W4HtOuVixagmrlnxLaTdfEh4drVwWkaprLnRkXVtH6npPzOP+/i9CHq/bu78AAqh0oEgYAAA=</trigger_inputs>
+        <sys_updated_on>2026-09-28 13:22:14</sys_updated_on>
+        <trigger_definition display_value="Created">798916a0c31322002841b63b12d3ae7c</trigger_definition>
+        <trigger_inputs>H4sIAAAAAAAA/+1X32/TMBD+V6w8gVSk7WHS2BswJlUaTFoHPKApcuNLa+HalX1pG6b975zzq16abi3NAKE9NTmnd5/v+z7n8v0uQisnE7BD7ZDrBEa5G4roLIoGkeJjUHR5w8cK6F5qBKu5usnnQGH04VjzmV8TMActQGP512RqZAKX0tH999tBNONacDQ2j87QZjCIUmtmNzCbK46UK+XKUdBYATY6Oz46GkRF3qoIJVxwlfn7VXz89uT05PQ4toBcqviovkiMz0YYPRrp6Dr/utefkqlUwoIuEc+5JQTo8dxtdKIFDjsaUu2FdgIr9K0RzTaDZlQRC1xcaZUHj6yc/AnF/zMHcdDe6ol0NDXLa0iBECdwIXVRrlpUJuGqueNIHI8zBEd7ub9v2nMhQVVUu8TKOb5LUC5qOu4Hu2jjOtPsSrOP1R5Z0SG3KZZSEE8I5S5Ka8q8Smg5vQzqGM2SzNJ+kVEHWd1XhnXNdDjjEygTpyNQkGDQ9vSLC+8+SeekngS7bYoXkc3qKg8h1OQfUvS2Swy7WsNmOjY6buS1NkmNv2WDOryD0LfSurU2tnj+V/UfcbHwWha1yJ7BEN+moNkIiGrjfxE95QdbYmxw2hZlaix7T3E29Ll5Abcwx2ej34SxCk2fLtEkALkuEULzXLIa3xYoPSLZBQUls6x/GAc7eElaiV2jkcVDslsOrqI7GniLDLcXf/Fw4CxllqSXw23Ldb7hWp9bajJqzhJD6VfYoxvGPPkxsSbTYlvd9RPslYCUZwpf9/n6NBYeB/Dwib9pP4+ITrHQeWH72v4L13Z04VpInWVfPFe26oPRQmJ5ILcdVy+5vT409lRDEgCotbCpgN14DzfTkR479vVsvFffW79L+5JrdDGamAsRB4ibEX1mBKjzgJWKa5L3PEMX3Qec0czYfDY909hVvOd7m7m6Dm8aJvzBTW22PR6aRkNs0s7xRaasagBN4uOc4RQIhaIjhHIVOPod6zxNbTDnhtECs38ETj9DlUfSMVmVlLZsXQb3mataOnui+Msp39W+wm8bHp0oKSBW5Vr/x32hgwBaJ3NV9UPfA53bfawgdrTgP9TK7S9PSsI+eBQAAA==</trigger_inputs>
         <trigger_outputs/>
-        <trigger_type>record_create_or_update</trigger_type>
+        <trigger_type>record_create</trigger_type>
         <updation_source/>
     </sys_hub_trigger_instance_v2>
-    <sys_hub_action_instance_v2 action="delete_multiple" query="flow=5c2b401053eb4710739391e0a0490e69^sys_idNOT IN202b401053eb4710739391e0a0490eca,22f81d2853270b10739391e0a0490eba,66f81d2853270b10739391e0a0490ebb,6ef81d2853270b10739391e0a0490eb6,a2f81d2853270b10739391e0a0490ea8,ac2b401053eb4710739391e0a0490eab,aef81d2853270b10739391e0a0490eb7,eef81d2853270b10739391e0a0490eb8"/>
+    <sys_hub_action_instance_v2 action="delete_multiple" query="flow=5c2b401053eb4710739391e0a0490e69^sys_idNOT IN202b401053eb4710739391e0a0490eca,3205d1ea53a30b50739391e0a0490ec6,66f81d2853270b10739391e0a0490ebb,b605d1ea53a30b50739391e0a0490ec8"/>
     <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
         <action_type display_value="Create Record">2de05916c31332002841b63b12d3aee1</action_type>
         <action_type_parent display_value="Create Record">02f0b88cc3c632002841b63b12d3aeff</action_type_parent>
@@ -1069,69 +754,21 @@
         <display_text/>
         <flow display_value="RetailCare Autonomous Recovery Flow">5c2b401053eb4710739391e0a0490e69</flow>
         <generation_source/>
-        <order>10</order>
-        <parent_ui_id>b16a0c62-869d-4989-9e1b-82c6eb75709b</parent_ui_id>
+        <order>5</order>
+        <parent_ui_id>d64ea87c-4b46-4d4d-84af-e107ef9b4436</parent_ui_id>
         <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2026-09-21 08:19:11</sys_created_on>
         <sys_id>202b401053eb4710739391e0a0490eca</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_scope display_value="RetailCare">a3f7692353d70310739391e0a0490eed</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-09-22 08:37:46</sys_updated_on>
+        <sys_updated_on>2026-09-28 13:22:15</sys_updated_on>
         <ui_id>7bcd0c2a-a0dc-47c6-85ba-f9d0bb7faa3c</ui_id>
         <updation_source/>
-        <values>H4sIAAAAAAAA/9VUTW/aQBD9K2jPyLLjgIBbRcqpTdSm5ZKG1eAdw0prr7sfBIr47531Gge1iapKlar4Ys/nvjezzw9HVkOFbMYcrBXy1hiyHSgfnHueTUeT0STjBh1IxVP6KPQOzYFD4aSuKVlI2yg4LP+mpgFDJzk0bHZkxVYqYbBms4fHIZOCmowzTEfTbFzkWZ5fpenV5Dpbj/N1diVyQLymFgrWqCj1SwBO9ks83KF50ffhsnZwGwPaiIAnHTLcO6wFEpASlMUhq6AW4LQ5sJkznhwGQdzV6tBnbGXtqCELuXsrf9CxkzTklUjMCoyx3uTd0KK7vAEH99S5cN50qcVWywJtnInAErxy80tfTLhr2om2JS3NrlorX9W3cSSsb3DeEXm8JRDYBJ4BeUejvN/qp89nlAtZtyPpgkoXoHoLnDNy7V3Ac2SosKJGvIKmkfWGN0bvZFtMWKpko8hISqWf6FArN3USr0JCY4VkQf6b1r0EIwOLj9SGik9DZg92rsDaZy40RP7dBySRWceBxzGEksLIxr2jA3bYwT0N+4ve3m17cckJH62C9vfNp2kujsc5bdehGGgz+NqI8MmzpPCGZuJOp1VEzsM9ihVCbqQDxXfaF1s0q+7NodL+3DUbrawD5200pbUexer9p9/187/h/FGaAtPpq9LM1hfSXEhUwj5rsx/9WZcYqDrkcRW/aLMLDpZdsNNn9q/0mY3T9nlDKo3k3rxIL/7Hr8j18SfMqZ8xmQYAAA==</values>
+        <values>H4sIAAAAAAAA/9VUXW/aMBT9K5WfoyghBQFvEx1PW6utEy9dsW7iG7DkfMwfFIb477uOQ4q6VtOkSVN5gfvpc459eDiyGipkc2YhV8i7IGI7UM4n9zydjafjaco1WpCKJ/SjaHaoDxwKK5uamoU0rYLD6m9mWtB0kkXN5kdWbKUSGms2f3iMmBS0ZJJiMp6lkyJLs2yUJKPpdZpPsjwdiQwQr2mFghwVtX7zwCl+jYc9tK/mPl3OXt2GQqOFx5NEDPcWa4EEpARlMGIV1AJsow9sbrWjhEYQd7U6DB1bWVtayHzv3sifdOw08X0lErMCQ20IeS9aSJc3YOGeNhfW6b612DayQBM0EViCU3ZxmQsNd22naDfS0eynG+Wq+jZIwoYF5zuijDMEAlvP0yPvaZT32+bp6xnlUtadJH1RNQWoIQJrtcyd9XiODBVWtIhX0Lay3vBWNzvZDROWKt4oCuJSNU90qJGbOg5PISZZIV5S/qZLr0BLz+IzraHhU8TMwSwUGPPMhUTkP5xHEpj1HHiQwY8UWrb2Ax2wwx7uKRoeeve2zcUjJ3x0FXR/312SZOJ4XNDtWhQ8jQunSQh7Oq0DXO4fT2gTciMtKL5rXLFFve6/OVSNO69Kx2tjwToTQmmMQ7H++OV30/wXDH80ocBk9qYJ0/zChEuJSphnFw4inx2Inp9FHkR/4cK+eLXqi70T03/lxHSSdJ935MdA7t3b8eKf9w1jPv4CoRLWo4MGAAA=</values>
     </sys_hub_action_instance_v2>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=202b401053eb4710739391e0a0490eca"/>
-    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
-        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
-        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
-        <attributes>timeFromCreateToActivate=11000</attributes>
-        <comment/>
-        <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
-        <display_text/>
-        <flow display_value="RetailCare Autonomous Recovery Flow">5c2b401053eb4710739391e0a0490e69</flow>
-        <generation_source/>
-        <order>9</order>
-        <parent_ui_id>b16a0c62-869d-4989-9e1b-82c6eb75709b</parent_ui_id>
-        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2026-09-22 08:37:46</sys_created_on>
-        <sys_id>22f81d2853270b10739391e0a0490eba</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_scope display_value="RetailCare">a3f7692353d70310739391e0a0490eed</sys_scope>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-09-22 08:37:46</sys_updated_on>
-        <ui_id>19984dcd-715b-48ef-878c-f92bf03d296c</ui_id>
-        <updation_source/>
-        <values>H4sIAAAAAAAA/+1VXW/aMBT9K8jPUZQQQMDbBEOatLVau/WlayPHvoA1x8n8QWGI/77rJISIVu029WGVlif7fvmc63Od2z1RNAcyJZZmEtJqE5ANlc4bt2k8GY6H4zjVYKmQaXRcsCIvJRXKYjQXBte7mz9KKqnGsyxoMt0TthaSa1BkensXEMGxSjbkUTyJRyyJk6QfRf3xIM5GSRb3eUKBTbCEpBlIDP3ioeP+KSZ2Vz5p+9jN7V3UjkJzj2cYBQS2FhQHRLKk0kBAcqo4tYXekanVDg0aKL9UctdGrD2xKSE+dmvETzx3HPm4JSA1BrWv3aZN22rzck4tvcbKzDrdhLJ1IRiYuikcltRJO+va6oDL0opC1SkVzya7kC5XF3VPSFvgeEtocQZBQOl5euQNjeX1uni4OqJcCFX1pHHKglHZ7qi1WmTOejx7AhJyLJTmtCyFWqWlLjaiSkYsebiSuAmXsnjAQ41YqZAyDzzEttJwgfZ5Zb6hWngWn7AMJh8CYnZmJqkxJy7YxPSH80hqZg2HtG6DT2FalPYdHrCBBu4haLWugeFVd3S+38/wOi3wXqF7X0vul2kcMqexCfZweCzy31DwAJ5TMMQdBV8dAZ0DbOTLC+aq3gp+pt954+l9mJ8EHL+agAdvScA1rTev385b9aKSKwGbjpIzZ4QCY1ItzPdvLooSjsjuDVYXnl1tUuCspvL+/efHyv6LCi9NQtR/dhKgMwkLAZKb0yS0BI8POfhfiIW0Jnz2mDfO3k3jbOfh1QYiHkXV938s/r2xuPsF/LEIoM4IAAA=</values>
-    </sys_hub_action_instance_v2>
-    <sys_hub_alias_mapping action="delete_multiple" query="source_id=22f81d2853270b10739391e0a0490eba"/>
-    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
-        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
-        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
-        <attributes>timeFromCreateToActivate=11000</attributes>
-        <comment/>
-        <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
-        <display_text/>
-        <flow display_value="RetailCare Autonomous Recovery Flow">5c2b401053eb4710739391e0a0490e69</flow>
-        <generation_source/>
-        <order>11</order>
-        <parent_ui_id>b16a0c62-869d-4989-9e1b-82c6eb75709b</parent_ui_id>
-        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2026-09-22 08:37:46</sys_created_on>
-        <sys_id>66f81d2853270b10739391e0a0490ebb</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_scope display_value="RetailCare">a3f7692353d70310739391e0a0490eed</sys_scope>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-09-22 08:37:46</sys_updated_on>
-        <ui_id>deb96939-9327-45e4-8f6a-1e623cad126d</ui_id>
-        <updation_source/>
-        <values>H4sIAAAAAAAA/+1VXWvbMBT9K0bPqbHzRZK3kiww2FrWbn3ph1Gkm0QgW54+3KQh/31XtuOYtLQbdLDC8iRd3Xt1zvG50e2OZDQFMiGWLiQk5aZDCiqdD26SeDwYDUZxosFSIZPosGAqzSUVmcVsLgyutzd/VJRTjXdZ0GSyI2wtJNeQkcntfYcIjl0WAx7F43jIenGv142i7qgfL4a9RdzlPQpsjC0kXYDE1O8eOu5fYmK3+YuxL+3a4KI6UJp7PIOoQ2BjIeOASJZUGuiQlGacWqW3ZGK1w4AGyi8zuW0y1p7YhBCfuzHiCe8dRT5vCUiNQXXWbJNatiq8nFFLr7Ezs07XqWytBANTicJhSZ2003asSrjMrVBZVVLyrKuVdGl2UWlCmgaHr4QRZxAE5J6nR17TWF6v1ePVAeVcZKUm9aFUjMpmR63VYuGsx7MjICHFRklK81xkqyTXqhBlMWJJw5XETbiU6hEvNWKVhZR54CHKSsM5xmdl+IZq4Vl8xTZYvO8QszVTSY05ckERk5/OI6mY1RySSgZfwrTI7TleUEANd99pvK6B4adu+Xy3m+LntMADpYMfOffLJA6Z0yiC3e+fm/w3HNyH1xwMccvBVwdApwBr+3LFXKmt4Cf+ndUnwefZ0cDxuxm4/5EMXNH68P5t/Ve96eTSwKblZGPRu3cuinp8+MCkQoUyhQSr0Lmz6kyDUbJArxeCBk+g1ZlVjq0DLlbCUhl48xWgt0Hhw6DDh0/fng/A37vorbmKuq/OFbTmai5AcnOcq0auw7MA/kGykFTynTwN9WFwUx820/Vu4xUPo/L3f8j+vSG7/wWVNYI6HAkAAA==</values>
-    </sys_hub_action_instance_v2>
-    <sys_hub_alias_mapping action="delete_multiple" query="source_id=66f81d2853270b10739391e0a0490ebb"/>
     <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
         <action_type display_value="Create Record">2de05916c31332002841b63b12d3aee1</action_type>
         <action_type_parent display_value="Create Record">02f0b88cc3c632002841b63b12d3aeff</action_type_parent>
@@ -1141,69 +778,21 @@
         <display_text/>
         <flow display_value="RetailCare Autonomous Recovery Flow">5c2b401053eb4710739391e0a0490e69</flow>
         <generation_source/>
-        <order>4</order>
-        <parent_ui_id>e9f54f00-5ec2-4f7a-b274-ff448704bbb8</parent_ui_id>
+        <order>2</order>
+        <parent_ui_id>7a292596-8f3e-4c33-876e-5a13c4f02cd1</parent_ui_id>
         <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2026-09-22 08:37:45</sys_created_on>
-        <sys_id>6ef81d2853270b10739391e0a0490eb6</sys_id>
+        <sys_created_on>2026-09-28 13:28:25</sys_created_on>
+        <sys_id>3205d1ea53a30b50739391e0a0490ec6</sys_id>
         <sys_mod_count>1</sys_mod_count>
         <sys_scope display_value="RetailCare">a3f7692353d70310739391e0a0490eed</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-09-22 08:37:45</sys_updated_on>
-        <ui_id>6e9e4a8f-09a2-4c6f-9fa5-b21431d539b9</ui_id>
+        <sys_updated_on>2026-09-28 13:28:25</sys_updated_on>
+        <ui_id>173f2b43-9b4e-4f4f-a841-35bcd3423ae0</ui_id>
         <updation_source/>
-        <values>H4sIAAAAAAAA/91VUW/aMBD+K5GfUZZAQcBbRYdUqWu10vHStdYRX8CaiTPboVDEf985DinaWm2T9tLxhO/uO3/f+fi437MC1sjGzMFCIa8PHbYBVfnglqej/rA/TLlBB1LxhFunDXK0GXdgv1GtkLZUsJv/BaQEQ/c4NGy8Z9lKKmGwYOP7hw6TgnoMUkz6o3SQ9dJer5sk3eFZuhj0FmlX9ADxjFooWKCi0jtPm86vqXC78tXY1Sk2ug4JbYTnk3QYbh0WAolIDspih62hEEAadmzsTEUBgyBuCrVrK1aycNSQ+dqtlc907TDxdTmSsgxDrj3yZmYhnF+Agxl1zlxlmtJspWWGNsxEYA6VcpPTWCi4KZ3URYDUMhu0VtW6uA4jYW2D4xNRpLJEAkuv0zNvZOSzlX66PbKcyqIeSZNUOgPVnsA5IxeV83z2DBWuqRFfQ1nKYslLozeyBhOXdbxUdIhzpZ/oUiuXRQyZJx7TWCGeUvyiDs/BSK/iE7Uh8KHD7M5OFFj7ooWGyL9XnklQ1mjgYQwekhlZunO6YIMN3UOnXfN6s+3JitMuejjRpBehZ/xaJUlP7PcTemSHItIm+lIK/5WncVYZX304PNY7/Se1cdh+Pz0v2UNX2jg/iJooxUKbye3l3eXk/GoczTwiojyoGhPl1DjXWkQWcnS76EO0gmcwImpZP378/OtP8X+S9lvLEJiM3rSMdHFiGVOJStgXz2hX4ugX6G92yMOK/OQZTTKaN8nGN9J/5RvpIKk/78g9grh3bx4n/xNv2MjDDwEddLgvBwAA</values>
+        <values>H4sIAAAAAAAA/+VVwW7bMAz9lUJnw7DqJkhyG9LltLXYOuTStYJs0Ykw2fIkOY0X5N9HWY5rdM2GAbsUy43kI/kexdD3B1LxEsiCOJ4pYJ0RkR1XjXfuGZ1PZpMZZQYcl4olzDptgIHNmeP2G2KFtLXi7fovUmpusI8DQxYHkm+lEgYqsrh/iIgUWGNKIZnM6TRPaZpeJsnl7Ipm0zSjlyLlAFdYQvEMFEK/eNpov6bCtfWrvg/j3IubENBGeD5JRGDvoBKARAquLESk5JXgqKElC2cadBjg4rZS7YDYysphQeKxeyt/YNtZ4nEFoLIcQmwwWT+z4C6uueN3WDl3jemh+VbLHGyYiYCCN8otx74AuK2d1FVI6WT22Vo1ZXUTRkKGAqcnQk9jkQTUXqdn3sso7rb66fOJ5UpW3Uj6oNI5V4PFnTMya5zncyCgoMRCrOR1LasNq43eyS4ZuZTxRqERF0o/YVMrN1XMc088xrHyeIX+68695kZ6FR+xDCYfI2Jbu1Tc2mctOET2vfFMgrJeAwtj8Cm5kbV7hw120NM9RsOad5ttRyuOu4jpX5skScXhsMSndSAYjfPG+MDx+BgQDIXgm8nfY+1WG+dFdiRQ4llwPAL5JkZqI10b8PTROoSfDBwATqeb8Mbopj5f9CUSK7//9Ouf9P8Q/cczIyCZnz0zNBudmZUEJezznRnW6HRjwM/JAQtr9eLO9MGLdR/sbw39V7eGTpPu94YuThD35g/O6Nty5vQ8/AQE2ksGYwcAAA==</values>
     </sys_hub_action_instance_v2>
-    <sys_hub_alias_mapping action="delete_multiple" query="source_id=6ef81d2853270b10739391e0a0490eb6"/>
-    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
-        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
-        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
-        <attributes>timeFromCreateToActivate=11000</attributes>
-        <comment/>
-        <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
-        <display_text/>
-        <flow display_value="RetailCare Autonomous Recovery Flow">5c2b401053eb4710739391e0a0490e69</flow>
-        <generation_source/>
-        <order>3</order>
-        <parent_ui_id>e9f54f00-5ec2-4f7a-b274-ff448704bbb8</parent_ui_id>
-        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2026-09-22 08:37:45</sys_created_on>
-        <sys_id>a2f81d2853270b10739391e0a0490ea8</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_scope display_value="RetailCare">a3f7692353d70310739391e0a0490eed</sys_scope>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-09-22 08:37:45</sys_updated_on>
-        <ui_id>e7a72cca-2611-4c60-806c-d5bc3f44c25b</ui_id>
-        <updation_source/>
-        <values>H4sIAAAAAAAA/+1VXU/bMBT9K5Wf2ygfbVX6NtEhTdpAg40XRiPHvmmtuXFmO0AW9b/vOk5DBAg2iQeQ1qf4fvmce8+trxpS0B2QJbE0k5C2hzG5obJyxrs0OpotZoso1WCpkGl4+GBqV0oqCovRXBj8ri//KamkGu+yoMmyIWwrJNdQkOXV9ZgIjlWyGQ+jo2jOkihJ4jCMF9MomydZFPOEAjvCEpJmIDH0m4OO56eY2Lp80vZ5mDs69Q6lucMzC8cE7iwUHBBJTqWBMdnRglOrdE2WVldo0ED5WSHrPmLriC0JcbF3RvzGexehi8sBqTHwvv6Ydm3z5nxFLb3AysxWugtlWyUYGN8UDjmtpD0e2nzAWWmFKnxKy7PLVrLaFae+J6QvcJgSWiqDIKB0PB3yjkZ+sVW35weUJ6Joe9I5pWJU9idqrRZZZR2ehoCEHRZKd7QsRbFJS61uRJuMWHbBRuIhyKW6xUuN2BQBZQ54gG2lwQnaV635kmrhWHzBMpi8HxNTm2NJjbnngk1Mf1UOiWfWcUh9G1wK06K0H/CCG+jg7se91jUwHPVA501zjOO0wEdKj76X3H2mUcAqjU2w+/1jkf+FgqfwnIIhGij4/ADoIcBOvlyxqu2t4A/0u+o8o0+rewFHrybg6XsSsKf17vU7+K96UcmtgM1AyVllRAHGpFqYnz+qMEw4FrACaa8NXiEcRW/fis1W1m6KhlphcgF8XWqhMLz2EdEaUSOlti0brarS25smi3OYL2A6gSSDyZTPkgnNYzqZxdE0A7oIAVjgVb3frz9+fbxAbxfoS3sdxs/uNQz2+kSA5OZ+r/txHZ4lcA+ihdSP78HT1DlHl52z3+5XW+9oHra//0v+9pb8+g+B9iG8nAkAAA==</values>
-    </sys_hub_action_instance_v2>
-    <sys_hub_alias_mapping action="delete_multiple" query="source_id=a2f81d2853270b10739391e0a0490ea8"/>
-    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
-        <action_type display_value="Look Up Record">9d09f99587003300663ca1bb36cb0ba3</action_type>
-        <action_type_parent display_value="Look Up Record">b93f42810b30030085c083eb37673a63</action_type_parent>
-        <attributes>timeFromCreateToActivate=11000</attributes>
-        <comment/>
-        <compiled_snapshot>9d09f99587003300663ca1bb36cb0ba3</compiled_snapshot>
-        <display_text/>
-        <flow display_value="RetailCare Autonomous Recovery Flow">5c2b401053eb4710739391e0a0490e69</flow>
-        <generation_source/>
-        <order>1</order>
-        <parent_ui_id/>
-        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2026-09-21 08:19:10</sys_created_on>
-        <sys_id>ac2b401053eb4710739391e0a0490eab</sys_id>
-        <sys_mod_count>2</sys_mod_count>
-        <sys_scope display_value="RetailCare">a3f7692353d70310739391e0a0490eed</sys_scope>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-09-21 09:02:15</sys_updated_on>
-        <ui_id>b2fe68e4-e3be-4d53-af2a-5214bea80eec</ui_id>
-        <updation_source/>
-        <values>H4sIAAAAAAAA/+VYTW/bOBD9K4LOjlfyl+zcFkkNFGgboMnm0i0ISiRtojSpklRSJ8h/36FEyYKt2vHGBlr0ZIgz5AzfvDck/eU5lHhFw8vQKG2RXec07IUPWBTNGDYZDBFucoHX996CA6uCJxjPsYb5lurw8jnMllwQTWV4+eVrL+QEHMckmrHZbDxNomg4jKLJZJjhOE2HkyyN0jSGJQROqQDXW4gW3FUZdCRV/lxCDMWz+vuDn3pVDypNXCrDXkh/WCoJhRwYFob2whWWBFul182IppjcSLEZWHJpYbXQOf8w/AniDQfOj1HYVUYrW/OJPCjVMLvGFt9aXWS20N61StYAHs/NNhvoOlD26UcvvY3/k/PH2/6EtifEL4A3oQwXwl79v5jxsTEHLma1wZvccgVVD4euLjgV9faVKFbyU1XLsMnwvoNeleX6JywrDIBNc1dQVyFfLna7VI+f62rMuSzz8kahMiyaL2yt5mlhHS7PISOIcSoI4lJw6SJB2Rx9qKAriIBWOM+5XKBcqwdergp7WfUXAj76TKhHhwVfyD7O3M77QCzcn8P4dTl8jzV3KHyEZWByzwVcwlQfD5lM89yiR04W1G6i115E2UcsvnXZPeNQXahye+FLLzRrcyWwMRuwgaboe+EwqKD36KGyUOWUMou/YQcP1APlOOCllylJuNucadHA2f4tQMnkM7WYi+CdAZSxcwtg6992G8UrZhxqIWS8r4XgWauFXLWT7tpI3US2xz50LVAr42TNZBRF0WnaSZfcd+V4lBp3ZeZo9waVnUdMx3O9guAg4REyMgPtwTQGRIW5iGqtdIv+0S6/KwEeJnFGcToa4EkyjOMoiiOSRNMkiaeTlE1wMmItEl8r6RQzSGzgEglAKXUih1P1BE+VEhTLLXbfQUH/mvuMPbvHJ2T3b8Tttx4hBb/bRroa6sT6XOdKwf+R/HtB3zuKTWk0mMYku5gmcXIxYmRyMSN4fIFn6TgZEpqN2HmOiqoOrcvC2iCAW6OFVkW+q5kd+8ETYLb3BBi1xHPnc9lKzcui/ESlbUsZzhB8qgz1Lexkypj+Sco42x2KC2AIqkpoVKFLKB9QJgpTGjSWplrrLCznDK0AOJ5DeE0zIIlBWFPEVCEJ8oE3InCoMq6N9c67MoALUaEltHexDuySBqV30HgfEkW8VxRp+1r0ngV16n59E0DqQZl60KR+3EaPeY+NfrlDZvPWmbsz1uEPLMpbBaxP1K432YHS7eHAKx9sr0wqPmlSb3/RdZG+82V3INffoiWdo8mUT+IK5N2G8ZqmsPfvFkxaTeHGFT1I11v/tjTBvb6rh3LHkTl3hq0jc/BnHpm/5EOp97O/OU78gvr6H2Q+r09EFAAA</values>
-    </sys_hub_action_instance_v2>
-    <sys_hub_alias_mapping action="delete_multiple" query="source_id=ac2b401053eb4710739391e0a0490eab"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=3205d1ea53a30b50739391e0a0490ec6"/>
     <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
         <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
         <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
@@ -1214,104 +803,50 @@
         <flow display_value="RetailCare Autonomous Recovery Flow">5c2b401053eb4710739391e0a0490e69</flow>
         <generation_source/>
         <order>6</order>
-        <parent_ui_id>1c535093-b049-4f79-b339-0abbf21a9612</parent_ui_id>
+        <parent_ui_id>d64ea87c-4b46-4d4d-84af-e107ef9b4436</parent_ui_id>
         <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2026-09-22 08:37:45</sys_created_on>
-        <sys_id>aef81d2853270b10739391e0a0490eb7</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_created_on>2026-09-22 08:37:46</sys_created_on>
+        <sys_id>66f81d2853270b10739391e0a0490ebb</sys_id>
+        <sys_mod_count>2</sys_mod_count>
         <sys_scope display_value="RetailCare">a3f7692353d70310739391e0a0490eed</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-09-22 08:37:45</sys_updated_on>
-        <ui_id>ca23e50e-7493-4f32-840b-686bb131b577</ui_id>
+        <sys_updated_on>2026-09-28 13:22:15</sys_updated_on>
+        <ui_id>deb96939-9327-45e4-8f6a-1e623cad126d</ui_id>
         <updation_source/>
-        <values>H4sIAAAAAAAA/+1VXU/bMBT9K5Wf2ygfbVX6NtEhTdpAg40XRiPHvmmtOXFmO0AX9b/vOk5DBAg2iQeQ1qf4fvmce8+trxpS0gLIkliaSUjbw5jcUFk7410aHc0Ws0WUarBUyDQ8fDBVVJKK0mI0Fwa/d5f/lFRRjXdZ0GTZELYVkmsoyfLqekwExyrZjIfRUTRnSZQkcRjGi2mUzZMsinlCgR1hCUkzkBj6zUHH81NM7K560vZ5mDs69Q6lucMzC8cE7iyUHBBJTqWBMSloyalVekeWVtdo0ED5WSl3fcTWEVsS4mLvjPiN9y5CF5cDUmPgff0x7drmzfmKWnqBlZmtdRfKtkowML4pHHJaS3s8tPmAs8oKVfqUlmeXrWRdlKe+J6QvcJgSWmqDIKByPB3yjkZ+sVW35weUJ6Jse9I5pWJU9idqrRZZbR2ehoCEAgulBa0qUW7SSqsb0SYjliLYSDwEuVS3eKkRmzKgzAEPsK00OEH7qjVfUi0ciy9YBpP3Y2J25lhSY+65YBPTX7VD4pl1HFLfBpfCtKjsB7zgBjq4+3GvdQ0MRz3QedMc4zgt8JHSo+8Vd59pFLBaYxPsfv9Y5H+h4Ck8p2CIBgo+PwB6CLCTL1esbnsr+AP9rjrP6NPqXsDRqwl4+p4E7Gm9e/0O/qteVHIrYDNQclYbUYIxqRbm5486DBO+FZvt2mB54eh5G47OUCtMLoCvKy2UFnbnXdEaoSKPthcbrerK25smi3OYL2A6gSSDyZTPkgnNYzqZxdE0A7oIAVjgpbzfrz9+fbw1bwzdSxscxs9uMAw2+ESA5OZ+g/vBHB4gcE+fhdQP6sEj1DlHl52z3+NXW+RoHra//+v89tb5+g/piUH9hgkAAA==</values>
+        <values>H4sIAAAAAAAA/+1VW2vbMBT+K0bPqbFzI8lbSRYYbC1rR1661ijSSSKQLU8XN2nIf9+R7TgmLe0GHaywPFnn+n1H34nu9iSjKZAJsXQpISkPHVJQ6bxxm8TjwWgwihMNlgqZRMcPptJcUpFZjObC4Pdu8UdJOdXYy4Imkz1hGyG5hoxM7u47RHCsshzwKB7HQ9aLe71uFHVH/Xg57C3jLu9RYGMsIekSJIZ+99Dx/BITu8tftH1p5wZXlUNp7vEMog6BrYWMAyJZUWmgQ1KacWqV3pGJ1Q4NGii/zuSuidh4YhNCfOzWiCfsO4p83AqQGoPK1xyTemyVeTWjlt5iZWadrkPZRgkGphoKhxV10k7btirgOrdCZVVKybPOVtKl2VU1E9IUON4SWpxBEJB7nh55TWN1u1GPN0eUc5GVM6mdUjEqmxO1Voulsx7PnoCEFAslKc1zka2TXKtClMmIJQ3XEg/hSqpHbGrEOgsp88BDHCsN52ifleYF1cKz+IplMPnQIWZnppIac+KCQ0x+Oo+kYlZzSKox+BSmRW4vsUEBNdxDp9G6BoZX3dL5fj/F67TAkzhkTiNzezg8V/ZvyLYPr8kW4pZsb44ozlHVmuWKuXKggp+JdlZ7gs+zk2rjd1Nt/yOptqL14UXb+oN6U76lak1Lvsaidn+4KOrx4QOTCieUKSRYmS6dVRcajJIF8KAQNHgCrS6scmwTcLEWlsrAi68AvQsKbwYdPnz69nwB/l6jt/Yq6r66V9Daq7kAyc1pr5pxHd8C8K+QhaQa39l7UDuDRe1stuvd1iseRuXv/5L9e0t2/wswKAi+EQkAAA==</values>
     </sys_hub_action_instance_v2>
-    <sys_hub_alias_mapping action="delete_multiple" query="source_id=aef81d2853270b10739391e0a0490eb7"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=66f81d2853270b10739391e0a0490ebb"/>
     <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
-        <action_type display_value="Create Record">2de05916c31332002841b63b12d3aee1</action_type>
-        <action_type_parent display_value="Create Record">02f0b88cc3c632002841b63b12d3aeff</action_type_parent>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
         <attributes>timeFromCreateToActivate=11000</attributes>
         <comment/>
-        <compiled_snapshot>2de05916c31332002841b63b12d3aee1</compiled_snapshot>
+        <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
         <display_text/>
         <flow display_value="RetailCare Autonomous Recovery Flow">5c2b401053eb4710739391e0a0490e69</flow>
         <generation_source/>
-        <order>7</order>
-        <parent_ui_id>1c535093-b049-4f79-b339-0abbf21a9612</parent_ui_id>
+        <order>3</order>
+        <parent_ui_id>7a292596-8f3e-4c33-876e-5a13c4f02cd1</parent_ui_id>
         <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2026-09-22 08:37:46</sys_created_on>
-        <sys_id>eef81d2853270b10739391e0a0490eb8</sys_id>
+        <sys_created_on>2026-09-28 13:28:25</sys_created_on>
+        <sys_id>b605d1ea53a30b50739391e0a0490ec8</sys_id>
         <sys_mod_count>1</sys_mod_count>
         <sys_scope display_value="RetailCare">a3f7692353d70310739391e0a0490eed</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-09-22 08:37:46</sys_updated_on>
-        <ui_id>fc4fe73c-1b15-4e50-9613-0242e14fa14b</ui_id>
+        <sys_updated_on>2026-09-28 13:28:26</sys_updated_on>
+        <ui_id>0a485890-50dc-47b8-b51f-1d9e7beabb49</ui_id>
         <updation_source/>
-        <values>H4sIAAAAAAAA/9VVTY/aMBD9K5HPUZRsFgTcKrac2l21tFy2u9YknoBV56O2w0IR/73jOGTRdldtpV7ghMdvZt4bD4/7A6ugRDZjFjKFvDuEbAuqdcEdT6ajyWiScI0WpOIxN7bWyNHk3IL5TlghTaNgv/qHlAY09bGo2ezA8o1UQmPFZvcPIZOCaowTjEfTZJynSZpexfHV5DrJxmmWXIkUEK+phIIMFUG/ONp0fk2F3Tevxj6c5wa3/qLWwvGJQ4Y7i5VAIlKAMhiyEioBpGHPZla3FNAI4q5S+wGxkZWlgsxhd0b+pLaT2OEKJGU5+rvhyPuZ+XBxAxaWVDm3re6h+aaWORo/E4EFtMrOz2MecNdYWVc+pZPZZ9eqLatbPxI2FDg9EUVaQySwcTod815GsdzUT59PLBey6kbSX6o6BzWcwFots9Y6PgeGCksqxEtoGlmteaPrreySiUsZrRUdokLVT9TUyHUVQe6IRzRWiBYUv+nCK9DSqfhIZSj5GDKzN3MFxjxroSHyH61j4pX1Grgfg0vJtWzsO2qwxZ7uMRzWvNtsc7bitIsunWjSi9AzfmvjOBWHw5we2aIIah18bYT7ypMob7VDH4+P3U7/DTby2++m5yS71E2trRtER5RivszS4QKKguqQQUHlMqkUDTRwC0PDDgaaj+8//f7bu2gtfzQFgfH0TVNIsjNTWEhUwjy7wvDoJ0dA19ki90vwwhX6y2DVX/bOkPwvZ0jGcfe5IH/w4i7eHs7+Cd4wiodfF9Q6/REHAAA=</values>
+        <values>H4sIAAAAAAAA/+1VXU/bMBT9K5GfqyhpKSp9myhIkzbQKOoLY9GtfUMtHDuzHdqu6n/fdZKGCBBsEg9DWp9yP33O9bnuzY5pKJBNmYelwqw2BuwBVBWcmyw9GU/GkzSz6EGqLDl8cFOUCqT2lC2ko+/t4q+KSrB0lkfLpjvGV1IJi5pNb24HTArqshyLJD1Jj/koHY2GSTKcHKXL49EyHYoRID+hFgqWqCj1OkAn+yUmflu+6PvSr40umoCxIuAZJwOGG49aICHJQTkcsAK0AG/slk29rchhEcSlVtsuYxWITRkLuRsnf9G5kyTk5UjUODaxzszasTXufAYe5tSZ+8q2qXxlJEfXDEVgDpXyp31fk3BZeml0U1LzbKuNqgp90cyEdQ0Ot0SeyhEILAPPgLylkc9XZn11QHkudT2TNqgMB9VZ4L2Vy8oHPDuGCgtqlBVQllLfZaU1D7IuJixFfKfIiHNl1nSok3c6Bh6AxzRWiM/JP6vdC7AysPhKbah4P2Bu604VOPfIhYaY/awCkoZZyyFrxhBKuJWl/0QHPGALdz/otG6R01X3dL7bndJ1ehRZGvPKEnO/3z9X9h/I9ghfky2mPdleHVA8RdVqVhhe1QOV4oloZ20k+jx7VG36bqo9+kiqbWh9eNH2Hqg35Vur1vXkuzb2PtOGKH2vkmQk5nTjGJ05og0BbXQN7j6SWnoZRB7lxkayKFAEMyJMFrSXGuMfZ9+eq/6du7+1Qcnw1Q3C3gadS1TCPW5QN5jDq4/h/8Zj1gzqycvfBqNFG+z26N0WKT1O6t//dfr31un2N5xiA1r7CAAA</values>
     </sys_hub_action_instance_v2>
-    <sys_hub_alias_mapping action="delete_multiple" query="source_id=eef81d2853270b10739391e0a0490eb8"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=b605d1ea53a30b50739391e0a0490ec8"/>
     <sys_hub_sub_flow_instance_v2 action="delete_multiple" query="flow=5c2b401053eb4710739391e0a0490e69"/>
-    <sys_hub_flow_logic_instance_v2 action="delete_multiple" query="flow=5c2b401053eb4710739391e0a0490e69^sys_idNOT IN22f81d2853270b10739391e0a0490ec2,e2f81d2853270b10739391e0a0490ebd,eaf81d2853270b10739391e0a0490ebf"/>
+    <sys_hub_flow_logic_instance_v2 action="delete_multiple" query="flow=5c2b401053eb4710739391e0a0490e69^sys_idNOT IN54a31de653a30b50739391e0a0490e21,5ca31de653a30b50739391e0a0490e1e"/>
     <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
         <attributes>timeFromCreateToActivate=11000</attributes>
-        <block display_value="">86f81d2853270b10739391e0a0490e04</block>
-        <comment>Standard complaint → low / neutral → auto-resolve with voucher</comment>
-        <connected_to/>
-        <decision_table/>
-        <display_text/>
-        <flow display_value="RetailCare Autonomous Recovery Flow">5c2b401053eb4710739391e0a0490e69</flow>
-        <flow_variables_assigned/>
-        <generation_source/>
-        <logic_definition display_value="Else">1f781bf3c32232002841b63b12d3aee6</logic_definition>
-        <order>8</order>
-        <outputs_assigned/>
-        <parent_ui_id/>
-        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2026-09-22 08:37:46</sys_created_on>
-        <sys_id>22f81d2853270b10739391e0a0490ec2</sys_id>
-        <sys_mod_count>3</sys_mod_count>
-        <sys_scope display_value="RetailCare">a3f7692353d70310739391e0a0490eed</sys_scope>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-09-22 08:37:46</sys_updated_on>
-        <ui_id>b16a0c62-869d-4989-9e1b-82c6eb75709b</ui_id>
-        <updation_source/>
-        <values>H4sIAAAAAAAA/6tWyi8tKSgtKQ7JdywuzkzPU7KKjtVRyswDiUHYZYlFmYlJOalQbkpqcmZxZn5eCEjME0ldSmVeYm5mMrJQeX5RdlpOfjlCrBYAD1ouqHEAAAA=</values>
-        <workflow_reference/>
-    </sys_hub_flow_logic_instance_v2>
-    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
-        <attributes>timeFromCreateToActivate=11000</attributes>
-        <block display_value="">caf8d92853270b10739391e0a0490eed</block>
-        <comment>Food Safety category or hazard keywords → critical / highly_dissatisfied</comment>
-        <connected_to/>
-        <decision_table/>
-        <display_text/>
-        <flow display_value="RetailCare Autonomous Recovery Flow">5c2b401053eb4710739391e0a0490e69</flow>
-        <flow_variables_assigned/>
-        <generation_source/>
-        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
-        <order>2</order>
-        <outputs_assigned/>
-        <parent_ui_id/>
-        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2026-09-22 08:37:46</sys_created_on>
-        <sys_id>e2f81d2853270b10739391e0a0490ebd</sys_id>
-        <sys_mod_count>3</sys_mod_count>
-        <sys_scope display_value="RetailCare">a3f7692353d70310739391e0a0490eed</sys_scope>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-09-22 08:37:46</sys_updated_on>
-        <ui_id>e9f54f00-5ec2-4f7a-b274-ff448704bbb8</ui_id>
-        <updation_source/>
-        <values>H4sIAAAAAAAA/+1WXU/bMBT9K8jPVZW0KR99Q2VI1diQgO1lY9GNP1pvjp3ZDhCq/Pddx2mLRidYJ+2Jt/jY9/qck3uirIipfVV7d2NOnZMLTaZfbgdE6oDh84pIRqaEDIiGkuMTNZpJL41G6A5UHbDVamY5eM4OjD34VLHwmKdDWlvLtR9SU1YKpPY5xZ2FsU3bfq2TZMyEMSx3ILhvvl1evdCGcUetrMLdbXsxf/9uCY9g2R6F/KGSlu9TKZXS3Ll9KvX32u6jMtqDbjPp0Mbm85vp/9F0upSK4ZkYiwospsBzS6ar37a6mJzAREzSZELHo8PxKElGx1laHI6LdMTGwLNDbKig4AqPzp7kaEe0fFMFyHkr9aJfX/Sl12vQWBaojJIB4Q+ea8aRhADl+ICUoFElvnYy9bZGAPWzS62azYklDkeMdgkPTj7y0ClJwknBURflcXezzPsJjLA4Aw9Ipaa+tv1RujSSchcdYVxArfzsKRYPXHZOxxIPhVpXG1WX+mM0g2warAcekdohCV4FpYF7L0RcL8391ZrludSdK/2mMhTUZgUevStqH/isCFe8xEZ5CVWFjuaVNXeyK0Yu5XChcDEUytzjpeHbOAQaiA/RWBieI37WwZ/ByqDiA7bBYpwFl8d56rV1l5N2QFzjZgqc22pEc/OfdWAYFffa8mhPKOkaneLFd7yX0Q5WJLC6MAtJ59p5QNnXjZuHEeQnYpKJJJlwOsrEERSjo0yILDs+SrKiKI5JP6oiAZGe0HT3qMJ4x1jmHbD97D//JpGXI/KKe59F5CBO/p8Z/U1a0hfS0iOvistk8paWf05LoFmAkzTv/jqwXfhg7RmX3vRzyRXbOUK78nQbZjqy2rwNKh2W3QRsvv4ZChsNjlxI3Ra6N/ZHkL3F2l/tBMcmVgkAAA==</values>
-        <workflow_reference/>
-    </sys_hub_flow_logic_instance_v2>
-    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
-        <attributes>timeFromCreateToActivate=11000</attributes>
-        <block display_value="">8af81d2853270b10739391e0a0490e00</block>
-        <comment>Billing/Overcharge category → high / dissatisfied</comment>
+        <block display_value="">3b93d9e653a30b50739391e0a0490e49</block>
+        <comment>Low risk: business_risk=low AND priority=4</comment>
         <connected_to/>
         <decision_table/>
         <display_text/>
@@ -1319,47 +854,51 @@
         <flow_variables_assigned/>
         <generation_source/>
         <logic_definition display_value="Else If">666e5545c3e232002841b63b12d3ae99</logic_definition>
-        <order>5</order>
+        <order>4</order>
         <outputs_assigned/>
         <parent_ui_id/>
         <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2026-09-22 08:37:46</sys_created_on>
-        <sys_id>eaf81d2853270b10739391e0a0490ebf</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_created_on>2026-09-28 13:22:14</sys_created_on>
+        <sys_id>54a31de653a30b50739391e0a0490e21</sys_id>
+        <sys_mod_count>8</sys_mod_count>
         <sys_scope display_value="RetailCare">a3f7692353d70310739391e0a0490eed</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-09-22 08:37:46</sys_updated_on>
-        <ui_id>1c535093-b049-4f79-b339-0abbf21a9612</ui_id>
+        <sys_updated_on>2026-09-28 13:39:41</sys_updated_on>
+        <ui_id>d64ea87c-4b46-4d4d-84af-e107ef9b4436</ui_id>
         <updation_source/>
-        <values>H4sIAAAAAAAA/+1Vy27bMBD8lYBnQ9DDdmvfAgcGDKQNUKe5tIGwIimbKEWqfNhRBf97l5JsB62Lpg16640c7i5nhrtSS7R3tXf2Xl9bKzaKzD89johQAcN1SwQjc0JGREHFcUW1YsIJrRDagfQBa9uF4eA4u9Lm6mPNwjJPIuqN4cpFVFe1BKFcTvFko01zOHz2cZyxQkgp1CbXO27oFsyGY1UmLIY3D/+kON0KyTCxl1mDQVWOGzJvfzjqZJcxlMmMJjRLp1kax+nbcVJMsyJJWQYcEiwooeASQxfPfLlglWvqAFlnkNKwvx1S10dQGxaopPGI8CfHFeNIogRp+YhUoFA6yiNzZzwCaAq7U7I5RWzRhP6pKniy4hsPleI4RJYcdVHen562+eB0D5c34ACpeOq8GULpVgvKbe8I4yV46RbPsT7gru5UdikOCnnM1tJX6n1vBjkVOD4sIt4iCV4HpYH7IKRcb/X+w5HlUqjOleFQagrytAOH3hXeBT4t4ZJXWCivoK7Dy9dG70SXjFyqaCNxE5VS7/HS0OsR0EA8QmMhWiJ+08EPYERQ8Q7LYDL2gs0tNaI+ausuJ4cRsY1dSLD2rBHNzb/6wLBXPGjLe3tCSlfoGi/e8UHGYdSSwOpWbwRdKesAZa8buwotmNBJNolnWRGPZ+PyzazIslkMRVGmCcymSUpe1qrphbbMO+A8xj/PHnn1iKSXRuSq7/xfM/qTaUl+My0D8qJxmUz+T8urpyXQLMAKmnd/ESwXPlh/OS6D6UvBJbvYQpfm6TH0dM/q9BpUWEy7D9jq+HMLBw22XJi6M7TX5kuQfcYO3wEsFQzyJgcAAA==</values>
+        <values>H4sIAAAAAAAA/+1Vy27bMBD8lYJnQ5BkxUl8CxwYCJA2QB3k0qbCiqRsIhSp8pFEFfzvXephB62Kpg16600c7i5nhrtiS7R3tXf2Vl9YK7aKLD/dz4hQAcPvlghGloTMiIKK4xfVigkntELoEaQPWNuuDAfHWZ5E1BvDlYsKb4Xi1uZG2If9/rOP4zmT+unLVHBthDbCNWNchsWZsLWE5u5fnkF3QjLc7UXXYFCj44Ys2x+2OhPKGMrknCZ0ni7maRynZ1lSLOZFkrI5cEiwoISCSwxdvXBpwjjX1AGyzgi1HdbXQ+pmBLVhgUoazwh/dlwxjiRKkJbPSAWKgdOmIUtnPAIol90o2RwidkK5/uIqeLbiGw+V4jhElhx1Ud7vHpb5YHgPl5fgAKl46rwZQulOC8pt7wjjJXjpVi+xPuCm7lR2KQ4KOWZr6Sv1oTeDHAqM94uIt0iC10Fp4D4IKTc7/fRxZLkWqnNl2JSagjyswKF3hXeBT0u45BUWyiuoa3Q0r41+FF0ycqmircRFVGK74KGh8yOggXiExkK0Rvyyg+/AiKDiPZbBZOwFm1tqRD1q6w4n+xmxjV1JsPaoEc3Nv/rAsFc8aMt7e0JKV+gCD37kg4z9rCWB1bXeCnqlrAOUvWnsVWhBtsg4nJ3SrMgWGcvYWQYlT+JTXp4XWTZfkNe1ajrRlnkHHIf65xEkbx6RdGpE3vWd/2tGfzItyW+mZUBeNS4nJ/+n5c3TEmgWYAXNuzcFy4Uf1l+Oy2D6WnDJJltoap7uQ0/3rA63QYXFtNuAXY1PXdhosOXC1B2hJ20eguwjtv8OTVvNzjQHAAA=</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes>timeFromCreateToActivate=11000</attributes>
+        <block display_value="">3b93d9e653a30b50739391e0a0490e41</block>
+        <comment>Critical/High: business_risk=critical OR priority=1</comment>
+        <connected_to/>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="RetailCare Autonomous Recovery Flow">5c2b401053eb4710739391e0a0490e69</flow>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>1</order>
+        <outputs_assigned/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-28 13:22:14</sys_created_on>
+        <sys_id>5ca31de653a30b50739391e0a0490e1e</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_scope display_value="RetailCare">a3f7692353d70310739391e0a0490eed</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-28 13:39:41</sys_updated_on>
+        <ui_id>7a292596-8f3e-4c33-876e-5a13c4f02cd1</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+1VyW7bMBD9lYJnQ9BiObFvgQMDBtIaSIJc2lQYUZRNhCJVLklUwf/eoRY7aFwkbYGeejMfZ3nvccZqiXK2dtbcqgtj+FaSxef7CeHSY/i7JbwgC0ImRELF8BdVsuCWK4nQIwjnsbZdagaWFVkUUKc1kzbIneGSGZNpbh72+y8uDJOCakylIL5urk/l1JorjGjG8Ah7FNzUApq7f9CK7rgo8La3oAaNii3TZNH+dNVZMoe0TKMwpUk8S+IwjM+nUT5L8iguEmDTGRYUkDOBocsXnp2w0Ta1h4zVXG6H89WQejOCSheeShxOCHu2TBYMSZQgDJuQCmQBVumGLKx2CKDcYiNFc4jYcWn7Z6zg2fDvzFcKQx9ZMtRFWX97OGaD7z1cXoIFpOKodXoIpTvFKTO9IwUrwQm7fIn1AZu6U9mlWMjFmK2Eq+Sn3gxyKDA+MyLOIAlWe6We+yCkvNmpp+uR5YrLzpXhUih88MMJLHqXO+v5tIQJVmGhrIK6RkezWqtH3iUjlyrYCjwEpVBP2NTvQQDUEw/QWAhWiF928B1o7lV8xDKYjLNgMoOzVo/auuZkPyGmMUsBxhw1ornZN+cZ9ooHbVlvj0/pCl1g40c2yNhPWuJZXaktp2tpLKDsm8as/QieQTyP0/nsvEzYlCbJ+dmMpRAldFqGMe1muhvVMoQymtPo9KhCcmIssw44rvjrTSRvr8g7+r5akQ/95P+a0e9sS/TGtgzIu9YlTf9vy19vi6eZg+E0674wWM7/Yf3hugymrzgTxckROrVP936me1aH16DcYNqtx9bjh89fNDhyfuuO0JPSD172Edv/AB74joBCBwAA</values>
         <workflow_reference/>
     </sys_hub_flow_logic_instance_v2>
     <sys_hub_pill_compound action="delete_multiple" query="attached_to=5c2b401053eb4710739391e0a0490e69"/>
     <sys_hub_flow_variable action="delete_multiple" query="model=5c2b401053eb4710739391e0a0490e69"/>
-    <sys_documentation action="INSERT_OR_UPDATE">
-        <element>changed_fields</element>
-        <help/>
-        <hint/>
-        <label>Changed Fields</label>
-        <language>en</language>
-        <name>var__m_sys_hub_flow_input_5c2b401053eb4710739391e0a0490e69</name>
-        <plural/>
-        <sys_class_name>sys_documentation</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2026-09-21 08:19:10</sys_created_on>
-        <sys_id>102b401053eb4710739391e0a0490e85</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
-        <sys_package display_value="RetailCare" source="x_1958581_retail_0">a3f7692353d70310739391e0a0490eed</sys_package>
-        <sys_policy/>
-        <sys_scope display_value="RetailCare">a3f7692353d70310739391e0a0490eed</sys_scope>
-        <sys_update_name/>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-09-21 08:19:10</sys_updated_on>
-        <url/>
-        <url_target/>
-    </sys_documentation>
     <sys_documentation action="INSERT_OR_UPDATE">
         <element>current</element>
         <help/>
@@ -1411,13 +950,13 @@
     <sys_hub_flow action="UPDATE">
         <sys_id>7baed923b94e4f439d5412b64e13196d</sys_id>
         <latest_snapshot>5c2b401053eb4710739391e0a0490e69</latest_snapshot>
-        <compiler_build/>
+        <compiler_build>glide-zurich-07-01-2025__patch10-05-22-2026_06-12-2026_2311.zip</compiler_build>
         <version_record/>
     </sys_hub_flow>
     <sys_flow_trigger_plan action="delete_multiple" query="plan_id=7baed923b94e4f439d5412b64e13196d^sys_idNOT IN742b801053eb4710739391e0a0490e36"/>
     <sys_flow_trigger_plan action="INSERT_OR_UPDATE">
         <binding_strategy>com.snc.process_flow.engine.binding.OncePerRecord</binding_strategy>
-        <plan/>
+        <plan>{"type":"PlanProxy","persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_trigger_plan","id":"742b801053eb4710739391e0a0490e36","name":"plan","plan_signature":null}}</plan>
         <plan_id>7baed923b94e4f439d5412b64e13196d</plan_id>
         <snapshot>5c2b401053eb4710739391e0a0490e69</snapshot>
         <sys_created_by>admin</sys_created_by>
@@ -1425,12 +964,12 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>742b801053eb4710739391e0a0490e36</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>16</sys_mod_count>
         <sys_overrides/>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-09-22 08:37:47</sys_updated_on>
-        <trigger display_value="">bef85d2853270b10739391e0a0490e87</trigger>
+        <sys_updated_on>2026-09-28 13:39:42</sys_updated_on>
+        <trigger display_value="">4ca7556253e30b50739391e0a0490e60</trigger>
     </sys_flow_trigger_plan>
     <sys_flow_subflow_plan action="delete_multiple" query="plan_id=7baed923b94e4f439d5412b64e13196d"/>
 </record_update>
