@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element db_object_id="bbec48f80ec1441c9d91aaba8a54d755" label="Recovery Action" name="x_1958581_retail_0_recovery_action" type="collection">
+    <element db_object_id="bbec48f80ec1441c9d91aaba8a54d755" label="Recovery Action" name="x_1958581_retail_0_recovery_action" text_index="true" type="collection">
         <element label="Voucher Code" max_length="40" name="voucher_code" type="string"/>
         <element label="Complaint" name="complaint" reference="x_1958581_retail_0_retail_complaint" type="reference"/>
         <element label="Status" name="status" type="choice">

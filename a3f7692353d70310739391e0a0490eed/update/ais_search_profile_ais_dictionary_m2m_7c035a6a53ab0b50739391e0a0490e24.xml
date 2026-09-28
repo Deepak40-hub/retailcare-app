@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="ais_search_profile_ais_dictionary_m2m">
+    <ais_search_profile_ais_dictionary_m2m action="INSERT_OR_UPDATE">
+        <dictionary display_value="x_1958581_retail_0_retailcare_operations_analytics_search_profile_default_spell_check_dictionary">34035a6a53ab0b50739391e0a0490e1e</dictionary>
+        <dictionary_reference_qualifier/>
+        <marked_for_deletion>false</marked_for_deletion>
+        <profile display_value="retailcare-operations-analytics Search Profile">a4f2526aabab0b50cc1e90e83c28666a</profile>
+        <sys_class_name>ais_search_profile_ais_dictionary_m2m</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-28 17:59:10</sys_created_on>
+        <sys_id>7c035a6a53ab0b50739391e0a0490e24</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1958581_retail_0_retailcare_operations_analytics_search_profile_default_spell_check_dictionary.retailcare-operations-analytics Search Profile</sys_name>
+        <sys_package display_value="RetailCare" source="x_1958581_retail_0">a3f7692353d70310739391e0a0490eed</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="RetailCare">a3f7692353d70310739391e0a0490eed</sys_scope>
+        <sys_update_name>ais_search_profile_ais_dictionary_m2m_7c035a6a53ab0b50739391e0a0490e24</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-28 17:59:10</sys_updated_on>
+    </ais_search_profile_ais_dictionary_m2m>
+</record_update>

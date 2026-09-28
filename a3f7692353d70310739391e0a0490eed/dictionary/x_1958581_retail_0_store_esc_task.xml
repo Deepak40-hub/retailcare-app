@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element db_object_id="a1d8eb8ef4034154b82336ed409f385b" extends="task" label="Store Escalation Task" name="x_1958581_retail_0_store_esc_task" type="collection">
+    <element db_object_id="a1d8eb8ef4034154b82336ed409f385b" extends="task" label="Store Escalation Task" name="x_1958581_retail_0_store_esc_task" text_index="true" type="collection">
         <element label="Store" name="store" reference="cmn_location" type="reference"/>
         <element label="Closure Reason" name="closure_reason" type="choice">
             <choice>
