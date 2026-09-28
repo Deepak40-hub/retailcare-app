@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_related sys_domain="global" table="x_1958581_retail_0_retail_complaint" version="2" view="">
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Retail Complaint - " name="x_1958581_retail_0_retail_complaint" related_list="NULL" sys_domain="global" view="NULL">be2a02a6536b0b50739391e0a0490e1b</list_id>
+            <order_by/>
+            <position>0</position>
+            <related_list>task_sla.task</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-09-28 17:20:32</sys_created_on>
+            <sys_id>be2a02a6536b0b50739391e0a0490e1e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-09-28 17:20:32</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list action="INSERT_OR_UPDATE">
+            <calculated_name>Retail Complaint - </calculated_name>
+            <filter/>
+            <name>x_1958581_retail_0_retail_complaint</name>
+            <order_by/>
+            <position/>
+            <related_list/>
+            <sys_class_name>sys_ui_related_list</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-09-28 17:20:32</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>be2a02a6536b0b50739391e0a0490e1b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Retail Complaint - </sys_name>
+            <sys_package display_value="RetailCare" source="x_1958581_retail_0">a3f7692353d70310739391e0a0490eed</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="RetailCare">a3f7692353d70310739391e0a0490eed</sys_scope>
+            <sys_update_name>sys_ui_related_x_1958581_retail_0_retail_complaint_null</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-09-28 17:20:32</sys_updated_on>
+            <sys_user/>
+            <view/>
+            <view_name/>
+        </sys_ui_related_list>
+    </sys_ui_related>
+</record_update>

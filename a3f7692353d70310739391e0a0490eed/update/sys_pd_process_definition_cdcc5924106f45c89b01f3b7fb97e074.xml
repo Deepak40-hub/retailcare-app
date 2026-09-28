@@ -18,7 +18,7 @@
         <snapshot/>
         <start_non_blocking>true</start_non_blocking>
         <status>draft</status>
-        <sync_state/>
+        <sync_state>COMPLETE</sync_state>
         <synced_on/>
         <sys_class_name>sys_pd_process_definition</sys_class_name>
         <sys_created_by>admin</sys_created_by>

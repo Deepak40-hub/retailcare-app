@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element db_object_id="b378bda3535b0310739391e0a0490ed0" extends="task" label="Retail Complaint" max_length="40" name="x_1958581_retail_0_retail_complaint" type="collection">
+    <element audit="true" db_object_id="b378bda3535b0310739391e0a0490ed0" extends="task" label="Retail Complaint" max_length="40" name="x_1958581_retail_0_retail_complaint" type="collection">
         <element label="Order Number" max_length="40" name="order_number" type="string"/>
         <element choice="3" label="Business Risk" max_length="40" name="business_risk" type="choice">
             <choice>
