@@ -2,13 +2,12 @@
     <sys_hub_flow action="INSERT_OR_UPDATE">
         <access>public</access>
         <acls/>
-        <active>false</active>
+        <active>true</active>
         <annotation/>
-        <attributes>labelCacheCleanUpExecuted=true,timeFromCreateToActivate=11000</attributes>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,timeFromCreateToActivate=778285000,viewActivatedIn=naturalLanguage</attributes>
         <authored_on_release_version>28100</authored_on_release_version>
         <callable_by_client_api>false</callable_by_client_api>
         <category/>
-        <compiler_build/>
         <copied_from/>
         <copied_from_name/>
         <description/>
@@ -16,21 +15,20 @@
         <flow_priority>MEDIUM</flow_priority>
         <generation_source/>
         <internal_name>retailcare_endtoend_autonomous_flow</internal_name>
-        <label_cache>[{"name":"Created or Updated_1.current.business_risk","label":"Trigger - Record Created or Updated➛Retail Complaint Record➛Business Risk","reference":"","reference_display":"Business Risk","type":"choice","base_type":"choice","parent_table_name":"x_1958581_retail_0_retail_complaint","column_name":"business_risk","choices":[{"label":null,"value":null,"order":0}],"usedInstances":{"badf8b99-4e04-47e4-aa36-6f3cd9e19c96":["condition"]},"attributes":null},{"name":"Created or Updated_1.current.priority","label":"Trigger - Record Created or Updated➛Retail Complaint Record➛Priority","reference":"","reference_display":"Priority","type":"choice","base_type":"choice","parent_table_name":"x_1958581_retail_0_retail_complaint","column_name":"priority","choices":[{"label":null,"value":null,"order":0}],"usedInstances":{"badf8b99-4e04-47e4-aa36-6f3cd9e19c96":["condition"]},"attributes":null}]</label_cache>
-        <latest_snapshot/>
-        <master_snapshot/>
+        <label_cache>[{"name":"Created or Updated_1.current.business_risk","label":"Trigger - Record Created or Updated➛Retail Complaint Record➛Business Risk","reference":"","reference_display":"Business Risk","type":"choice","base_type":"choice","parent_table_name":"x_1958581_retail_0_retail_complaint","column_name":"business_risk","choices":[{"used":false,"label":"Low","image":"","reference":false,"rawLabel":"Low","selected":false,"missing":false,"value":"low","parameters":{"name":"x_1958581_retail_0_retail_complaint","dependent_values":[""]}},{"used":false,"label":"Medium","image":"","reference":false,"rawLabel":"Medium","selected":false,"missing":false,"value":"medium","parameters":{"name":"x_1958581_retail_0_retail_complaint","dependent_values":[""]}},{"used":false,"label":"High","image":"","reference":false,"rawLabel":"High","selected":false,"missing":false,"value":"high","parameters":{"name":"x_1958581_retail_0_retail_complaint","dependent_values":[""]}},{"used":false,"label":"Critical","image":"","reference":false,"rawLabel":"Critical","selected":false,"missing":false,"value":"critical","parameters":{"name":"x_1958581_retail_0_retail_complaint","dependent_values":[""]}}],"usedInstances":{"badf8b99-4e04-47e4-aa36-6f3cd9e19c96":["condition"]}},{"name":"Created or Updated_1.current.priority","label":"Trigger - Record Created or Updated➛Retail Complaint Record➛Priority","reference":"","reference_display":"Priority","type":"choice","base_type":"choice","parent_table_name":"x_1958581_retail_0_retail_complaint","column_name":"priority","choices":[{"label":"-- None --","used":false,"image":"","reference":false,"rawLabel":"-- None --","selected":false,"missing":false,"value":""},{"used":false,"label":"1 - Critical","image":"","reference":false,"rawLabel":"1 - Critical","selected":false,"missing":false,"value":"1","parameters":{"name":"task","dependent_values":[""]}},{"used":false,"label":"2 - High","image":"","reference":false,"rawLabel":"2 - High","selected":false,"missing":false,"value":"2","parameters":{"name":"task","dependent_values":[""]}},{"used":false,"label":"3 - Moderate","image":"","reference":false,"rawLabel":"3 - Moderate","selected":false,"missing":false,"value":"3","parameters":{"name":"task","dependent_values":[""]}},{"used":false,"label":"4 - Low","image":"","reference":false,"rawLabel":"4 - Low","selected":false,"missing":false,"value":"4","parameters":{"name":"task","dependent_values":[""]}},{"used":false,"label":"5 - Planning","image":"","reference":false,"rawLabel":"5 - Planning","selected":false,"missing":false,"value":"5","parameters":{"name":"task","dependent_values":[""]}}],"usedInstances":{"badf8b99-4e04-47e4-aa36-6f3cd9e19c96":["condition"]}},{"name":"Created or Updated_1.current","label":"Trigger - Record Created or Updated➛Retail Complaint Record","reference":"x_1958581_retail_0_retail_complaint","reference_display":"Retail Complaint","type":"reference","base_type":"reference","usedInstances":{"0ac3db0c-aefb-4ac6-babc-a98b503193af":["record"]},"attributes":{"timeFromCreateToActivate":"11000"}}]</label_cache>
+        <master_snapshot>2844368253bf07d0739391e0a0490e51</master_snapshot>
         <master_snapshot_digest/>
         <name>RetailCare End-to-End Autonomous Flow</name>
         <natlang/>
         <outputs/>
         <pre_compiled>false</pre_compiled>
-        <remote_trigger_id/>
+        <remote_trigger_id>b444768253bf07d0739391e0a0490e04</remote_trigger_id>
         <run_as>user</run_as>
         <run_with_roles/>
         <sc_callable>false</sc_callable>
         <show_draft_actions>false</show_draft_actions>
         <show_triggered_flows>false</show_triggered_flows>
-        <status>draft</status>
+        <status>published</status>
         <substatus/>
         <sys_class_name>sys_hub_flow</sys_class_name>
         <sys_created_by>admin</sys_created_by>
@@ -38,7 +36,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>515b541b53eb4f50739391e0a0490ef5</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>13</sys_mod_count>
         <sys_name>RetailCare End-to-End Autonomous Flow</sys_name>
         <sys_overrides/>
         <sys_package display_value="RetailCare" source="x_1958581_retail_0">a3f7692353d70310739391e0a0490eed</sys_package>
@@ -46,14 +44,58 @@
         <sys_scope display_value="RetailCare">a3f7692353d70310739391e0a0490eed</sys_scope>
         <sys_update_name>sys_hub_flow_515b541b53eb4f50739391e0a0490ef5</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-09-30 17:16:17</sys_updated_on>
+        <sys_updated_on>2026-10-09 17:23:11</sys_updated_on>
         <type>flow</type>
         <updation_source/>
         <version>2</version>
-        <version_record>655c989b53eb4f50739391e0a0490ee8</version_record>
+        <version_record>1944768253bf07d0739391e0a0490e84</version_record>
     </sys_hub_flow>
     <sys_translated_text action="delete_multiple" query="documentkey=515b541b53eb4f50739391e0a0490ef5"/>
     <sys_variable_value action="delete_multiple" query="document_key=515b541b53eb4f50739391e0a0490ef5"/>
+    <sys_flow_record_trigger action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition table="x_1958581_retail_0_retail_complaint">business_riskISNOTEMPTY^business_riskVALCHANGES<item display_value="-- None --" endquery="false" field="business_risk" goto="false" newquery="false" operator="ISNOTEMPTY" or="false" value=""/>
+            <item display_value="-- None --" endquery="false" field="business_risk" goto="false" newquery="false" operator="VALCHANGES" or="false" value=""/>
+        </condition>
+        <name/>
+        <on_delete>false</on_delete>
+        <on_insert>true</on_insert>
+        <on_update>true</on_update>
+        <published_version/>
+        <run_flow_in>background</run_flow_in>
+        <run_on_extended>false</run_on_extended>
+        <run_when_setting>both</run_when_setting>
+        <run_when_user_list/>
+        <run_when_user_setting>any</run_when_user_setting>
+        <sys_class_name>sys_flow_record_trigger</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-10-09 17:23:10</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>b444768253bf07d0739391e0a0490e04</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope display_value="RetailCare">a3f7692353d70310739391e0a0490eed</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-10-09 17:23:10</sys_updated_on>
+        <table>x_1958581_retail_0_retail_complaint</table>
+        <trigger_definition/>
+    </sys_flow_record_trigger>
+    <sys_trigger_runner_mapping action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <data>{"run_flow_in":"background","run_when_user_list":[],"run_when_setting":"both","run_when_user_setting":"any","run_on_extended":"false"}</data>
+        <identifier>515b541b53eb4f50739391e0a0490ef5</identifier>
+        <identifier_type>flow</identifier_type>
+        <runner>FDTriggerRunner</runner>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-10-09 17:23:10</sys_created_on>
+        <sys_id>f844768253bf07d0739391e0a0490e05</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-10-09 17:23:10</sys_updated_on>
+        <trigger display_value="">b444768253bf07d0739391e0a0490e04</trigger>
+    </sys_trigger_runner_mapping>
+    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=515b541b53eb4f50739391e0a0490ef5^sys_idNOT INf844768253bf07d0739391e0a0490e05"/>
     <sys_hub_flow_stage action="delete_multiple" query="flow=515b541b53eb4f50739391e0a0490ef5"/>
     <sys_flow_cat_variable_model action="delete_multiple" query="id=515b541b53eb4f50739391e0a0490ef5^sys_idNOT IN515b541b53eb4f50739391e0a0490ef9"/>
     <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
@@ -73,7 +115,7 @@
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,timeFromCreateToActivate=11000,uiType=document_id</attributes>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,timeFromCreateToActivate=11000,uiType=document_id,uiTypeLabel=Document ID</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -132,14 +174,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2026-09-30 17:12:02</sys_created_on>
         <sys_id>316b1c1b53eb4f50739391e0a0490e35</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="RetailCare">a3f7692353d70310739391e0a0490eed</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-09-30 17:12:02</sys_updated_on>
+        <sys_updated_on>2026-10-09 17:20:25</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -241,7 +283,7 @@
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name</attributes>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name,uiTypeLabel=Table Name</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -300,14 +342,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2026-09-30 17:12:01</sys_created_on>
         <sys_id>a16b581b53eb4f50739391e0a0490e85</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="RetailCare">a3f7692353d70310739391e0a0490eed</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-09-30 17:12:01</sys_updated_on>
+        <sys_updated_on>2026-10-09 17:20:25</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -335,46 +377,43 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2026-09-30 17:12:00</sys_created_on>
         <sys_id>1d6bd81b53eb4f50739391e0a0490e16</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-09-30 17:13:14</sys_updated_on>
+        <sys_updated_on>2026-10-09 17:23:09</sys_updated_on>
         <trigger_definition display_value="Created or Updated">a45d9180c32222002841b63b12d3aea7</trigger_definition>
-        <trigger_inputs>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</trigger_inputs>
+        <trigger_inputs>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</trigger_inputs>
         <trigger_outputs/>
         <trigger_type>record_create_or_update</trigger_type>
         <updation_source/>
     </sys_hub_trigger_instance_v2>
-    <sys_hub_action_instance_v2 action="delete_multiple" query="flow=515b541b53eb4f50739391e0a0490ef5"/>
-    <sys_hub_sub_flow_instance_v2 action="delete_multiple" query="flow=515b541b53eb4f50739391e0a0490ef5"/>
-    <sys_hub_flow_logic_instance_v2 action="delete_multiple" query="flow=515b541b53eb4f50739391e0a0490ef5^sys_idNOT IN84cb545b53eb4f50739391e0a0490eb6"/>
-    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+    <sys_hub_action_instance_v2 action="delete_multiple" query="flow=515b541b53eb4f50739391e0a0490ef5^sys_idNOT IN0f823e8e537f07d0739391e0a0490ebf"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
         <attributes>timeFromCreateToActivate=11000</attributes>
-        <block display_value="">80cb545b53eb4f50739391e0a0490eb5</block>
         <comment/>
-        <connected_to/>
-        <decision_table/>
+        <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
         <display_text/>
         <flow display_value="RetailCare End-to-End Autonomous Flow">515b541b53eb4f50739391e0a0490ef5</flow>
-        <flow_variables_assigned/>
         <generation_source/>
-        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
         <order>1</order>
-        <outputs_assigned/>
         <parent_ui_id/>
-        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2026-09-30 17:13:33</sys_created_on>
-        <sys_id>84cb545b53eb4f50739391e0a0490eb6</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_created_on>2026-10-09 17:15:41</sys_created_on>
+        <sys_id>0f823e8e537f07d0739391e0a0490ebf</sys_id>
+        <sys_mod_count>5</sys_mod_count>
         <sys_scope display_value="RetailCare">a3f7692353d70310739391e0a0490eed</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-09-30 17:16:06</sys_updated_on>
-        <ui_id>badf8b99-4e04-47e4-aa36-6f3cd9e19c96</ui_id>
+        <sys_updated_on>2026-10-09 18:02:00</sys_updated_on>
+        <ui_id>0ac3db0c-aefb-4ac6-babc-a98b503193af</ui_id>
         <updation_source/>
-        <values>H4sIAAAAAAAA/+1VXW/TMBT9K5Wfqyhp1or1BU2dJibBJraxFxiRYzuNNcc2/mgXov73XeejrVhhG/CCxFt8fO/1Odf3OA1S3mnv7I06sZYvJZp/vhsjLgMG3w3iFM3RMZ4W0ySeknQySydxPHlzlOSzNE8mNMXsaIbGSOKKQSRRknLHlQRohYUPWNMsDMOO0ZEyo0+ahs8siYg3hkkX5d5yyazNDLf3m80XH8cpJQaqECy+Xnz8nfSSL8vnU7XhCs6ph6wESFNutcD17b/InZRcUNjtLlFjA3fimEHz5oetl16qwDkTELrYu9UDF+1qHSDrDJfLfv2+T70eQGVooDKJx4g9OCYpAxIFFpaNUYUl6FOmRnNnPACgnF5KUW8jSi4dVEMh9sHy7yxUiuMQWTDQRVi3u11m/UV2cHGKHQYqnjhv+lBSKk6Y7TpCWYG9cIt9rAu41K3KNsXhXAzZSvhKXnTNQNsCw9wA4i2QYDooDdx7IcV1qdZXA8szLtuu9JtCwdhsV9hB73LvAp8GMcEqKJRVWGvoaKaNWvE2GbhU0VLAIiqEWsOhwckRJoF4BI3F0Rngpy18iw0PKj5AGUiGWbCZhYnVg7b2cLQZI1vbhcDW7jRCc7NvPjDsFPfasq49IaUtdAIHr1gvYzPu35AixkVyTJLD44bTA6OVtcDuITm3o0XvrWCKd2CU0RU45+1T3/4q9HU2eQHvJzYZddP/c0WvcUzyjGN65EWWmU7/O+aPHRNo5thykrX/SSgXHq2/aJm7MPLdodtmE26B203Azoe/c9ioYaI42YfWytwHVTts8whFC/NY5wcAAA==</values>
-        <workflow_reference/>
-    </sys_hub_flow_logic_instance_v2>
+        <values>H4sIAAAAAAAA/+1VTU/jMBD9K5HPUeQkLbS9oVZISCxIwHIhEDnJpFg4cdZ2WrpV//tOnKREgNgicUG7OcXzYb83nje+2xKekRkZQUb9qX+Uhn4YBpQGk5GfHIWJH2QhA/CJS0pWAEYqSKXKcL1iom4M2+1cATOQOVI5P6us+Y19L62VgtLsdhiacV0JtrntMtCSPnKRoZ/M7u5dUjGFmxtQZLZ95ToUnWAJCAy96uG9hms2VbPOZFoXiCvmvfG8y1x0HudsgR5MauD41CXwbKDMAIHkTGhwScFKZCnVhsyMqtGA/LPLUmz2EY+8NC3Rgj1r/htPHtEmLgdklnZF2C/jrkCtOV8ww65x59TUal8vyVPQbU0yyFktzHxoawMuK8Nl2aYYlog+W4q6KC/aipD9BoP7qDWCgKrh2SBvaeXXj3J91YM85aUtSUdRyJSJ/YoZo3hSmwbOloAAW+OCVRUvl3Gl5IrbZIRSeEuBCy8Xco1nar4sPZY2uD2sKvNO0b6w5lumeEPiB26DyTuX6I2eC6b1CxWsYfyrbpC0xDoKsa2CLUFsO6FJThWvzAketYIO+M7t+j8Zf9Rh6fSloQZ7vmjgOfan48l44scKDOMipv0P8sWbbdrhjQyubIQzH0R8ThYHgO5lcWOb4X0SnTLe2M6Huc5F6+h0Mf4yXUy+ky46Gt9eGH+TAw0+HLiDTrIK0AMpaIMPQFRTGmbBAyJCuJbyUsm6au3bqJdCRGYRmdfayAKUc1npiLhRu5V15cEozAMajMMkp8cZPQ6n4dQHyuhoSmES2nDkjtP8wPjdw1qqp7iUeCMtmrPSsCdw8JrYEhyrV2hes2TjnJx5zg1Pn8A4LRM0G+kMATs5vnoKVhzWXqSi8q3M/xfkc1PtgN7rp9opB5Hpd5qxH2nQjFYDcducr8Za53RuO+f+yf+y2eYfUft9own3z7z8938Ap2++MfsKAAA=</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=0f823e8e537f07d0739391e0a0490ebf"/>
+    <sys_hub_sub_flow_instance_v2 action="delete_multiple" query="flow=515b541b53eb4f50739391e0a0490ef5"/>
+    <sys_hub_flow_logic_instance_v2 action="delete_multiple" query="flow=515b541b53eb4f50739391e0a0490ef5"/>
     <sys_hub_pill_compound action="delete_multiple" query="attached_to=515b541b53eb4f50739391e0a0490ef5"/>
     <sys_hub_flow_variable action="delete_multiple" query="model=515b541b53eb4f50739391e0a0490ef5"/>
     <sys_documentation action="INSERT_OR_UPDATE">
@@ -448,6 +487,465 @@
     </sys_documentation>
     <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_515b541b53eb4f50739391e0a0490ef5"/>
     <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_515b541b53eb4f50739391e0a0490ef5"/>
-    <sys_flow_trigger_plan action="delete_multiple" query="plan_id=515b541b53eb4f50739391e0a0490ef5"/>
+    <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,timeFromCreateToActivate=11000,viewActivatedIn=naturalLanguage</attributes>
+        <authored_on_release_version>28100</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <flow_priority>MEDIUM</flow_priority>
+        <internal_name>retailcare_endtoend_autonomous_flow</internal_name>
+        <label_cache>[{"name":"Created or Updated_1.current.business_risk","label":"Trigger - Record Created or Updated➛Retail Complaint Record➛Business Risk","reference":"","reference_display":"Business Risk","type":"choice","base_type":"choice","parent_table_name":"x_1958581_retail_0_retail_complaint","column_name":"business_risk","choices":[{"used":false,"label":"Low","image":"","reference":false,"rawLabel":"Low","selected":false,"missing":false,"value":"low","parameters":{"name":"x_1958581_retail_0_retail_complaint","dependent_values":[""]}},{"used":false,"label":"Medium","image":"","reference":false,"rawLabel":"Medium","selected":false,"missing":false,"value":"medium","parameters":{"name":"x_1958581_retail_0_retail_complaint","dependent_values":[""]}},{"used":false,"label":"High","image":"","reference":false,"rawLabel":"High","selected":false,"missing":false,"value":"high","parameters":{"name":"x_1958581_retail_0_retail_complaint","dependent_values":[""]}},{"used":false,"label":"Critical","image":"","reference":false,"rawLabel":"Critical","selected":false,"missing":false,"value":"critical","parameters":{"name":"x_1958581_retail_0_retail_complaint","dependent_values":[""]}}],"usedInstances":{"badf8b99-4e04-47e4-aa36-6f3cd9e19c96":["condition"]}},{"name":"Created or Updated_1.current.priority","label":"Trigger - Record Created or Updated➛Retail Complaint Record➛Priority","reference":"","reference_display":"Priority","type":"choice","base_type":"choice","parent_table_name":"x_1958581_retail_0_retail_complaint","column_name":"priority","choices":[{"label":"-- None --","used":false,"image":"","reference":false,"rawLabel":"-- None --","selected":false,"missing":false,"value":""},{"used":false,"label":"1 - Critical","image":"","reference":false,"rawLabel":"1 - Critical","selected":false,"missing":false,"value":"1","parameters":{"name":"task","dependent_values":[""]}},{"used":false,"label":"2 - High","image":"","reference":false,"rawLabel":"2 - High","selected":false,"missing":false,"value":"2","parameters":{"name":"task","dependent_values":[""]}},{"used":false,"label":"3 - Moderate","image":"","reference":false,"rawLabel":"3 - Moderate","selected":false,"missing":false,"value":"3","parameters":{"name":"task","dependent_values":[""]}},{"used":false,"label":"4 - Low","image":"","reference":false,"rawLabel":"4 - Low","selected":false,"missing":false,"value":"4","parameters":{"name":"task","dependent_values":[""]}},{"used":false,"label":"5 - Planning","image":"","reference":false,"rawLabel":"5 - Planning","selected":false,"missing":false,"value":"5","parameters":{"name":"task","dependent_values":[""]}}],"usedInstances":{"badf8b99-4e04-47e4-aa36-6f3cd9e19c96":["condition"]}},{"name":"Created or Updated_1.current","label":"Trigger - Record Created or Updated➛Retail Complaint Record","reference":"x_1958581_retail_0_retail_complaint","reference_display":"Retail Complaint","type":"reference","base_type":"reference","usedInstances":{"0ac3db0c-aefb-4ac6-babc-a98b503193af":["record"]},"attributes":{"timeFromCreateToActivate":"11000"}}]</label_cache>
+        <master>true</master>
+        <name>RetailCare End-to-End Autonomous Flow</name>
+        <natlang/>
+        <outputs/>
+        <parent_flow display_value="RetailCare End-to-End Autonomous Flow">515b541b53eb4f50739391e0a0490ef5</parent_flow>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-10-09 17:23:09</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>2844368253bf07d0739391e0a0490e51</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="RetailCare">a3f7692353d70310739391e0a0490eed</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-10-09 17:23:09</sys_updated_on>
+        <type>flow</type>
+        <version>2</version>
+    </sys_hub_flow_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=2844368253bf07d0739391e0a0490e51"/>
+    <sys_variable_value action="delete_multiple" query="document_key=2844368253bf07d0739391e0a0490e51"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=2844368253bf07d0739391e0a0490e51"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=2844368253bf07d0739391e0a0490e51^sys_idNOT IN2844368253bf07d0739391e0a0490e53"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>2844368253bf07d0739391e0a0490e51</id>
+        <name>RetailCare End-to-End Autonomous Flow</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-10-09 17:23:09</sys_created_on>
+        <sys_id>2844368253bf07d0739391e0a0490e53</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-10-09 17:23:09</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=2844368253bf07d0739391e0a0490e53"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=2844368253bf07d0739391e0a0490e51^sys_idNOT IN2844368253bf07d0739391e0a0490e67,6844368253bf07d0739391e0a0490ebd,a844368253bf07d0739391e0a0490e55"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>child_label=FDChangeDetails,child_name=FDChangeDetails,child_type=object,child_type_label=Object,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=array.object,uiTypeLabel=Array.Object</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>changed_fields</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Changed Fields</label>
+        <mandatory>false</mandatory>
+        <max_length>4000</max_length>
+        <model display_value="RetailCare End-to-End Autonomous Flow">2844368253bf07d0739391e0a0490e51</model>
+        <model_id>2844368253bf07d0739391e0a0490e51</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_2844368253bf07d0739391e0a0490e51</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-10-09 17:23:10</sys_created_on>
+        <sys_id>2844368253bf07d0739391e0a0490e67</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="RetailCare">a3f7692353d70310739391e0a0490eed</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-10-09 17:23:10</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=2844368253bf07d0739391e0a0490e67"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name,uiTypeLabel=Table Name</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>table_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">table_name</internal_type>
+        <label>Table Name</label>
+        <mandatory>false</mandatory>
+        <max_length>200</max_length>
+        <model display_value="RetailCare End-to-End Autonomous Flow">2844368253bf07d0739391e0a0490e51</model>
+        <model_id>2844368253bf07d0739391e0a0490e51</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_2844368253bf07d0739391e0a0490e51</name>
+        <next_element/>
+        <order>101</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-10-09 17:23:10</sys_created_on>
+        <sys_id>6844368253bf07d0739391e0a0490ebd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="RetailCare">a3f7692353d70310739391e0a0490eed</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-10-09 17:23:10</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=6844368253bf07d0739391e0a0490ebd"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,timeFromCreateToActivate=11000,uiType=document_id,uiTypeLabel=Document ID</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent>table_name</dependent>
+        <dependent_on_field>table_name</dependent_on_field>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>current</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">document_id</internal_type>
+        <label>Record</label>
+        <mandatory>true</mandatory>
+        <max_length>200</max_length>
+        <model display_value="RetailCare End-to-End Autonomous Flow">2844368253bf07d0739391e0a0490e51</model>
+        <model_id>2844368253bf07d0739391e0a0490e51</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_2844368253bf07d0739391e0a0490e51</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-10-09 17:23:09</sys_created_on>
+        <sys_id>a844368253bf07d0739391e0a0490e55</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="RetailCare">a3f7692353d70310739391e0a0490eed</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-10-09 17:23:09</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>true</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=a844368253bf07d0739391e0a0490e55"/>
+    <sys_hub_flow_output action="delete_multiple" query="model=2844368253bf07d0739391e0a0490e51"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=2844368253bf07d0739391e0a0490e51"/>
+    <sys_hub_trigger_instance_v2 action="delete_multiple" query="flow=2844368253bf07d0739391e0a0490e51^sys_idNOT IN3044368253bf07d0739391e0a0490eec"/>
+    <sys_hub_trigger_instance_v2 action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="RetailCare End-to-End Autonomous Flow">2844368253bf07d0739391e0a0490e51</flow>
+        <generation_source/>
+        <name>Created or Updated</name>
+        <published_version/>
+        <remote_sys_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-10-09 17:23:10</sys_created_on>
+        <sys_id>3044368253bf07d0739391e0a0490eec</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-10-09 17:23:10</sys_updated_on>
+        <trigger_definition display_value="Created or Updated">a45d9180c32222002841b63b12d3aea7</trigger_definition>
+        <trigger_inputs>H4sIAAAAAAAA/9VZ227jNhD9FUFPLeAWuthWnD6lTtINkI0L27tFEaQCRVE2sTLlFSkl7iL/3qEutqyL44uy9eYlEkmRZ4ZnzgzNx2+qjxziq5fqFDk+UTsqZYKEDPnT1ZJAs5DNNkML2bdAzEUiCFfqpQgj0lG9MFhMyWLpIwGDPeRzaAxCl4Tqpd5RY+RHZLLidy7MBN8n02Rzqlk3vL/Y+qB30bvQ7ZAIRH1byx9wIOcGSDDapRyeV5+zj8bJCGVYGIHn1HdDwtTLx6eOukQhLCcklG+lLirxYE8n+uBCw6YBf5pmXHR1p286uuGaiCANJiz7poRf1LhoYzx5EYS5xF37peK9kCB3xPxVYcQLp//CnBea7PUIIMYk9d361c4ckTbjeUAxGS0FDVjakqJLOwM/WrCHFLV0IfFQ5IvchdAScZiPLCVQcGGOw5vMg+dxvuAtZYlNWacfYOSv35AQIXUiQbh0s0d9cLideoQHUZigH98MR+Nr+6+r6fDDzdge30ym47vh9OZafU3ssr9GcsYUYYbFTs15Xe/7LSW+3DYWLRxA01E5DulSXGFB45x7r50Nn4cBc2nilQqncd7FtzmdW7+L1JrWSGtcWDGnthNxygjndkj5l7vJw2h68/HP6d//bLV/vroffrh6+ONmUqX5wbS2NMt19SZaY6dA66KLamwQNd4qumEXwbOWZoZ3Ne1/4nimXMdSPLfaDpYklNZCq7rZwd+y/7fj0cf8eToCFM+ICW6LwEauaxd8CvoBgCQRA5f41xuc0E5nM4gmypaR4G/GSuqTasC8HSphxGAKe72f1YBJNmC9E/eUA75HCPfcy5kJ3n024zhiSsAUHIXgXqEAL5R8diXBKbnk3S3QLNsjb0J8gkWBTN4nXnz7SDlEzKyAfr140lJd3V8VIeSafcqiT22qRdXpccmeU5VAx11DM52+Zkkd0OHR0zVL6yHPNTXNuSgoQRVMI0pRokSLinCYHvCEgv4ee152bAZZK8bAXoyNt+memy6JkcnOsB1oekvQDAmtJJ/mQfq5JmPafF0qwnaY1nJpgdwYwRdubuM+pcMeuuf5wTMo7BGa5wUhmYVBxNyy9sg5FQr/t0a0pHYOwl92L7sZofyUbdvP56Z8G7fnxEVs1YLmGaZOrH63r4HUmVLleoOBg5HheVbfIrpe0rwNjFpsZ6x1b2x2XMeWJt2r5WtcR/MDFO8EgBX1Oxjg6bqX0bFW9dK+H0PfnueE2QA1tH2pYBWZm/nUJXlfuzFeWTreRPWpcY6dgdvrWRa24IQDce51iYP0rtFDA6tvEq8U5xUou2CKGs+847mHr3iyfIMGfEq7zuuc/55k5UQImXoOz8jJeJQuUMiNciOUREaCUJHuVO42A5UJnMLT825rGToQ80puhqV/h/atpWUl9xCwX2rgtHk+YlDA7+OaBijnVjqUSBJve/1UYUGGgQa62SAsVr9OWDZgmmGeaSmxJwHiRirV1RT7BlxcG7eNRcARIVQiR7E62FG+tOUUvXWnGO/nFPPkkimPwMaT4jFgf6DEldQQx2evgBE78GrVmXpK9mMgHPmdlSLmBJzpQ1UMSyly3TbzRVreVtIXNCtZndJeZpJuLpt9HSjQoYTfxfD3SU8lKrR7xiWuiQduU4rqWo21b3OeKnWfabI6mBhxHc92ZqzD5i3PWZuzCnGzzYM9s1GrVtenpNOsrk1Kb1l9errZdUKvQXH+iUSCnqbbcFT6wKXSHp9631GUahKTcCst3IJ7k0YlWrpSJ9tbK2L0a0RsPEdslt4UbS2K8FxJhyjpkDZzn/+MVlwtJ2EIEBmD2U/c0ADRyFKt/K7Jx9iRfPLrQi5C+HK22opY3MaFkuEMINx6GjZ13axcLfeKV8vbXG5G2JBpjGMzzZwmV6eF5TOSCrogia6tr16VBRJ4TnhHAVIllxiJ7NGQi2T0r2qLpyxMqttRl4gaCR43xUajsO/gbFxme52S1wR4XBKDopbvPE/tMF9vxXyjDfPN48zvnpzK8viszWWZ91rOX5Lht6A0QwghQaZBkpUSxVF1qPO0oxPa039ms1yKVCYAAA==</trigger_inputs>
+        <trigger_outputs/>
+        <trigger_type>record_create_or_update</trigger_type>
+        <updation_source/>
+    </sys_hub_trigger_instance_v2>
+    <sys_hub_action_instance_v2 action="delete_multiple" query="flow=2844368253bf07d0739391e0a0490e51^sys_idNOT INf044368253bf07d0739391e0a0490ee9"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <attributes>timeFromCreateToActivate=11000</attributes>
+        <comment/>
+        <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="RetailCare End-to-End Autonomous Flow">2844368253bf07d0739391e0a0490e51</flow>
+        <generation_source/>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-10-09 17:23:10</sys_created_on>
+        <sys_id>f044368253bf07d0739391e0a0490ee9</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="RetailCare">a3f7692353d70310739391e0a0490eed</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-10-09 17:23:10</sys_updated_on>
+        <ui_id>0ac3db0c-aefb-4ac6-babc-a98b503193af</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+1VTU/jMBD9K5HPUeQkLbS9oVZISCxIwHIhEDnJpFg4cdZ2WrpV//tOnKREgNgicUG7OcXzYb83nje+2xKekRkZQUb9qX+Uhn4YBpQGk5GfHIWJH2QhA/CJS0pWAEYqSKXKcL1iom4M2+1cATOQOVI5P6us+Y19L62VgtLsdhiacV0JtrntMtCSPnKRoZ/M7u5dUjGFmxtQZLZ95ToUnWAJCAy96uG9hms2VbPOZFoXiCvmvfG8y1x0HudsgR5MauD41CXwbKDMAIHkTGhwScFKZCnVhsyMqtGA/LPLUmz2EY+8NC3Rgj1r/htPHtEmLgdklnZF2C/jrkCtOV8ww65x59TUal8vyVPQbU0yyFktzHxoawMuK8Nl2aYYlog+W4q6KC/aipD9BoP7qDWCgKrh2SBvaeXXj3J91YM85aUtSUdRyJSJ/YoZo3hSmwbOloAAW+OCVRUvl3Gl5IrbZIRSeEuBCy8Xco1nar4sPZY2uD2sKvNO0b6w5lumeEPiB26DyTuX6I2eC6b1CxWsYfyrbpC0xDoKsa2CLUFsO6FJThWvzAketYIO+M7t+j8Zf9Rh6fSloQZ7vmjgOfan48l44scKDOMipv0P8sWbbdrhjQyubIQzH0R8ThYHgO5lcWOb4X0SnTLe2M6Huc5F6+h0Mf4yXUy+ky46Gt9eGH+TAw0+HLiDTrIK0AMpaIMPQFRTGmbBAyJCuJbyUsm6au3bqJdCRGYRmdfayAKUc1npiLhRu5V15cEozAMajMMkp8cZPQ6n4dQHyuhoSmES2nDkjtP8wPjdw1qqp7iUeCMtmrPSsCdw8JrYEhyrV2hes2TjnJx5zg1Pn8A4LRM0G+kMATs5vnoKVhzWXqSi8q3M/xfkc1PtgN7rp9opB5Hpd5qxH2nQjFYDcducr8Za53RuO+f+yf+y2eYfUft9own3z7z8938Ap2++MfsKAAA=</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=f044368253bf07d0739391e0a0490ee9"/>
+    <sys_hub_sub_flow_instance_v2 action="delete_multiple" query="flow=2844368253bf07d0739391e0a0490e51"/>
+    <sys_hub_flow_logic_instance_v2 action="delete_multiple" query="flow=2844368253bf07d0739391e0a0490e51"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=2844368253bf07d0739391e0a0490e51"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=2844368253bf07d0739391e0a0490e51"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>changed_fields</element>
+        <help/>
+        <hint/>
+        <label>Changed Fields</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_2844368253bf07d0739391e0a0490e51</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-10-09 17:23:10</sys_created_on>
+        <sys_id>a844368253bf07d0739391e0a0490eb9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="RetailCare" source="x_1958581_retail_0">a3f7692353d70310739391e0a0490eed</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="RetailCare">a3f7692353d70310739391e0a0490eed</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-10-09 17:23:10</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>table_name</element>
+        <help/>
+        <hint/>
+        <label>Table Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_2844368253bf07d0739391e0a0490e51</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-10-09 17:23:10</sys_created_on>
+        <sys_id>a844368253bf07d0739391e0a0490ec4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="RetailCare" source="x_1958581_retail_0">a3f7692353d70310739391e0a0490eed</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="RetailCare">a3f7692353d70310739391e0a0490eed</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-10-09 17:23:10</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>current</element>
+        <help/>
+        <hint/>
+        <label>Record</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_2844368253bf07d0739391e0a0490e51</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-10-09 17:23:10</sys_created_on>
+        <sys_id>ec44368253bf07d0739391e0a0490e62</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="RetailCare" source="x_1958581_retail_0">a3f7692353d70310739391e0a0490eed</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="RetailCare">a3f7692353d70310739391e0a0490eed</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-10-09 17:23:10</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_2844368253bf07d0739391e0a0490e51"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_2844368253bf07d0739391e0a0490e51"/>
+    <sys_hub_flow action="UPDATE">
+        <sys_id>515b541b53eb4f50739391e0a0490ef5</sys_id>
+        <latest_snapshot>2844368253bf07d0739391e0a0490e51</latest_snapshot>
+        <compiler_build>glide-zurich-07-01-2025__patch10-05-22-2026_06-12-2026_2311.zip</compiler_build>
+        <version_record/>
+    </sys_hub_flow>
+    <sys_flow_trigger_plan action="delete_multiple" query="plan_id=515b541b53eb4f50739391e0a0490ef5^sys_idNOT INf844768253bf07d0739391e0a0490e06"/>
+    <sys_flow_trigger_plan action="INSERT_OR_UPDATE">
+        <binding_strategy>com.snc.process_flow.engine.binding.OncePerRecord</binding_strategy>
+        <plan>{"type":"PlanProxy","persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_trigger_plan","id":"f844768253bf07d0739391e0a0490e06","name":"plan","plan_signature":null}}</plan>
+        <plan_id>515b541b53eb4f50739391e0a0490ef5</plan_id>
+        <snapshot>252df68653ff07d0739391e0a0490e35</snapshot>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-10-09 17:23:10</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>f844768253bf07d0739391e0a0490e06</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-10-09 17:23:10</sys_updated_on>
+        <trigger display_value="">b444768253bf07d0739391e0a0490e04</trigger>
+    </sys_flow_trigger_plan>
     <sys_flow_subflow_plan action="delete_multiple" query="plan_id=515b541b53eb4f50739391e0a0490ef5"/>
 </record_update>
